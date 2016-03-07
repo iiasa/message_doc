@@ -1,11 +1,13 @@
 The MESSAGE Ecosystem
 ===================================
 
-MESSAGE is a tool for investigating possible climate and energy futures.
+MESSAGE is a tool for investigating possible climate and energy futures. 
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
-   glossary
+   iiasa_IAM_framework
+   message_globiom/index
    message_DB_new_features
+   glossary
 

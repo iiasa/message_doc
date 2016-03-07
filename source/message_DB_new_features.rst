@@ -16,8 +16,8 @@ Import and clean-up of Message Sqlite dump into ORACLE database
 Export data from ORACLE database to GDX, LBD, etc.
 ----
 
-- write complete Message LDB files ("undoing" clean-up during import) 
 - write complete GAMS data files (GDX)
+- write complete Message LDB files ("undoing" clean-up during import) 
 - write partial files (update files) - *currently not maintained*
 - write to simple text files ("manual" GAMS files, AMPL, etc.)
 
@@ -69,7 +69,4 @@ The database is built on a completely flexible hierarchical structure for spatia
 - **to do:** easy tools for modification of parameters across hierarchical levels (cut, merge and "seed" could be used for that)
 - **to do:** implement sanity and consistency checks
 
-Next section
-----
-Some text again
  

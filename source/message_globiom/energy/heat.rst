@@ -5,7 +5,7 @@ A number centralized district heating technologies based on fossil and renewable
 Table 1: List of centralized heat generation technologies represented in MESSAGE by energy source.
 
 +---------------+---------------------------------------+
-| Energy Source | Technology                            |
+| **Energy Source** | **Technology**                            |
 +---------------+---------------------------------------+
 | coal          | coal district heating plant           |
 +---------------+---------------------------------------+

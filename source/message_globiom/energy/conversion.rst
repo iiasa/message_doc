@@ -14,7 +14,7 @@ Each energy conversion technology is characterized in MESSAGE by the following d
 * Consumption or production of certain materials (e.g. emissions of kg of CO2 or SO2 per produced kWh).
 * Limitations on the (annual) activity and on the installed capacity of a technology.
 * Constraints on the rate of growth or decrease of the annually new installed capacity and on the growth or decrease of the activity of a technology.
-*Technical application constraints, e.g., maximum possible shares of wind or solar power in an electricity network without storage capabilities.
+* Technical application constraints, e.g., maximum possible shares of wind or solar power in an electricity network without storage capabilities.
 * Inventory upon startup and shutdown: e.g., initial nuclear core needed at the startup of a nuclear power plant.
 * Lag time between input and output of the technology.
 * Minimum unit size: e.g. for nuclear power plants it does not make sense to build plants with a capacity of a few kilowatt power (optional, not used in current model version).

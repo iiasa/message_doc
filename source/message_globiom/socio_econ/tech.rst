@@ -17,7 +17,9 @@ Without the startup value s, a technology with a zero activity level in year t-1
 
 For an arbitrary period length of T years, the maximum level of technology activity in period t, at , reads as follows:
 
-.. image:: /_static/technology_diffusion_eq_2.png , with the period increment 
+.. image:: /_static/technology_diffusion_eq_2.png
+
+with the period increment 
 
 .. image:: /_static/technology_diffusion_eq_2a.png (1)
 
@@ -27,9 +29,16 @@ While limiting the possibility of flip-flop behavior as it is frequently observe
 
 The maximum value for these dummy variables bi is limited to the activity of the underlying technology a, i.e.
 
-.. image:: /_static/technology_diffusion_eq_4.png , for all i .
+.. image:: /_static/technology_diffusion_eq_4.png 
 
-Therefore, this new formulation increases the highest allowed growth factor from .. image:: /_static/technology_diffusion_eq_4a.png to 
+, for all i .
+
+Therefore, this new formulation increases the highest allowed growth factor from
+
+.. image:: /_static/technology_diffusion_eq_4a.png
+
+to 
+
 .. image:: /_static/technology_diffusion_eq_4b.png
 
 In addition, the objective function value for period t is modified by the extra term

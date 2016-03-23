@@ -3,6 +3,7 @@ Energy
 The Reference Energy System (RES) defines the total set of available energy conversion technologies. In MESSAGE terms, energy conversion technology refers to all types of energy technologies from resource extraction to transformation, transport, distribution of energy carriers, and end-use technologies.
 
 Because few conversion technologies convert resources directly into useful energy, the energy system in MESSAGE is divided into 5 energy levels:
+
 * Resource (r), like coal, oil, natural gas in the ground or biomass on the field
 * Primary (a) energy, like crude oil at the refinery
 * Secondary (x) energy, like gasoline or diesel fuel at the refinery, or wind- or solar power at the powerplant

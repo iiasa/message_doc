@@ -6,44 +6,7 @@ Four different nuclear power plant types are represented in MESSAGE, i.e. two li
 
 The conversion of five renewable energy sources to electricity is represented in MESSAGE (see Table 3.1). For wind power, both on- and offshore electricity generation are covered and for solar energy, photovoltaics (PV) and solar thermal (concentrating solar power, CSP) electricity generation are included in MESSAGE (see also sections on renewable resources and systems integration).
 
-.. list-table:: **Table 3.1.** List of electricity generation technologies represented in MESSAGE by energy source.
-   :widths: 16 50 9
-   :header-rows: 1
-
-   * - Energy source
-     - Technology
-     - CHP option
-   * - coal
-     - subcritical PC power plant without desulphurization/denox
-     subcritical PC power plant with desulphurization/denox
-     supercritical PC power plant with desulphurization/denox
-     supercritical PC power plant with desulphurization/denox and CCS
-     IGCC power plant
-     IGCC power plant with CCS
-     - yes
-     yes
-     yes
-     yes
-     yes
-     yes
-   * - Bioenergy
-     - 145
-     - 160 - 270
-   * - Hydro
-     - 28
-     - 50 - 60
-   * - Wind
-     - 170
-     - 1250 - 2250
-   * - Solar PV
-     - 1650
-     - 62,000 - 280,000
-   * - CSP
-     - 990
-     - same as Solar PV above
-   * - Geothermal
-     - 23
-     - 810 - 1400
+**Table 3.1.** List of electricity generation technologies represented in MESSAGE by energy source.
 
 +================+========================================================================================================================================================================================================================================================================================+==========================+
 | Energy source  | Technology                                                                                                                                                                                                                                                                             | CHP option               |
@@ -71,5 +34,6 @@ The conversion of five renewable energy sources to electricity is represented in
 +----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+
 | geothermal     | geothermal power plant                                                                                                                                                                                                                                                                 | yes                      |
 +----------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------+
+
 
 Most thermal power plants offer the option of coupled heat production (CHP, see Table 3.1). This option is modeled as a passout turbine via a penalty on the electricity generation efficiency. In addition to the main electricity generation technologies described in this section, also the co-generation of electricity in conversion technologies primarily devoted to producing non-electric energy carriers (e.g., synthetic liquid fuels) is included in MESSAGE (see section on other conversion).

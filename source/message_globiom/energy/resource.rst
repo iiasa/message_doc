@@ -6,7 +6,7 @@ Table 3.1 shows the assumed total quantities of fossil fuel resources in the MES
 
 Table 3.1.  Assumed global fossil fuel reserves and resources in the MESSAGE model. Estimates from the Global Energy Assessment (Rogner et al. 2012) also added for comparison.
 
-.. list-table:: Frozen Delights!
+.. list-table:: Table 3.1. Assumed global fossil fuel reserves and resources in the MESSAGE model. Estimates from the Global Energy Assessment (Rogner et al. 2012) also added for comparison.
    :widths: 15 10 30
    :header-rows: 1
 

@@ -50,7 +50,34 @@ Renewable Resources - MESSAGE
 ------------------------------
 Table 3.2 shows the assumed total potentials of renewable energy deployment (by resource type) in the MESSAGE model by 2050. Figure 3.3 overlays these estimates on a map of the 11 MESSAGE regions. In addition, the assumptions are compared with technical potential estimates from the Global Energy Assessment (Rogner et al. 2012).  In this context, it is important to note that typical MESSAGE scenarios do not consider the full technical potential of renewable energy resources, but rather only a subset of those potentials, owing to additional constraints (e.g., sustainability criteria, technology diffusion and systems integration issues, and other economic considerations) that may not be fully captured within the model. These constraints may lead to a significant reduction of the technical potential.
 
-Table 3.2. Assumed global renewable energy deployment potentials in the MESSAGE model by 2050. Estimates from the Global Energy Assessment (Rogner et al. 2012) also added for comparison.
+.. list-table:: **Table 3.2.** Assumed global renewable energy deployment potentials in the MESSAGE model by 2050. Estimates from the Global Energy Assessment (Rogner et al. 2012) also added for comparison.
+   :widths: 13 36 26
+   :header-rows: 2
+
+   * - Source
+     - MESSAGE
+     - Rogner et al. (2012)
+   * - 
+     - Deployment Potential in 2050 [EJ/yr]
+     - Technical Potential [EJ/yr]
+   * - Bioenergy
+     - 145
+     - 160 - 270
+   * - Hydro
+     - 28
+     - 50 - 60
+   * - Wind
+     - 170
+     - 1250 - 2250
+   * - Solar PV
+     - 1650
+     - 62,000 - 280,000
+   * - CSP
+     - 990
+     - same as Solar PV above
+   * - Geothermal
+     - 23
+     - 810 - 1400
 
 +------------+--------------------------------------+-----------------------------+
 | Source     | MESSAGE                              | Rogner et al (2012)         |

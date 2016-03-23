@@ -3,6 +3,6 @@ Climate
 .. toctree::
    :maxdepth: 1
 
-   message
-   gains
-   magicc
+   message/index
+   gains/index
+   magicc/index

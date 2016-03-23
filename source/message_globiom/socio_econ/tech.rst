@@ -28,13 +28,13 @@ with the period increment
 While limiting the possibility of flip-flop behavior as it is frequently observed in unconstrained Linear Programming (LP) models such as MESSAGE, a drawback of such hard growth constraints is that the relative advantage of some technology over another technology is not taken into account and therefore even for very competitive technologies, no acceleration of technology diffusion is possible. In response to this limitation, so called flexible or soft dynamic constraints have been introduced into MESSAGE (Keppo and Strubegger, 2010). These allow faster technology diffusion at additional costs and therefore generate additional model flexibility while still reducing the flip-flop behavior and sudden penetration of technologies. To operationalize this concept, a set of n dummy variables, bi, multiplied by a corresponding growth factor (1+ri)T are added to the dynamic growth constraint in Eq. (1).
 
 .. image:: /_static/technology_diffusion_eq_3.png
-   :scale: 40 %
+   :width: 180px
    :align: left
    
 The maximum value for these dummy variables bi is limited to the activity of the underlying technology a, i.e.
 
 .. image:: /_static/technology_diffusion_eq_4.png 
-   :scale: 40 %
+   :width: 180px
    :align: left
 
 , for all i .
@@ -42,13 +42,13 @@ The maximum value for these dummy variables bi is limited to the activity of the
 Therefore, this new formulation increases the highest allowed growth factor from
 
 .. image:: /_static/technology_diffusion_eq_4a.png
-   :scale: 40 %
+   :width: 180px
    :align: left
    
 to 
 
 .. image:: /_static/technology_diffusion_eq_4b.png
-   :scale: 40 %
+   :width: 180px
    :align: left
    
 In addition, the objective function value for period t is modified by the extra term
@@ -58,7 +58,7 @@ In addition, the objective function value for period t is modified by the extra 
 which adds costs ci  per additional growth factor utilized. The figure below illustrates the maximum technology growth starting at a level of 1 in year t=0 for a set of five diffusion constraints which jointly lead to a soft constraint.
 
  .. image:: /_static/diffusion_constraint_example.png
-   :scale: 30 %
+   :width: 400px
    :align: left
 
 **Figure 2.2**: Illustration of maximum technology growth starting at a level of 1 in year t=0 for a set of soft diffusion constraints with effective growth rates r as shown in the legend.

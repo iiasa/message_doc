@@ -7,23 +7,37 @@ Table 3.1 shows the assumed total quantities of fossil fuel resources in the MES
 Table 3.1.  Assumed global fossil fuel reserves and resources in the MESSAGE model. Estimates from the Global Energy Assessment (Rogner et al. 2012) also added for comparison.
 
 .. list-table:: Table 3.1. Assumed global fossil fuel reserves and resources in the MESSAGE model. Estimates from the Global Energy Assessment (Rogner et al. 2012) also added for comparison.
-   :widths: 15 10 30
-   :header-rows: 1
+   :widths: 20 26 23 16
+   :header-rows: 2
 
-   * - Treat
-     - Quantity
-     - Description
-   * - Albatross
-     - 2.99
-     - On a stick!
-   * - Crunchy Frog
-     - 1.49
-     - If we took the bones out, it wouldn't be
-       crunchy, now would it?
-   * - Gannet Ripple
-     - 1.99
-     - On a stick!
-
+   * - Source
+     - MESSAGE
+     - Rogner et al. (2012)
+     - 
+   * - 
+     - Reserves+Resources [ZJ] 
+     - Reserves [ZJ]
+     - Reserves [ZJ]
+   * - Coal
+     - 259
+     - 17.3 – 21.0
+     - 291 – 435
+   * - Conventional Oil
+     - 9.8
+     - 4.0 – 7.6
+     - 291 – 435
+   * - Unconventional Oil
+     - 23.0
+     - 3.8 – 5.6
+     - 11.3 – 14.9
+   * - Conventional Gas
+     - 16.8
+     - 5.0 – 7.1
+     - 7.2 – 8.9
+   * - Unconventional Gas
+     - 23.0
+     - 20.1 – 67.1
+     - 40.2 – 122
 
 +--------------------+--------------------------+-----------------------+----------------+
 | Source             | MESSAGE                  | Rogner et al. (2012)  |                |

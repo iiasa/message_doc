@@ -39,22 +39,6 @@ Table 3.1.  Assumed global fossil fuel reserves and resources in the MESSAGE mod
      - 20.1 – 67.1
      - 40.2 – 122
 
-+--------------------+--------------------------+-----------------------+----------------+
-| Source             | MESSAGE                  | Rogner et al. (2012)  |                |
-+--------------------+--------------------------+-----------------------+----------------+
-|                    | Reserves+Resources [ZJ]  | Reserves [ZJ]         | Reserves [ZJ]  |
-+--------------------+--------------------------+-----------------------+----------------+
-| Coal               | 259                      | 17.3 – 21.0           | 291 – 435      |
-+--------------------+--------------------------+-----------------------+----------------+
-| Conventional Oil   | 9.8                      | 4.0 – 7.6             | 291 – 435      |
-+--------------------+--------------------------+-----------------------+----------------+
-| Unconventional Oil | 23.0                     | 3.8 – 5.6             | 11.3 – 14.9    |
-+--------------------+--------------------------+-----------------------+----------------+
-| Conventional Gas   | 16.8                     | 5.0 – 7.1             | 7.2 – 8.9      |
-+--------------------+--------------------------+-----------------------+----------------+
-| Unconventional Gas | 23.0                     | 20.1 – 67.1           | 40.2 – 122     |
-+--------------------+--------------------------+-----------------------+----------------+
-
 Coal is the largest resource among fossil fuels with more than 100 ZJ; it accounts for more than 50% of total fossil reserve+resource estimates even at the higher end of the assumptions, which includes considerable amounts of unconventional hydrocarbons. Oil is the most vulnerable fossil fuel at less than 10 ZJ of conventional oil and possibly less than 10 ZJ of unconventional oil. Natural gas is more abundant in both the conventional and unconventional categories.
 
 Conventional oil and gas are distributed unevenly throughout the world, with only a few regions dominating the reserves. Nearly half of the reserves of conventional oil is found in Middle East and North Africa, and close to 40% of conventional gas is found in the Former Soviet Union. Coal shows much more geographical diversity: the Former Soviet Union, Pacific OECD, North America, and Centrally Planned Asia and China all possess more than 10 ZJ of reserves.

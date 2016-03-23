@@ -4,7 +4,6 @@ Technological change in MESSAGE is generally treated exogenously, although pione
 
 .. image:: /_static/GEA_technology_cost_ranges.png
    :width: 600px
-   :align: left
 **Figure 2.1**: Investment cost per unit of energy production capacity (`van Vliet et al., 2012 <https://wiki.ucl.ac.uk/display/ADVIAM/References+MESSAGE>`_).
 
 MESSAGE tracks investments by vintage, an important feature to represent the inertia in the energy system due to its long-lived capital stock. In case of shocks (e.g., introduction of stringent climate policy), it is however possible to prematurely retire existing capital stock such as power plants or other energy conversion technologies and switch to more suitable alternatives.
@@ -22,19 +21,20 @@ For an arbitrary period length of T years, the maximum level of technology activ
 with the period increment 
 
 .. image:: /_static/technology_diffusion_eq_2a.png
+   :width: 140px
 
 (1)
 
 While limiting the possibility of flip-flop behavior as it is frequently observed in unconstrained Linear Programming (LP) models such as MESSAGE, a drawback of such hard growth constraints is that the relative advantage of some technology over another technology is not taken into account and therefore even for very competitive technologies, no acceleration of technology diffusion is possible. In response to this limitation, so called flexible or soft dynamic constraints have been introduced into MESSAGE (Keppo and Strubegger, 2010). These allow faster technology diffusion at additional costs and therefore generate additional model flexibility while still reducing the flip-flop behavior and sudden penetration of technologies. To operationalize this concept, a set of n dummy variables, bi, multiplied by a corresponding growth factor (1+ri)T are added to the dynamic growth constraint in Eq. (1).
 
 .. image:: /_static/technology_diffusion_eq_3.png
-   :width: 180px
+   :width: 260px
    :align: left
    
 The maximum value for these dummy variables bi is limited to the activity of the underlying technology a, i.e.
 
 .. image:: /_static/technology_diffusion_eq_4.png 
-   :width: 180px
+   :width: 90px
    :align: left
 
 , for all i .
@@ -42,7 +42,7 @@ The maximum value for these dummy variables bi is limited to the activity of the
 Therefore, this new formulation increases the highest allowed growth factor from
 
 .. image:: /_static/technology_diffusion_eq_4a.png
-   :width: 180px
+   :width: 90px
    :align: left
    
 to 
@@ -58,7 +58,6 @@ In addition, the objective function value for period t is modified by the extra 
 which adds costs ci  per additional growth factor utilized. The figure below illustrates the maximum technology growth starting at a level of 1 in year t=0 for a set of five diffusion constraints which jointly lead to a soft constraint.
 
  .. image:: /_static/diffusion_constraint_example.png
-   :width: 400px
-   :align: left
+   :width: 700px
 
 **Figure 2.2**: Illustration of maximum technology growth starting at a level of 1 in year t=0 for a set of soft diffusion constraints with effective growth rates r as shown in the legend.

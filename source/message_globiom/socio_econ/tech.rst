@@ -54,6 +54,8 @@ to
 In addition, the objective function value for period t is modified by the extra term
 
  .. image:: /_static/technology_diffusion_eq_5.png
+   :width: 120px
+   :align: left
  
 which adds costs ci  per additional growth factor utilized. The figure below illustrates the maximum technology growth starting at a level of 1 in year t=0 for a set of five diffusion constraints which jointly lead to a soft constraint.
 

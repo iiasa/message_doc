@@ -42,7 +42,7 @@ The maximum value for these dummy variables bi is limited to the activity of the
 Therefore, this new formulation increases the highest allowed growth factor from
 
 .. image:: /_static/technology_diffusion_eq_4a.png
-   :width: 60px
+   :width: 75px
    :align: left
    
 to 
@@ -53,7 +53,7 @@ to
 In addition, the objective function value for period t is modified by the extra term
 
  .. image:: /_static/technology_diffusion_eq_5.png
-   :width: 150px
+   :width: 140px
 
 which adds costs ci  per additional growth factor utilized. The figure below illustrates the maximum technology growth starting at a level of 1 in year t=0 for a set of five diffusion constraints which jointly lead to a soft constraint.
 

@@ -6,4 +6,4 @@ The MESSAGE model includes a detailed representation of energy-related and land-
 
 Non-CO2 GHGs
 -------------------
-MESSAGE includes a representation of non-CO2 GHGs (CH4, N2O, HFCs, SF6, PFCs) mandated by the Kyoto Protocol (Rao and Riahi 2006). Included is a representation of emissions and mitigation options from both energy related processes as well as non-energy sources like livestock, municipal solid waste disposal, manure management, fertilizer use, rice cultivation, wastewater, and crop residue burning.
+MESSAGE includes a representation of non-CO2 GHGs (CH4, N2O, HFCs, SF6, PFCs) mandated by the Kyoto Protocol (:cite:`rao_role_2006`). Included is a representation of emissions and mitigation options from both energy related processes as well as non-energy sources like livestock, municipal solid waste disposal, manure management, fertilizer use, rice cultivation, wastewater, and crop residue burning.

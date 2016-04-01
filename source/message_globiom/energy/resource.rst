@@ -65,7 +65,7 @@ Table 3.2 shows the assumed total potentials of renewable energy deployment (by 
 **Table 3.2.** Assumed global renewable energy deployment potentials in the MESSAGE model by 2050. Estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`) also added for comparison.
 
 .. list-table:: 
-   :widths: 13 36 26
+   :widths: 13 36 46
    :header-rows: 2
 
    * - Source

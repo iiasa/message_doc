@@ -1,4 +1,4 @@
-IAM Bibliography
+References
 ================
 
 .. bibliography:: bibs/main.bib

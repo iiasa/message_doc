@@ -12,7 +12,7 @@ The following description of the energy flow constraints in MESSAGE is given for
 
 
 :math:`U`  Useful energy (demand level),
-:math:`F`  Final energy (after distribution), 
+:math:`F`  Final energy (after distribution),
 :math:`T`  Final energy (after transmission),
 :math:`X`  Secondary energy,
 :math:`A`  Primary energy, and

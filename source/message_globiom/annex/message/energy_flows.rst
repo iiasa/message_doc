@@ -30,107 +30,65 @@ The identifier of the demand level (:math:`U`) which gives it a special meaning 
 
 :math:`Ud.....t`
 
-Out of the predefined  levels each one can be chosen as demand  level. However, level ”U ” has a special feature. This is related to the fact that useful energy is usually produced on-site, e.g., space heat is produced by a central heating system, and the load variations over the year are all covered by this one system. Thus, an allocation of production technologies to the different areas of the load curve, like the model would set it up according to the relation between investment and operating costs would ignore the fact that these systems are not located in the same place and are not connected to each other. MESSAGE represents the
+Out of the predefined  levels each one can be chosen as demand  level. However, level ”:math:`U`” has a special feature. This is related to the fact that useful energy is usually produced on-site, e.g., space heat is produced by a central heating system, and the load variations over the year are all covered by this one system. Thus, an allocation of production technologies to the different areas of the load curve, like the model would set it up according to the relation between investment and operating costs would ignore the fact that these systems are not located in the same place and are not connected to each other. MESSAGE represents the
 end-use technologies by one variable per period that produces the required useful energy in the load pattern needed and requires the inputs in the same pattern. For special technologies like, e.g., night storage heating systems, this pattern can be changed to represent the internal storage capability of the system.
 
 This representation of end-use technologies has the advantage of reducing the size of the model, because the demand constraints, the activity  variables and the capacity constraints of the end-use technologies do not have to be generated for each load region.
 
-If another level is chosen as demand  level or the demand level is not named ”U ”, all demand constraints for energy carriers that are modelled with load regions are generated for each load region. The general form of the demand constraints is
+If another level is chosen as demand  level or the demand level is not named ”:math:`U`”, all demand constraints for energy carriers that are modelled with load regions are generated for each load region. The general form of the demand constraints is
 
-svd
+.. math::
 
-Esvd ×
- 
-ed
-
-e=0
-
-ke × U svd.e.t +
-
-svδ
-
-d svδ
- 
-eδ
-×
-e=0
-
-ke × U svδue.t  ≥ U d.t ,
+svd Esvd × ed e=0 ke × U svd.e.t + svδ d svδ eδ× e=0 ke × U svδue.t  ≥ U d.t ,
 
 where
 
-U d.t        is the annual demand for d in period t,
-U svd.e.t	   is the activity of end-use technology v in period t, elasticity class e and period t (see section  2.1.1),
-Esvd	        is the efficiency of end-use technology v in converting s to d,
-svδ	         is the efficiency of end-use technology v in producing by-product d from s (δ is the main output of the technology),
-ed 	         is the number of steps of demand reduction modelled for own-price elasticities of demand d, and
-ke	          is the factor giving the relation of total demand for d to the demand reduced to level e due to the demand elasticity.
-             (ke  × U svd.e.t = U svd.0.t, k0  = 1, ke is increasing monotonously.)
+:math:`U d.t`       is the annual demand for :math:`d` in period :math:`t`,
+:math:`U svd.e.t`   is the activity of end-use technology :math:`v` in period :math:`t`, elasticity class :math:`e` and period :math:`t` (see section  2.1.1),
+:math:`Esvd`        is the efficiency of end-use technology :math:`v` in converting :math:`s` to :math:`d`,
+:math:`svδ`         is the efficiency of end-use technology :math:`v` in producing by-product :math:`d` from :math:`s` (:math:`δ` is the main output of the technology),
+:math:`ed`          is the number of steps of demand reduction modelled for own-price elasticities of demand :math:`d`, and
+:math:`ke`          is the factor giving the relation of total demand for :math:`d` to the demand reduced to level :math:`e` due to the demand elasticity. :math:`(ke  × U svd.e.t = U svd.0.t, k0  = 1, ke` is increasing monotonously.)
 
 5.1.2 	Distribution Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Fs....lt*
+:math:`Fs....lt`
 
 This constraint, the final energy balance, matches the use of final energy needed in the
 end-use technologies and the deliveries of the distribution systems. It is generated for each load region, if energy form s is modelled with load regions.
 
-svs
+.. math::
 
-Esvs   × F svs..lt  −
-
-svd
-
-ηd,l  ×
- 
-ed
-
-e=0
- 
-U svd.e.t −
- 
-σvd
-
-σvd  × ηd,l  ×
- 
-ed
-
-e=0
-
-U σvd.e.t ≥ 0 ,
-
+svs Esvs   × F svs..lt  − svd ηd,l  × ed e=0 U svd.e.t − σvd σvd  × ηd,l  × ed e=0 U σvd.e.t ≥ 0 ,
 
 where
-F svs..lt    is the activity of the distribution technology in load region l and period t (see section 2.1.1),
-Esvs	        is the efficiency of technology v in distributing s,
-U svd.e.t	   is the activity of end-use technology v in period t and elasticity class e,
-σvd	         is the use of fuel s relative to fuel σ (the main input) by technology v, and
-ηd,l 	       is the fraction of demand for d occurring in load region l.
+:math:`F svs..lt`   is the activity of the distribution technology in load region :math:`l` and period :math:`t` (see section 2.1.1),
+:math:`Esvs`        is the efficiency of technology :math:`v` in distributing :math:`s`,
+:math:`U svd.e.t`   is the activity of end-use technology :math:`v` in period :math:`t` and elasticity class :math:`e`,
+:math:`σvd`         is the use of fuel :math:`s` relative to fuel :math:`σ` (the main input) by technology :math:`v`, and
+:math:`ηd,l`	       is the fraction of demand for :math:`d` occurring in load region :math:`l`.
 
 5.1.3 	Transmission or Transportation Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Ts....lt*
+:math:`Ts....lt`
 
-This constraint gives the simplest form of an energy balance equation of MESSAGE. It matches the output of transmission to the requirements of distribution systems. The difference to other levels (F, X, A) is not built-in,  but emerges from the simplicity of energy transportation (i.e., transportation technologies do usually not have by-products and only one input).  Also big industrial consumers that are directly connected to the transmission system would have to be included in this constraint. Like level F it does usually exist for all load regions if they are defined for the fuel.
+This constraint gives the simplest form of an energy balance equation of MESSAGE. It matches the output of transmission to the requirements of distribution systems. The difference to other levels (:math:`F`, :math:`X`, :math:`A`) is not built-in,  but emerges from the simplicity of energy transportation (i.e., transportation technologies do usually not have by-products and only one input).  Also big industrial consumers that are directly connected to the transmission system would have to be included in this constraint. Like level :math:`F` it does usually exist for all load regions if they are defined for the fuel.
 
-svs
- 
-Esvs   × T svs..lt  −
- 
-svs
- 
-F svs..lt  ≥ 0 .
+.. math::
+
+svs Esvs   × T svs..lt  − svs F svs..lt  ≥ 0 .
 
 where
-T svs..lt	   is the activity of the transportation technology v (see section  2.1.1), and
+:math:`T svs..lt`   is the activity of the transportation technology :math:`v` (see section  2.1.1), and
 
 all the other entries to the equation are the same as in section 6.1.2.
  
 5.1.4 	Central  Conversion Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Xs....lt*
+:math:`Xs....lt`
 
 In principle the secondary energy balance is built up in the same way as the two previous ones (sections 6.1.2 and 6.1.3). It matches the production of central conversion technologies to the requirements of the transmission  systems. Secondary energy imports and exports of secondary energy are usually assigned to level X .
 

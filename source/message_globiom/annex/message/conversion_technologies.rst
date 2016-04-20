@@ -7,7 +7,6 @@ Energy conversion technologies are modelled using two types of variables, that r
 – the capacity installed annually in a period (capacity variables).
 
 2.1.1 	Activities  of Energy Conversion Technologies
-~~~~~~~~~~~~~~~~~~~~~~
 
 :math:`zsvd.elt`
 

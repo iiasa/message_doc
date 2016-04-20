@@ -2,7 +2,7 @@
 ==============
 
 6.1 	Constraints
-
+----------------
 
 Energy flows are modelled solely by linking the activity  variables of the different conversion technologies and the resource extraction, import and export variables in balance constraints. These constraints ensure that only the amounts of energy available are consumed. There are no further variables required to model energy flows.
 

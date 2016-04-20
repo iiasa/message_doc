@@ -1,5 +1,6 @@
 Conversion Technologies
 ====
+----
 2.1 	Variables
 ----
 Energy conversion technologies are modelled using two types of variables, that represent

@@ -11,7 +11,8 @@ The user-defined relations allow the user to construct constraints that are not 
 The formulation of the user-defined relations is given for relations, that are related to the main output of the technologies. It is also possible (e.g., for emissions) to relate the constraint to the main input of the technology, i.e. the amount of fuel used. In this case the efficiencies (:math:`E`) would be omitted from the formulation.
 
 
-8.1.1 	Relation without  Load Regions
+7.1.1 	Relation without  Load Regions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :math:`N m.....t` or :math:`P m.....t`
 
@@ -40,8 +41,8 @@ where
 :math:`rhst`        is the right hand side of the constraint.
  
 
-7.1.3 	Construction of Relations between Periods
-------------------------------------------------
+7.1.2 	Construction of Relations between Periods
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 :math:`N m.....t` or :math:`P m.....t`
 

@@ -99,111 +99,92 @@ Many types of energy conversion technologies do not have fix relations between t
 
 In the following this constraint is only described for technologies without load regions; the other types are constructed in analogy (see also section 9.7).
 
-:math:`relsvd
+:math:`relsvd σv/ δ σv/ δ  × Eσv/ δ  × zσv δ...t − min(t,κsvd ) τ =t−τsvd ∆(τ − 1) × πsvd  × fi × Y zsvd..τ ≤ hct × πsvd` ,
  
-σv/ δ
- 
-σv/ δ  × Eσv/ δ  × zσv δ...t −
-
- 
-min(t,κsvd )
-
-τ =t−τsvd
- 
-
-∆(τ − 1) × πsvd  × fi × Y zsvd..τ ≤ hct
- 
-
-× πsvd` ,
- 
-
 The following notation is used in the above equations:
  
-:math:`zsvd..lt`	is the activity of conversion technology :math:`v` in period :math:`t` and, if defined so, load region :math:`l` (see section 2.1.1),
-:math:`Y zsvd..t`	is the capacity variable of conversion technology :math:`v` (see section 2.1.2).
-:math:`Esvd`	is the efficiency of technology :math:`v` in converting the main energy input, :math:`s`, into the main energy output, :math:`d`,
-:math:`κsvd` is the last period in that technology :math:`v` can be constructed,
-:math:`πsvd`	is the "plant factor" of technology :math:`v`, having different meaning depending on the type of capacity equation applied,
-:math:`∆τ` 	is the length of period :math:`τ` in years,
-:math:`τsvd` 	is the plant life of technology :math:`v` in periods,
- 
-:math:`t svd`
- 
-represents the installations built before the time horizon under consideration,
-that are still in operation in the first year of period :math:`t`,
+:math:`zsvd..lt`	 is the activity of conversion technology :math:`v` in period :math:`t` and, if defined so, load region :math:`l` (see section 2.1.1),
+
+:math:`Y zsvd..t` is the capacity variable of conversion technology :math:`v` (see section 2.1.2).
+
+:math:`Esvd`	 is the efficiency of technology :math:`v` in converting the main energy input, :math:`s`, into the main energy output, :math:`d`,
+
+:math:`κsvd`  is the last period in that technology :math:`v` can be constructed,
+
+:math:`πsvd`	 is the "plant factor" of technology :math:`v`, having different meaning depending on the type of capacity equation applied,
+
+:math:`∆τ` 	 is the length of period :math:`τ` in years,
+
+:math:`τsvd` 	 is the plant life of technology :math:`v` in periods,
+
+:math:`t svd` represents the installations built before the time horizon under consideration, that are still in operation in the first year of period :math:`t`,
  
 :math:`fi` 	is 1. if the capacity variable is continuous, and represents the minimum installed capacity per year (unit size) if the variable is integer,
-:math:`lm` 	is the load region with maximum capacity use if the production pattern over the year is fixed,
-:math:`π(lm, svd)`  is the share of output in the load region with maximum production,
-:math:`σv/ δ`	is the relative capacity of main output of technology (or operation mode) svd to the capacity of main output of the alternative technology (or operation
-:math:`mode)σv δ`,
-:math:`λl` 	is the length of load region :math:`l` as fraction of the year, and
-:math:`λlm` 	is the length of load region :math:`lm`, the load region with maximum capacity requirements, as fraction of the year.
 
+:math:`lm` 	is the load region with maximum capacity use if the production pattern over the year is fixed,
+
+:math:`π(lm, svd)`  is the share of output in the load region with maximum production,
+
+:math:`σv/ δ`	is the relative capacity of main output of technology (or operation mode) svd to the capacity of main output of the alternative technology (or operation
+
+:math:`mode)σv δ`,
+
+:math:`λl` 	is the length of load region :math:`l` as fraction of the year, and
+
+:math:`λlm` 	is the length of load region :math:`lm`, the load region with maximum capacity requirements, as fraction of the year.
 
 
 2.2.2 	Upper Dynamic Constraints on Construction Variables
 ~~~~~~~~~~~~~~~~~~~~~~
 
-M Y zsvd.t
-
+:math:`M Y zsvd.t`
 
 The dynamic capacity constraints relate the amount of annual new installations of a technology in a period to the annual construction during the previous period.
 
-Y zsvd..t − γyo
+:math:`Y zsvd..t − γyo`
  
-× Y zsvd..(t − 1) ≤ gyo	,
+:math:`× Y zsvd..(t − 1) ≤ gyo`,
  
 where
-o svd,t o svd,t
- 
 
-is the maximum growth rate per period for the construction of technology v, is the initial  size (increment) that can be given for the introduction of new technologies,
+:math:`o svd,t o svd,t`  is the maximum growth rate per period for the construction of technology :math:`v`, is the initial size (increment) that can be given for the introduction of new technologies,
  
-Y zsvd..t	is the annual new installation of technology v in period t.
+:math:`Y zsvd..t`	 is the annual new installation of technology :math:`v` in period :math:`t`.
 
 2.2.3 	Lower Dynamic Constraints on Construction Variables
 ~~~~~~~~~~~~~~~~~~~~~~
-LY zsvd.t
+:math:`LY zsvd.t`
  
-Y zsvd..t − γysvd,t   × Y zsvd..(t − 1) ≥ − gysvd,t,
+:math:`Y zsvd..t − γysvd,t   × Y zsvd..(t − 1) ≥ − gysvd,t`,
 
 where
-γysvd,t 	is the minimum growth rate per period for the construction of technologyv, gysvd,t	is the ”last”  size (decrement) allowing technologies to go out of the market, and Y zsvd..t	is the annual new installation of technology v in periodt.
+
+:math:`γysvd,t` 	is the minimum growth rate per period for the construction of technology :math:`v, gysvd,t`	is the ”last”  size (decrement) allowing technologies to go out of the market, and :math:`Y zsvd..t`	is the annual new installation of technology:math:`v` in period :math:`t`.
 
 
 2.2.4 	Upper Dynamic Constraints on Activity Variables
 ~~~~~~~~~~~~~~~~~~~~~~
-M zsvd..t
+:math:`M zsvd..t`
 
 The dynamic production constraints relate the production of a technology in one period to the production in the previous period. If the technology is defined with load regions, the sum over the load regions is included in the constraint.
 
-Esvd   × \ zsvd..lt  − γao
-l
- 
-× zsvd..l(t − 1) l ≤ gao	,
- 
+:math:`Esvd   × \ zsvd..lt  − γao l  × zsvd..l(t − 1) l ≤ gao	, 
 
 where
-o svd,t
- o svd,t
- 
-are the maximum growth rate and increment as described  in section
- 
-2.2.2 (the increment is to be given in units of main output), and
-zsvd..lt	is the activity of technology v in load region l.
 
+:math:`o svd,t  o svd,t`
+ 
+are the maximum growth rate and increment as described  in section 2.2.2 (the increment is to be given in units of main output), and
+:math:`zsvd..lt`	is the activity of technology :math:`v` in load region :math:l`.
 
 If demand elasticities are modelled, the required sums are included for end-use technologies.
 
 
 2.2.5 	Lower Dynamic Constraints on Activity Variables
 ~~~~~~~~~~~~~~~~~~~~~~
-Lzsvd..t
-
-Esvd   × [ zsvd..lt  − γasvd,t  × zsvd..l(t − 1) ]  ≥ − gasvd,t,
-l
+:math:`Lzsvd..t Esvd   × [ zsvd..lt  − γasvd,t  × zsvd..l(t − 1) ]  ≥ − gasvd,t, l`
 
 where
-γasvd,t 	and gasvd,t are the maximum growth rate and increment as described  in section 2.2.3, and zsvd..lt	is the activity of technology v in load region *l*.
+
+:math:`γasvd,t` 	and :math:`gasvd,t` are the maximum growth rate and increment as described in section 2.2.3, and :math:`zsvd..lt`	is the activity of technology :math:`v` in load region :math:`l`.
 

@@ -23,9 +23,9 @@ t	identifies the period, t ∈ {a, b, c, ...}.
 
 The activity variable of an energy conversion technology is an energy flow variable. It represents the annual consumption of this technology of the main input per period. If a technology has no input, the variable represents the annual production of the main output.
  
-If the level of the main output is not U and at least one of the energy carriers consumed or supplied is defined with load regions the technology is defined with load regions. In this case the activity variables are generated separately for each load region, which is indicated by the additional identifier l in position 7. However, this can be changed by fixing the production of the technology over the load regions to a predefined pattern (see section 10.4): one variable is generated for all load regions, the distribution to the load regions is given by the definition of the user (e.g., production pattern of solar power-plants).
+If the level of the main output is not U and at least one of the energy carriers consumed or supplied is defined with load regions the technology is defined with load regions. In this case the activity variables are generated separately for each load region, which is indicated by the additional identifier l in position 7. However, this can be changed by fixing the production of the technology over the load regions to a predefined pattern (see section 9.4): one variable is generated for all load regions, the distribution to the load regions is given by the definition of the user (e.g., production pattern of solar power-plants).
 
-If the model is formulated with demand elasticities  (see section 10.10), the activity variables of technologies with a demand  as main output that is defined with elasticity are generated for each elasticity class (identifier e in position 6).
+If the model is formulated with demand elasticities  (see section 9.10), the activity variables of technologies with a demand  as main output that is defined with elasticity are generated for each elasticity class (identifier e in position 6).
 
 2.1.2 	Capacities of Energy Conversion Technologies
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -63,10 +63,10 @@ modelled with load regions, and
 t	is the period in that the capacity goes into operation.
 
 For all conversion technologies modelled with capacity variables the capacity constraints will be generated automatically. If the activity variables exist for each load region separately
-there will be one capacity constraint per load region (see also section 10.4). If the technology is an end-use technology the sum over the elasticity classes will be included in the capacity constraint.
+there will be one capacity constraint per load region (see also section 9.4). If the technology is an end-use technology the sum over the elasticity classes will be included in the capacity constraint.
 
 Additionally  the activity variables of different technologies can be linked to the same capacity variable, which allows to leave the choice of the activity variable used with a given capacity
-to the optimization (see section 10.7).
+to the optimization (see section 9.7).
 
 **Technologies without Load Regions**
 

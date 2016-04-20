@@ -56,18 +56,10 @@ svd mt svd  × ed e=0 U svd.e.t × Esvd   − rom(t−1)  × ed e=0 l U svd.e.(t
 × zrvs...t  × Ervs   − rom(t−1)  ×
  
 
-
-
-
- 
 zrvs...(t − 1) × Ervs  ] +
  
 
-
-rvs
- 
-mlt
-rvs   ×
+rvs mlt rvs   ×
  
 zrvs..lt  × Ervs   − roml(t−1)  ×
 l
@@ -75,7 +67,6 @@ l
    f ree
 l 
 
- 
 zrvs..l(t − 1) × Ervs l
  
 ≥ rhsm  ,
@@ -83,66 +74,13 @@ zrvs..l(t − 1) × Ervs l
    < rhst
  
 
-
-
 where
-U svd.e.t	is the activity variable of the end-use technologies,
-zrvs..lt	and zrvs...t are the activity  variables of technologies with and without load regions,
-Ervs	and Esvd  are the efficiencies of the technologies; they are included by the code,
-svd	is the relative factor per unit of output of technology v (coefficient) for relational constraint m, period t,
-rvs	is the relative factor per unit of output of technology v (coefficient) for relational constraint m, load region l, and
+:math:`U svd.e.t`   is the activity variable of the end-use technologies,
+:math:`zrvs..lt`	   and :math:`zrvs...t` are the activity  variables of technologies with and without load regions,
+:math:`Ervs`       	and :math:`Esvd` are the efficiencies of the technologies; they are included by the code,
+:math:`svd`        	is the relative factor per unit of output of technology :math:`v` (coefficient) for relational constraint :math:`m`, period :math:`t`,
+:math:`rvs`        	is the relative factor per unit of output of technology :math:`v` (coefficient) for relational constraint :math:`m`, load region :math:`l`, and
+ :math:`rhst`       and is the right hand side of the constraint.
  
-rhst
- 
-and is the right hand side of the constraint.
- 
-
-
-
-For this type of constraints only the ro-coefficients have to be supplied by the user, the rest is included by the model. It can be defined with and without load regions.
-
-
-8.1.4 	Special Handling of Demand Elasticities
-
-P m.....t
-
-
-The second type of user defined relations differs from the first one in the fact that the activity of the end-use technologies is multiplied by ke and therefore represents the production without reduction by demand elasticities.
-
-Thus this constraint can be applied to force a certain reduction level due to the elasticities reached in one period to be also reached in the following period, allowing the interpretation of the reduction as investments  in saving. The coefficient of the technologies supplying a demand have to be the inverse of this demand in the current period, then. This constraint has the following form:
- 
-ed
-
-sv	e=0
-
-ed
- 
-
-U svd.e.t × Esvd   ×
- 
-
-κe
-U d.t  −
-
-κe
- 
-
-
-where
- 
-
-sv	e=0
- 
-U svd.e.(t − 1) × Esvd   ×
- 
-U d.(t −
- 
-1)   ≤ 0 ,
- 
-
-the coefficients are supplied by MESSAGE. The user can additionally define multiplicative factors for these coefficients.
- 
-
-
-
+For this type of constraints only the :math:`ro`-coefficients have to be supplied by the user, the rest is included by the model. It can be defined with and without load regions.
 

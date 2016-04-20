@@ -8,6 +8,9 @@ Energy conversion technologies are modelled using two types of variables, that r
 
 2.1.1 	Activities  of Energy Conversion Technologies
 ~~~~~~~~~~~~~~~~~~~~~~
+=========================== ================================================================================================================================
+Parameter                   Description
+=========================== ================================================================================================================================
 :math:`zsvd.elt`
 
 where
@@ -20,6 +23,7 @@ where
 :math:`e`	is the level of reduction of demand due to own-price elasticities of demands (does only occur on the demand level; otherwise or if this demand has no elasticities :math:`e = ”.”`),
 :math:`l`	identifies the load region, :math:`l ∈ {1, 2, 3, ...} or l = ”.”`, if the technology is not modelled with load regions, and
 :math:`t`	identifies the period, :math:`t ∈ {a, b, c, ...}`.
+=========================== ================================================================================================================================
 
 The activity variable of an energy conversion technology is an energy flow variable. It represents the annual consumption of this technology of the main input per period. If a technology has no input, the variable represents the annual production of the main output.
  

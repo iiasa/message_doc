@@ -90,107 +90,53 @@ all the other entries to the equation are the same as in section 6.1.2.
 
 :math:`Xs....lt`
 
-In principle the secondary energy balance is built up in the same way as the two previous ones (sections 6.1.2 and 6.1.3). It matches the production of central conversion technologies to the requirements of the transmission  systems. Secondary energy imports and exports of secondary energy are usually assigned to level X .
+In principle the secondary energy balance is built up in the same way as the two previous ones (sections 6.1.2 and 6.1.3). It matches the production of central conversion technologies to the requirements of the transmission  systems. Secondary energy imports and exports of secondary energy are usually assigned to level :math:`X`.
 
-rvs
- 
-Ervs   × X rvs..lt  +
- 
-rvσ
- 
-s rvσ
- 
-× X rvσ..lt  −
- 
-svs
- 
-T svs..lt +
- 
-c,p
- 
-I X scp.lt  −
- 
-c,p
- 
-EX scp.lt  ≥ 0
- 
+.. math::
 
+rvs Ervs   × X rvs..lt  + rvσ s rvσ × X rvσ..lt  − svs T svs..lt + c,p I X scp.lt  −  c,p EX scp.lt  ≥ 0
+ 
 where
-X rvs..lt    is the activity of central conversion technology v in load region l and period t (see section 2.1.1); if the secondary energy form s is not defined with load regions (i.e. l = ”.”) and the activity of technology v exists for each load region, this equation will contain the sum of the activity variables of technology v over the load regions.
-Ervs	        is the efficiency of technology v in converting energy carrier r into secondary energy form s,
-rvσ	         is the efficiency of technology v in converting energy carrier r into the by-product s of technology v,
-T svs..lt	   is explained in section 6.1.3, and
-I X scp.lt	  and EX scp.lt are the import and export variables explained in sections 5.1.1 and 5.1.2, respectively.
+:math:`X rvs..lt`   is the activity of central conversion technology :math:`v` in load region :math:`l` and period :math:`t` (see section 2.1.1); if the secondary energy form :math:`s` is not defined with load regions (i.e. :math:`l` = ”.”) and the activity of technology :math:`v` exists for each load region, this equation will contain the sum of the activity variables of technology :math:`v` over the load regions.
+:math:`Ervs`        is the efficiency of technology :math:`v` in converting energy carrier :math:`r` into secondary energy form :math:`s`,
+:math:`rvσ`	        is the efficiency of technology :math:`v` in converting energy carrier :math:`r` into the by-product :math:`s` of technology :math:`v`,
+:math:`T svs..lt`	  is explained in section 6.1.3, and
+:math:`I X scp.lt`  and :math:`EX scp.lt` are the import and export variables explained in sections 5.1.1 and 5.1.2, respectively.
 
 5.1.5 	Resource Extraction,  Export  and Import  Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Ar.....t*
+:math:`Ar.....t`
 
 This equation matches production and import of primary energy to the requirements of central conversion, transport and for export. In the general  case primary energy does not have load regions. Some technologies,  like, e.g., nuclear reactors need inventories of primary energy and also leave a last core that is available at the end of the lifetime. It may be necessary to model by-products of extraction technologies, for instance the availability of associated  gas at oil production sites.
 
-rvr
+.. math:: 
 
-Ervr   × Arvr...t −
- 
-l	rvs
-
-X rvs..lt  +
-
-ρvs
-
-r ρvs
- 
-l
-× X ρvs..lt	+
- 
-c,p
-
-I Arcp..t −
-
-c,p
-
-EArcp..t  +
-
-f vs
- 
-\ ∆(t − τf vs)
-∆t
- 
-× ρ(f vs, r) × Y X f vs..(t − τf vs) −
-
-∆(t + 1)	l
-∆t 	× ι(f vs, r) × Y X f vs..(t + 1)
- 
-≥ 0 ,
+rvr Ervr   × Arvr...t − l	rvs X rvs..lt  + ρvs r ρvs l × X ρvs..lt	+ c,p I Arcp..t − c,p EArcp..t  + f vs \ ∆(t − τf vs) ∆t × ρ(f vs, r) × Y X f vs..(t − τf vs) − ∆(t + 1)	l ∆t 	× ι(f vs, r) × Y X f vs..(t + 1) ≥ 0 ,
 
 where
-Arvr...t 	   is the activity of technology v extracting resource r,
-Ervr	        is the efficiency of technology v in extracting fuel r (this is usually 1.),
-ρvs	         is the efficiency of technology v in producing secondary energy form s from the by-input ρ,
-I Arcp..t 	  and EArcp..t are the import and export variables described in section 5.1.1 and 5.1.2, respectively,
-τf vs	       is the plant life of technology v in periods (depending on the lengths of the periods covered),
-Y X f vs..t 	is the annual new installation of technology v in period t (see section  2.1.2),
-ι(f vs, r) 	 is the amount of fuel r that is needed when technology v goes into operation (usually this is the first core of a reactor). It has to be available in the period before technology v goes into operation, the normal unit is kWyr/kW,
-ρ(f vs, r) 	 is the amount of fuel r that becomes available after technology v goes out of operation (for a reactor this is the last core that goes to reprocessing). The unit is the same as for ι(f vs, r), and
-∆t 	         is the length of period t in years.
+:math:`Arvr...t`    is the activity of technology :math:`v` extracting resource :math:`r`,
+:math:`Ervr`	       is the efficiency of technology :math:`v` in extracting fuel :math:`r` (this is usually 1.),
+:math:`ρvs`	        is the efficiency of technology :math:`v` in producing secondary energy form :math:`s` from the by-input :math:`ρ`,
+:math:`I Arcp..t`	  and :math:`EArcp..t` are the import and export variables described in section 5.1.1 and 5.1.2, respectively,
+:math:`τf vs`       is the plant life of technology :math:`v` in periods (depending on the lengths of the periods covered),
+:math:`Y X f vs..t` is the annual new installation of technology :math:`v` in period :math:`t` (see section  2.1.2),
+:math:`ι(f vs, r)`	 is the amount of fuel :math:`r` that is needed when technology :math:`v` goes into operation (usually this is the first core of a reactor). It has to be available in the period before technology :math:`v` goes into operation, the normal unit is kWyr/kW,
+:math:`ρ(f vs, r)`	 is the amount of fuel :math:`r` that becomes available after technology :math:`v` goes out of operation (for a reactor this is the last core that goes to reprocessing). The unit is the same as for :math:`ι(f vs, r)`, and
+:math:`∆t`	         is the length of period :math:`t` in years.
 
 5.1.6 	Resource Consumption
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-*Rr.....t*
+:math:`Rr.....t`
 
 The resources produced by the extraction technologies in a period can come from different cost categories (also called grades), which can, e.g., represent the different effort to reach certain resources. Short-term variations in price due to steeply increasing demand can be represented by an elasticity approach (see section 10.11).
 
-g,p
- 
-RRrgp..t  −
+.. math::
 
-rvr
- 
-Arvr...t ≥ 0 ,
+g,p RRrgp..t  − rvr Arvr...t ≥ 0 ,
 
 where
-RRrgp..t	     is the annual extraction of resource r, cost category (grade) g and elasticity class p in period t, and
-Arvr...t 	    is the activity of extraction technology v in period t (as described in section 2.1.1).
+:math:`RRrgp..t`    is the annual extraction of resource :math:`r`, cost category (grade) :math:`g` and elasticity class :math:`p` in period :math:`t`, and
+:math:`Arvr...t`    is the activity of extraction technology :math:`v` in period :math:`t` (as described in section 2.1.1).
  

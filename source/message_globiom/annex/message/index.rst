@@ -1,5 +1,8 @@
 Mathematical Formulation: MESSAGE V
 ====
+Table of Contents
+----
+
 This part of the document contains the mathematical formulation of MESSAGE as used at IIASA. The so-called matrix generator produces equations according to this formulation, 
 the input data determine the form these equations actually take. In its general formulation MESSAGE a dynamic linear programming model with a mixed integer option. 
 This implies that all relations that define the structure of a model are given as linear constraints between continuous variables. The variables of such a model are called 

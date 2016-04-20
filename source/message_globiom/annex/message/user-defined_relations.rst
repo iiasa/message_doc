@@ -1,5 +1,8 @@
-8.1 	Constraints
+7 User-defined Relations
+=======================
 
+7.1 	Constraints
+------------------
 
 The user-defined relations allow the user to construct constraints that are not included in the basic set of constraints. For each technology  the user can specify coefficients with that either the production variables (see section2.1.1),  the annual new installation variables  (see section
 2.1.2) or the total capacity in a year (like it is used in the capacity constraints, see section

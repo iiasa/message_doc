@@ -34,18 +34,19 @@ If the model is formulated with demand elasticities  (see section 9.10), the act
 
 2.1.2 	Capacities of Energy Conversion Technologies
 ~~~~~~~~~~~~~~~~~~~~~~
-Y zsvd..t, where
-Y	is the identifier for capacity variables.
-z	identifies the level on that the main energy output of the technology is defined,
-s	is the identifier of the main energy input of the technology,
-v	additional identifier of the conversion technology,
-d	is the identifier of the main energy output of the technology, and
-t	is the period in that the capacity goes into operation.
+:math:`Y zsvd..t`, 
+where
+:math:`Y`	is the identifier for capacity variables.
+:math:`z`	identifies the level on that the main energy output of the technology is defined,
+:math:`s`	is the identifier of the main energy input of the technology,
+:math:`v`	additional identifier of the conversion technology,
+:math:`d`	is the identifier of the main energy output of the technology, and
+:math:`t`	is the period in that the capacity goes into operation.
 
 
 The capacity variables are power variables. Technologies can be modelled without capacity variables. In this case no capacity constraints and no dynamic constraints on construction can be included in the model. Capacity variables of energy conversion technologies can be defined  as integer variables, if the solution algorithm has a mixed integer option.
 
-If a capacity variable is continuous it represents the annual new installations of the technology in period t, if it is integer it represents either the annual number of installations of a certain size or the number of installations of 1/∆t times the unit size (depending  on the definition; ∆t is the length of period t in years).
+If a capacity variable is continuous it represents the annual new installations of the technology in period :math:`t`, if it is integer it represents either the annual number of installations of a certain size or the number of installations of :math:`1/∆t` times the unit size (depending  on the definition; :math:`∆t` is the length of period t in years).
 
 The capacity is defined in relation to the main output of the technology.
 

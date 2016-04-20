@@ -20,11 +20,9 @@ where
 :math:`s`	 is the main energy input of the technology (supply). If the technology has no input :math:`s` is set to ”.” (e.g., solar technologies),
 
 :math:`v`	 additional identifier of the conversion technology (used to distinguish technologies with the same input and output),
-:math:`d`	is the main energy output of the technology (demand),
+:math:`d`	 is the main energy output of the technology (demand),
 
 :math:`e`	 is the level of reduction of demand due to own-price elasticities of demands (does only occur on the demand level; otherwise or if this demand has no elasticities :math:`e = ”.”`),
-
-:math:`l`	 identifies the load region, :math:`l ∈ {1, 2, 3, ...} or l = ”.”`, if the technology is not modelled with load regions, and
 
 :math:`t`	 identifies the period, :math:`t ∈ {a, b, c, ...}`.
 

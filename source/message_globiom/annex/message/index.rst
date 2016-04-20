@@ -2,6 +2,18 @@ Mathematical Formulation: MESSAGE V
 ====
 Table of Contents
 ----
+.. toctree::
+   :maxdepth: 1
+
+   introduction
+   conversion technologies
+   energy
+   macro
+   land_use
+   climate
+   commodities
+   bibliography
+  
 
 This part of the document contains the mathematical formulation of MESSAGE as used at IIASA. The so-called matrix generator produces equations according to this formulation, 
 the input data determine the form these equations actually take. In its general formulation MESSAGE a dynamic linear programming model with a mixed integer option. 

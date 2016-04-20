@@ -11,12 +11,12 @@ Energy demands are also modelled  as part of a balance constraint: it is the rig
 The following description of the energy flow constraints in MESSAGE is given for the following set of level identifiers:
 
 
-*U*  Useful energy (demand level),
-*F*  Final energy (after distribution), 
-*T*  Final energy (after transmission),
-*X*  Secondary energy,
-*A*  Primary energy, and
-*R*  Energy resources.
+:math:`U`  Useful energy (demand level),
+:math:`F`  Final energy (after distribution), 
+:math:`T`  Final energy (after transmission),
+:math:`X`  Secondary energy,
+:math:`A`  Primary energy, and
+:math:`R`  Energy resources.
 
 The identifier of the demand level (U ) which gives it a special meaning (see section 2.1.1) and imports and exports are given for primary energy. Clearly any other combination of technologies is also possible.
 

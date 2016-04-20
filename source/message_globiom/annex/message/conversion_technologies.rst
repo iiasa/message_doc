@@ -168,7 +168,7 @@ where
 
 The dynamic production constraints relate the production of a technology in one period to the production in the previous period. If the technology is defined with load regions, the sum over the load regions is included in the constraint.
 
-:math:`Esvd   × \ zsvd..lt  − γao l  × zsvd..l(t − 1) l ≤ gao	, 
+:math:`Esvd   × \ zsvd..lt  − γao l  × zsvd..l(t − 1) l ≤ gao`, 
 
 where
 

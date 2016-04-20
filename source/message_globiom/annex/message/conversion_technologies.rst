@@ -13,22 +13,20 @@ Energy conversion technologies are modelled using two types of variables, that r
 
 where
 
-:math:`z`	is the level identifier of the main output of the technology.
+:math:`z`	 is the level identifier of the main output of the technology.
 
-:math:`z = U` identifies the end-use level. This level is handled differently to all other levels: It has to be the demand level and technologies with the main output on this level are defined without load regions.
+:math:`z = U`  identifies the end-use level. This level is handled differently to all other levels: It has to be the demand level and technologies with the main output on this level are defined without load regions.
 
-:math:`s`	is the main energy input of the technology (supply). If the technology has no input :math:`s` is set to ”.” (e.g., solar technologies),
+:math:`s`	 is the main energy input of the technology (supply). If the technology has no input :math:`s` is set to ”.” (e.g., solar technologies),
 
-:math:`v`	additional identifier of the conversion technology (used to distinguish technologies with the same input and output),
+:math:`v`	 additional identifier of the conversion technology (used to distinguish technologies with the same input and output),
 :math:`d`	is the main energy output of the technology (demand),
 
-:math:`e`	is the level of reduction of demand due to own-price elasticities of demands (does only occur on the demand level; otherwise or if this demand has no elasticities :math:`e = ”.”`),
+:math:`e`	 is the level of reduction of demand due to own-price elasticities of demands (does only occur on the demand level; otherwise or if this demand has no elasticities :math:`e = ”.”`),
 
-:math:`l`	identifies the load region, :math:`l ∈ {1, 2, 3, ...} or l = ”.”`, if the technology is not modelled with load regions, and
+:math:`l`	 identifies the load region, :math:`l ∈ {1, 2, 3, ...} or l = ”.”`, if the technology is not modelled with load regions, and
 
-:math:`t`	identifies the period, :math:`t ∈ {a, b, c, ...}`.
-
-========== ==================================================
+:math:`t`	 identifies the period, :math:`t ∈ {a, b, c, ...}`.
 
 The activity variable of an energy conversion technology is an energy flow variable. It represents the annual consumption of this technology of the main input per period. If a technology has no input, the variable represents the annual production of the main output.
  

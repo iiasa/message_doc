@@ -60,10 +60,11 @@ The export variables are energy flow variables and represent the annual export o
 :math:`I zrc.g`..
 
 Limits the imports of a fuel from a specific country :math:`c over the whole horizon.
-:math:`∆t × I zrcp..t  ≤ I rc ,
-p	t`
+
+:math:`∆t × I zrcp..t  ≤ I rc , p	t`
 
 where
+
 :math:`I rc`	is the total import limit  for :math:`r` from country :math:`c`,
 
 :math:`I zrcp..t`	is the annual import of :math:`r` from country :math:`c`, elasticity class :math:`p` in period :math:`t`, and
@@ -109,11 +110,7 @@ where
 
 The annual import level of a fuel in a period can, like the resource extraction, be related to the previous one by a growth parameter and an increment resulting in upper dynamic constraints.
  
-:math:`c,p
-I zrcp..t  − γo
- 
-c,p
-I zrcp..(t − 1) ≤ go`,
+:math:`c,p I zrcp..t  − γo c,p I zrcp..(t − 1) ≤ go`,
  
 where
 
@@ -131,11 +128,7 @@ where
 
 The annual import level of a fuel in a period can also be related to the previous one by a decrease parameter and a decrement resulting in lower dynamic import constraints.
 
-:math:`c,p
-I zrcp..t  − γrt
- 
-c,p
-I zrcp..(t − 1) ≥ − grt` ,
+:math:`c,p I zrcp..t  − γrt c,p I zrcp..(t − 1) ≥ − grt` ,
 
 where
 

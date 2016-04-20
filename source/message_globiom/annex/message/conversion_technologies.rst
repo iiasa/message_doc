@@ -1,16 +1,12 @@
+Conversion Technologies
+====
 2.1 	Variables
-
-
+---
 Energy conversion technologies are modelled using two types of variables, that represent
-
-
 – the amount of energy converted per year in a period (activity  variables) and
-
 – the capacity installed annually in a period (capacity variables).
 
-
 2.1.1 	Activities  of Energy Conversion Technologies
-
 
 zsvd.elt
 

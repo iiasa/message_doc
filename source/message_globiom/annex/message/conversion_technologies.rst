@@ -9,9 +9,11 @@ Energy conversion technologies are modelled using two types of variables, that r
 2.1.1 	Activities  of Energy Conversion Technologies
 ~~~~~~~~~~~~~~~~~~~~~~
 :math: `zsvd.elt`
+
 where
+
 :math: `z`	is the level identifier of the main output of the technology.
-:math: 'z = U` identifies the end-use level. This level is handled differently to all other levels: It has to be the demand level and technologies with the main output on this level are defined without load regions.
+:math: `z = U` identifies the end-use level. This level is handled differently to all other levels: It has to be the demand level and technologies with the main output on this level are defined without load regions.
 :math: `s`	is the main energy input of the technology (supply). If the technology has no input :math: `s` is set to ”.” (e.g., solar technologies),
 :math: `v`	additional identifier of the conversion technology (used to distinguish technologies with the same input and output),
 :math: `d`	is the main energy output of the technology (demand),

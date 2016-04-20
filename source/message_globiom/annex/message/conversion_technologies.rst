@@ -7,6 +7,7 @@ Energy conversion technologies are modelled using two types of variables, that r
 – the capacity installed annually in a period (capacity variables).
 
 2.1.1 	Activities  of Energy Conversion Technologies
+~~~~~~~~~~~~~~~~~~~~~~
 
 :math:`zsvd.elt`
 
@@ -34,7 +35,9 @@ If the model is formulated with demand elasticities  (see section 9.10), the act
 2.1.2 	Capacities of Energy Conversion Technologies
 ~~~~~~~~~~~~~~~~~~~~~~
 :math:`Y zsvd..t`, 
+
 where
+
 :math:`Y`	is the identifier for capacity variables.
 
 :math:`z`	identifies the level on that the main energy output of the technology is defined,
@@ -67,12 +70,17 @@ The rows used to model energy conversion technologies limit
 where
 
 :math:`C`	is the identifier for capacity constraints,
+
 :math:`z`	identifies the level on that the main energy output of the technology is defined,
+
 :math:`s`	is the identifier of the main energy input of the technology,
+
 :math:`v`	additional identifier of the conversion technology,
+
 :math:`d`	is the identifier of the main energy output of the technology,
-:math:`l`	identifies the load region, :math:`l ∈ {1, 2, 3, ...} or l = ”.”`, if the technology is not
-modelled with load regions, and
+
+:math:`l`	identifies the load region, :math:`l ∈ {1, 2, 3, ...} or l = ”.”`, if the technology is not modelled with load regions, and
+
 :math:`t`	is the period in that the capacity goes into operation.
 
 For all conversion technologies modelled with capacity variables the capacity constraints will be generated automatically. If the activity variables exist for each load region separately there will be one capacity constraint per load region (see also section 9.4). If the technology is an end-use technology the sum over the elasticity classes will be included in the capacity constraint.
@@ -83,26 +91,15 @@ Additionally  the activity variables of different technologies can be linked to 
 
 For technologies without load regions (i.e. technologies, where no input or output is modelled with load regions) the production is related to the total installed capacity by the plant factor. For these technologies the plant factor has to be given as the fraction they actually operate per year. All end-use technologies (technologies  with main output level ”U ”) are modelled in this way.
 
-Esvd   × zsvd...t −
-min(t,κsvd )
-τ =t−τsvd
+:math:`Esvd   × zsvd...t − min(t,κsvd ) τ =t−τsvd ∆(τ − 1) × πsvd  × fi × Y zsvd..τ ≤ hct × πsvd`
  
-
-∆(τ − 1) × πsvd  × fi × Y zsvd..τ ≤ hct
- 
-
-× πsvd .
- 
-
-
-
 **Technologies with Varying Inputs and Outputs**
 
 Many types of energy conversion technologies do not have fix relations between their inputs and outputs. MESSAGE has the option to link several activity variables of conversion technologies into one capacity constraint. For the additional activities linked to a capacity variable a coefficient defines the maximum power available in relation to one power unit of the main activity.
 
 In the following this constraint is only described for technologies without load regions; the other types are constructed in analogy (see also section 9.7).
 
-relsvd
+:math:`relsvd
  
 σv/ δ
  
@@ -117,34 +114,31 @@ min(t,κsvd )
 ∆(τ − 1) × πsvd  × fi × Y zsvd..τ ≤ hct
  
 
-× πsvd ,
+× πsvd` ,
  
-
-
 
 The following notation is used in the above equations:
  
-zsvd..lt	is the activity of conversion technology v in period t and, if defined so, load region l (see section 2.1.1),
-Y zsvd..t	is the capacity variable of conversion technology v (see section 2.1.2).
-Esvd	is the efficiency of technology v in converting the main energy input, s, into the main energy output, d,
-κsvd 	is the last period in that technology v can be constructed,
-πsvd	is the ”plant factor” of technology v, having different meaning depending on the
-type of capacity equation applied,
-∆τ 	is the length of period τ in years,
-τsvd 	is the plant life of technology v in periods,
+:math:`zsvd..lt`	is the activity of conversion technology :math:`v` in period :math:`t` and, if defined so, load region :math:`l` (see section 2.1.1),
+:math:`Y zsvd..t`	is the capacity variable of conversion technology :math:`v` (see section 2.1.2).
+:math:`Esvd`	is the efficiency of technology :math:`v` in converting the main energy input, :math:`s`, into the main energy output, :math:`d`,
+:math:`κsvd` is the last period in that technology :math:`v` can be constructed,
+:math:`πsvd`	is the "plant factor" of technology :math:`v`, having different meaning depending on the type of capacity equation applied,
+:math:`∆τ` 	is the length of period :math:`τ` in years,
+:math:`τsvd` 	is the plant life of technology :math:`v` in periods,
  
-t svd
+:math:`t svd`
  
 represents the installations built before the time horizon under consideration,
-that are still in operation in the first year of period t,
+that are still in operation in the first year of period :math:`t`,
  
-fi 	is 1. if the capacity variable is continuous, and represents the minimum installed capacity per year (unit size) if the variable is integer,
-lm 	is the load region with maximum capacity use if the production pattern over the year is fixed,
-π(lm, svd)  is the share of output in the load region with maximum production,
-σv/ δ	is the relative capacity of main output of technology (or operation mode) svd to the capacity of main output of the alternative technology (or operation
-mode)σv δ,
-λl 	is the length of load region l as fraction of the year, and
-λlm 	is the length of load region lm, the load region with maximum capacity requirements,  as fraction of the year.
+:math:`fi` 	is 1. if the capacity variable is continuous, and represents the minimum installed capacity per year (unit size) if the variable is integer,
+:math:`lm` 	is the load region with maximum capacity use if the production pattern over the year is fixed,
+:math:`π(lm, svd)`  is the share of output in the load region with maximum production,
+:math:`σv/ δ`	is the relative capacity of main output of technology (or operation mode) svd to the capacity of main output of the alternative technology (or operation
+:math:`mode)σv δ`,
+:math:`λl` 	is the length of load region :math:`l` as fraction of the year, and
+:math:`λlm` 	is the length of load region :math:`lm`, the load region with maximum capacity requirements, as fraction of the year.
 
 
 

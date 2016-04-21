@@ -11,13 +11,21 @@ The different types of costs (i.e. entries for the objective function) can be ac
 
 
 :math:`CCUR`    -   fix (related to the installed capacity) and variable (related to the production) operation and maintenance costs,
+
 :math:`CCAP`    –	  investment costs; if the investments of a technology are distributed over the previous periods, also the entries to this accounting rows are distributed (if the capital costs are levellized, the total payments in a period can be taken from :math:`CINV`; :math:`CCAP` shows the share of investments in the according period, then),
+
 :math:`CRES`    –	  domestic fuel costs,
+
 :math:`CAR`1    –  	costs related to the user defined relations of type 1 (see section 8), 
+
 :math:`CAR`2    –  	costs related to the user defined relations of type 2 (see section 8),
+
 :math:`CRED`    –   costs for reducing demands due to demand elasticities, only related to technologies supplying the demands directly,
+
 :math:`CIMP`    –   import costs,
+
 :math:`CEXP`    –   gains for export, and
+
 :math:`CINV`    –	  total investments (in case of levellized investment costs, see :math:`CCAP`)
 
 8.1.2 	The Objective Function
@@ -42,25 +50,49 @@ where
 βt	t      1      ) 	, m   = βb   × dr(t) 100
 
 :math:`dr(i)`      	is the discount rate in period i in percent,
-:math:`zsvd..lt`   	is the annual consumption of technology :math:`v` of fuel :math:`s` load region :math:`l` and period :math:`t`; if :math:`v` has no load regions, :math:`l` = ”.”.
+
+:math:`zsvd..lt`   	is the annual consumption of technology :math:`v` of fuel :math:`s` load region :math:`l` and period :math:`t`; if
+
+:math:`v` has no load regions, :math:`l` = ”.”.
+
 :math:`Esvd`       	is the efficiency of technology :math:`v` in converting :math:`s` to :math:`d`,
+
 :math:`ccur(svd,t)`	are the variable operation and maintenance costs of technology :math:`v` (per unit of main output) in period :math:`t`,
+
 :math:`svd`        	is the relative factor per unit of output of technology :math:`v` for relational constraint :math:`m` in period :math:`t`, load region :math:`l`,
+
 :math:`car1(m,t)`  	and :math:`car2(m,t)` are the coefficients for the objective function, that are related to the user defined relation :math:`m` in period :math:`t`,
+
 :math:`car1(ml,t)` 	and :math:`car2(ml,t)` are the same for load region :math:`l`, if relation :math:`m` has load regions,
+
 :math:`U svd.e.t`  	is the annual consumption of fuel :math:`s` of end-use technology :math:`v` in period :math:`t` and elasticity class :math:`e`,
+
 :math:`κe`         	is the factor giving the relation of total demand for :math:`d` to the demand reduced due to the elasticity to level :math:`e`,
+
 :math:`svd`        	is the relative factor per unit of output of technology :math:`v` for relational constraint :math:`m` in period :math:`t`,
+
 :math:`cred(d,e)`  	is the cost associated with reducing the demand for :math:`d` to elasticity level :math:`e`,
+
 :math:`Y zsvd..t`  	is the annual new built capacity of technology :math:`v` in period :math:`t`,
+
 :math:`cfix(svd,t)` are the fix operation and maintenance cost of technology :math:`v` that was built in period :math:`t`,
+
 :math:`ccap(svd,t)`	is the specific investment cost of technology :math:`v` in period :math:`t` (given per unit of main output),
+
 :math:`nsvd rcmt`   is the share of this investment that has to be paid n periods before the first year of operation,
+
 :math:`svd`        	is the relative factor per unit of new built capacity of technology :math:`v` for user defined relation :math:`m` in period :math:`t`,
+
 :math:`n svd,m`     is the share of the relative amount of the user defined relation :math:`m` that occurs :math:`n` periods before the first year of operation (this can, e.g., be used to account for the use of steel in the construction of solar towers over the time of construction),
+
 :math:`Rzrgp.lt`   	is the annual consumption of resource :math:`r`, grade :math:`g`, elasticity class :math:`p` in load region :math:`l` and period :math:`t`,
+
 :math:`cres(rgpl,t)` is the cost of extracting resource :math:`r`, grade :math:`g`, elasticity class :math:`p` in period :math:`t` and load region :math:`l` (this should only be given, if the extraction is not modelled explicitly),
+
 :math:`I zrcp.lt`  	is the annual import of fuel :math:`r` from country :math:`c` in load region :math:`l`, period :math:`t` and elasticity class :math:`p`; if :math:`r` has no load regions :math:`l`=”.”,
+
 :math:`cimp(rcpl,t)` is the cost of importing :math:`r` in period :math:`t` from country :math:`c` in load region :math:`l` and elasticity class :math:`p`,
+
 :math:`Ezrcp.lt`   	is the annual export of fuel :math:`r` to country :math:`c` in load region :math:`l`, period :math:`t` and elasticity class :math:`p`; if :math:`r` has no load regions :math:`l`=”.”, and
+
 :math:`cexp(rcpl, t)` is the gain for exporting :math:`r` in period :math:`t` to country :math:`c` in load region :math:`l` and elasticity class :math:`p`.

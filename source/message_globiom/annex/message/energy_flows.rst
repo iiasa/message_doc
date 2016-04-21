@@ -11,7 +11,7 @@ Energy demands are also modelled  as part of a balance constraint: it is the rig
 The following description of the energy flow constraints in MESSAGE is given for the following set of level identifiers:
 
 .. list-table:: 
-   :widths: 40 100
+   :widths: 55 100
    :header-rows: 0
 
    * - :math:`U`
@@ -32,9 +32,7 @@ The identifier of the demand level (:math:`U`) which gives it a special meaning 
 5.1.1 	Demand Constraints
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. math::
-
-Ud.....t
+:math:`Ud.....t`
 
 Out of the predefined  levels each one can be chosen as demand  level. However, level ”:math:`U`” has a special feature. This is related to the fact that useful energy is usually produced on-site, e.g., space heat is produced by a central heating system, and the load variations over the year are all covered by this one system. Thus, an allocation of production technologies to the different areas of the load curve, like the model would set it up according to the relation between investment and operating costs would ignore the fact that these systems are not located in the same place and are not connected to each other. MESSAGE represents the
 end-use technologies by one variable per period that produces the required useful energy in the load pattern needed and requires the inputs in the same pattern. For special technologies like, e.g., night storage heating systems, this pattern can be changed to represent the internal storage capability of the system.

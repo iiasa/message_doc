@@ -43,7 +43,7 @@ If another level is chosen as demand  level or the demand level is not named ”
 
 .. math::
 
-\sum_{svd}\epsilon_{svd}\times\sum_{e=0}^{e_d}k_e\times Usvd.e.t+\sum_{sv\delta}\beta_{sv\delta}^d \times \sum_{e=0}^{e_\delta }k_e\times Usv\delta ue.t \geq Ud.t ,
+\[\sum_{svd}\epsilon_{svd}\times\sum_{e=0}^{e_d}k_e\times Usvd.e.t+\sum_{sv\delta}\beta_{sv\delta}^d \times \sum_{e=0}^{e_\delta }k_e\times Usv\delta ue.t \geq Ud.t\] ,
 
 where
 

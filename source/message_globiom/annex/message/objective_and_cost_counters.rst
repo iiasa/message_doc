@@ -44,6 +44,7 @@ c	l	p l Ezrcp.lt  × cexp(rcpl, t)	+ (t b   × svd t+td τ =t ∆(t − 1) × Y 
 
 where
 :math:`∆t`        	 is the length of period t in years,
+
 .. math::
 
 βt	t−1 \      1      ) l∆i , n i=1 dr(i) 100 ∆t 2 
@@ -89,7 +90,7 @@ where
 
 :math:`cres(rgpl,t)` is the cost of extracting resource :math:`r`, grade :math:`g`, elasticity class :math:`p` in period :math:`t` and load region :math:`l` (this should only be given, if the extraction is not modelled explicitly),
 
-:math:`I zrcp.lt`  	is the annual import of fuel :math:`r` from country :math:`c` in load region :math:`l`, period :math:`t` and elasticity class :math:`p`; if :math:`r` has no load regions :math:`l`=”.”,
+:math:`I zrcp.lt`  	is the annual import of fuel :math:`r` from country :math:`c` in load region :math:`l`, period :math:`t` and elasticity class :math:`p`; if :math:`r` has no load regions :math:`l` =”.”,
 
 :math:`cimp(rcpl,t)` is the cost of importing :math:`r` in period :math:`t` from country :math:`c` in load region :math:`l` and elasticity class :math:`p`,
 

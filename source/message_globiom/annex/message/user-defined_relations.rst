@@ -40,7 +40,7 @@ where
 
 :math:`rvs`        	is the same per unit of new built capacity,
 
-:math:`tl	          is 1 for relations to construction and :math:`∆τ` for relations to total capacity,
+:math:`tl`          is 1 for relations to construction and :math:`∆τ` for relations to total capacity,
 
 :math:`ip`         	is 1 for accounting during construction and the plant life on periods for accounting of total capacity, and
 

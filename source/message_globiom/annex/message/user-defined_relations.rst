@@ -84,7 +84,8 @@ where
 
 :math:`rvs`        	is the relative factor per unit of output of technology :math:`v` (coefficient) for relational constraint :math:`m`, load region :math:`l`, and
 
- :math:`rhst`       and is the right hand side of the constraint.
+:math:`rhst`       and is the right hand side of the constraint.
+ 
  
 For this type of constraints only the :math:`ro`-coefficients have to be supplied by the user, the rest is included by the model. It can be defined with and without load regions.
 

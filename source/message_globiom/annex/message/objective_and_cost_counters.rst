@@ -16,9 +16,9 @@ The different types of costs (i.e. entries for the objective function) can be ac
 
 :math:`CRES`    –	  domestic fuel costs,
 
-:math:`CAR`1    –  	costs related to the user defined relations of type 1 (see section 8), 
+:math:`CAR` 1    –  	costs related to the user defined relations of type 1 (see section 8), 
 
-:math:`CAR`2    –  	costs related to the user defined relations of type 2 (see section 8),
+:math:`CAR` 2    –  	costs related to the user defined relations of type 2 (see section 8),
 
 :math:`CRED`    –   costs for reducing demands due to demand elasticities, only related to technologies supplying the demands directly,
 
@@ -93,6 +93,6 @@ where
 
 :math:`cimp(rcpl,t)` is the cost of importing :math:`r` in period :math:`t` from country :math:`c` in load region :math:`l` and elasticity class :math:`p`,
 
-:math:`Ezrcp.lt`   	is the annual export of fuel :math:`r` to country :math:`c` in load region :math:`l`, period :math:`t` and elasticity class :math:`p`; if :math:`r` has no load regions :math:`l`=”.”, and
+:math:`Ezrcp.lt`   	is the annual export of fuel :math:`r` to country :math:`c` in load region :math:`l`, period :math:`t` and elasticity class :math:`p`; if :math:`r` has no load regions :math:`l` =”.”, and
 
 :math:`cexp(rcpl, t)` is the gain for exporting :math:`r` in period :math:`t` to country :math:`c` in load region :math:`l` and elasticity class :math:`p`.

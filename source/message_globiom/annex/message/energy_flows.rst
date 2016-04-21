@@ -11,7 +11,7 @@ Energy demands are also modelled  as part of a balance constraint: it is the rig
 The following description of the energy flow constraints in MESSAGE is given for the following set of level identifiers:
 
 .. list-table:: 
-   :widths: 30 78
+   :widths: 40 100
    :header-rows: 0
 
    * - :math:`U`

@@ -80,11 +80,22 @@ end-use technologies and the deliveries of the distribution systems. It is gener
 \sum_{svs}\epsilon _{svs}\times Fsvs..lt-\sum_{svd}\eta _{d,l}\times \sum_{e=0}^{e_d}Usvd.e.t-\\ \sum_{\sigma vd}\beta _{\sigma vd}^s \times \eta _{d,l}\times \sum_{e=0}^{e_d}U\sigma vd.e.t\geq 0
 
 where
-:math:`F svs..lt`   is the activity of the distribution technology in load region :math:`l` and period :math:`t` (see section 2.1.1),
-:math:`Esvs`        is the efficiency of technology :math:`v` in distributing :math:`s`,
-:math:`U svd.e.t`   is the activity of end-use technology :math:`v` in period :math:`t` and elasticity class :math:`e`,
-:math:`σvd`         is the use of fuel :math:`s` relative to fuel :math:`σ` (the main input) by technology :math:`v`, and
-:math:`ηd,l`	       is the fraction of demand for :math:`d` occurring in load region :math:`l`.
+
+.. list-table::
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`F svs..lt`
+     - is the activity of the distribution technology in load region :math:`l` and period :math:`t` (see section 2.1.1),
+   * - :math:`Esvs`
+     - is the efficiency of technology :math:`v` in distributing :math:`s`,
+   * - :math:`U svd.e.t`
+     - is the activity of end-use technology :math:`v` in period :math:`t` and elasticity class :math:`e`,
+   * - :math:`σvd`
+     - is the use of fuel :math:`s` relative to fuel :math:`σ` (the main input) by technology :math:`v`, and
+   * - :math:`ηd,l`
+     - is the fraction of demand for :math:`d` occurring in load region :math:`l`.
+
 
 5.1.3 	Transmission or Transportation Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

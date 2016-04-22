@@ -106,10 +106,16 @@ This constraint gives the simplest form of an energy balance equation of MESSAGE
 
 .. math::
 
-svs Esvs   × T svs..lt  − svs F svs..lt  ≥ 0 .
+\sum_{svs}\epsilon _{svs}\times Tsvs..lt-\sum_{svs}Fsvs..lt\geq 0 .
 
 where
-:math:`T svs..lt`   is the activity of the transportation technology :math:`v` (see section  2.1.1), and
+
+.. list-table::
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`T svs..lt`
+     - is the activity of the transportation technology :math:`v` (see section  2.1.1), and
 
 all the other entries to the equation are the same as in section 6.1.2.
  

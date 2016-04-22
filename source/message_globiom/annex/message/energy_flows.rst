@@ -49,12 +49,23 @@ If another level is chosen as demand  level or the demand level is not named ”
 
 where
 
-:math:`U d.t`       is the annual demand for :math:`d` in period :math:`t`,
-:math:`U svd.e.t`   is the activity of end-use technology :math:`v` in period :math:`t`, elasticity class :math:`e` and period :math:`t` (see section  2.1.1),
-:math:`Esvd`        is the efficiency of end-use technology :math:`v` in converting :math:`s` to :math:`d`,
-:math:`svδ`         is the efficiency of end-use technology :math:`v` in producing by-product :math:`d` from :math:`s` (:math:`δ` is the main output of the technology),
-:math:`ed`          is the number of steps of demand reduction modelled for own-price elasticities of demand :math:`d`, and
-:math:`ke`          is the factor giving the relation of total demand for :math:`d` to the demand reduced to level :math:`e` due to the demand elasticity. :math:`(ke  × U svd.e.t = U svd.0.t, k0  = 1, ke` is increasing monotonously.)
+.. list-table:: 
+   :widths: 55 100
+   :header-rows: 0
+
+   * - :math:`U d.t`
+     - is the annual demand for :math:`d` in period :math:`t`,
+   * - :math:`U svd.e.t`
+     - is the activity of end-use technology :math:`v` in period :math:`t`, elasticity class :math:`e` and period :math:`t` (see section  2.1.1),
+   * - :math:`\epsilon _{svd}`
+     - is the efficiency of end-use technology :math:`v` in converting :math:`s` to :math:`d`,
+   * - :math:`\beta _{sv\delta}^d`
+     - is the efficiency of end-use technology :math:`v` in producing by-product :math:`d` from :math:`s` (:math:`δ` is the main output of the technology),
+   * - :math:`e_d`
+     - is the number of steps of demand reduction modelled for own-price elasticities of demand :math:`d`, and
+   * - :math:`ke`
+     - is the factor giving the relation of total demand for :math:`d` to the demand reduced to level :math:`e` due to the demand elasticity. :math:`(ke  × U svd.e.t = U svd.0.t, k0  = 1, ke` is increasing monotonously.)
+
 
 5.1.2 	Distribution Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~

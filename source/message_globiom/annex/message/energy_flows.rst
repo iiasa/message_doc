@@ -41,6 +41,8 @@ This representation of end-use technologies has the advantage of reducing the si
 
 If another level is chosen as demand  level or the demand level is not named ”:math:`U`”, all demand constraints for energy carriers that are modelled with load regions are generated for each load region. The general form of the demand constraints is
 
+.. math::
+
 \begin{equation}
 \sum_{svd}\epsilon_{svd}\times \sum_{e=0}^{e_d}k_e\times Usvd.e.t + \sum_{sv\delta} \beta_{sv\delta}^d \times \sum_{e=0}^{e_\delta }k_e \times Usv \delta ue.t \geq Ud.t ,
 \end{equation}
@@ -64,7 +66,7 @@ end-use technologies and the deliveries of the distribution systems. It is gener
 
 .. math::
 
-svs Esvs   × F svs..lt  − svd ηd,l  × ed e=0 U svd.e.t − σvd σvd  × ηd,l  × ed e=0 U σvd.e.t ≥ 0 ,
+\sum_{svs}\epsilon _{svs}\times Fsvs..lt-\sum_{svd}\eta _{d,l}\times \sum_{e=0}^{e_d}Usvd.e.t-\\ \sum_{\sigma vd}\beta _{\sigma vd}^s \times \eta _{d,l}\times \sum_{e=0}^{e_d}U\sigma vd.e.t\geq 0
 
 where
 :math:`F svs..lt`   is the activity of the distribution technology in load region :math:`l` and period :math:`t` (see section 2.1.1),

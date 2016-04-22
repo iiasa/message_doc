@@ -41,8 +41,6 @@ This representation of end-use technologies has the advantage of reducing the si
 
 If another level is chosen as demand  level or the demand level is not named ”:math:`U`”, all demand constraints for energy carriers that are modelled with load regions are generated for each load region. The general form of the demand constraints is
 
-.. math::
-
 \begin{equation}
 \sum_{svd}\epsilon_{svd}\times \sum_{e=0}^{e_d}k_e\times Usvd.e.t + \sum_{sv\delta} \beta_{sv\delta}^d \times \sum_{e=0}^{e_\delta }k_e \times Usv \delta ue.t \geq Ud.t ,
 \end{equation}

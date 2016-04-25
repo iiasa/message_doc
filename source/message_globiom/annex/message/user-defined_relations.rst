@@ -57,42 +57,39 @@ where
 7.1.2 	Construction of Relations between Periods
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:math:`N m.....t` or :math:`P m.....t`
+.. math::
+   N m.....t or 
+   P m.....t
 
 The change of activities over time can either be limited or included in the objective by constructing relations between periods: The relations expresses the difference between the annual activity in a period and the following period. This difference can either be limited or included in the objective function.
 
 .. math::
 
-svd mt svd  × ed e=0 U svd.e.t × Esvd   − rom(t−1)  × ed e=0 l U svd.e.(t − 1) × Esvd	+ rvs  	mt rvs
- 
-
-× zrvs...t  × Ervs   − rom(t−1)  × zrvs...(t − 1) × Ervs  ] +
-
-rvs mlt rvs   ×  zrvs..lt  × Ervs   − roml(t−1)  ×
-l 
-   f ree
-l 
-
-zrvs..l(t − 1) × Ervs l
- 
-≥ rhsm  ,
-= rhst
-   < rhst
- 
+\sum_{svd}\left [ ro_{svd}^{mt}\times\sum_{e+0}^{e_d}Usvd.e.t\times\epsilon_{svd}-ro_{svd}^{m(t-1)}\times \\ \sum_{e=0}^{e_d}Usvd.e.(t-1)\times\epsilon_{svd} \right ]+\sum_{rsv}\left [ ro_{rvs}^{mt}\timeszrvs...t\times\epsilon_{rvs}-ro_{rvs}^{m(t-1)}\times \\ zrvs...(t-1)\times\epsilon_{rvs} \right ] + \sum_{rvs}\left [ ro_{rvs}^{mlt}\times\sum_lzrvs..lt\times\epsilon_{rvs}-ro_{rvs}^{ml(t-1)}\times \\ \sum_lzrvs..l(t-1)\times\epsilon_{rvs}) \right ]\left\{\begin{matrix}
+   free & \\ 
+   \geq rhs_m^t, & \\ 
+   = rhs_m^t & \\ 
+   < rhs_m^t & 
+   \end{matrix}\right.
 
 where
-:math:`U svd.e.t`   is the activity variable of the end-use technologies,
 
-:math:`zrvs..lt`	   and :math:`zrvs...t` are the activity  variables of technologies with and without load regions,
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
 
-:math:`Ervs`       	and :math:`Esvd` are the efficiencies of the technologies; they are included by the code,
+   * - :math:`Usvd.e.t`
+     - is the activity variable of the end-use technologies,
+   * - :math:`zrvs..lt`
+     - and :math:`zrvs...t` are the activity  variables of technologies with and without load regions,
+   * - :math:`\epsilon_{rvs}`
+     - and :math:`Esvd` are the efficiencies of the technologies; they are included by the code,
+   * - :math:`ro_{svd}^{mt}`
+     - is the relative factor per unit of output of technology :math:`v` (coefficient) for relational constraint :math:`m`, period :math:`t`,
+   * - :math:`ro_{rvs}^{mlt}`
+     - is the relative factor per unit of output of technology :math:`v` (coefficient) for relational constraint :math:`m`, load region :math:`l`, and
+   * - :math:`rhs_m^t`
+     - and is the right hand side of the constraint.
 
-:math:`svd`        	is the relative factor per unit of output of technology :math:`v` (coefficient) for relational constraint :math:`m`, period :math:`t`,
-
-:math:`rvs`        	is the relative factor per unit of output of technology :math:`v` (coefficient) for relational constraint :math:`m`, load region :math:`l`, and
-
-:math:`rhst`       and is the right hand side of the constraint.
- 
- 
 For this type of constraints only the :math:`ro`-coefficients have to be supplied by the user, the rest is included by the model. It can be defined with and without load regions.
 

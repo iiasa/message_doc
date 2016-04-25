@@ -65,7 +65,7 @@ The change of activities over time can either be limited or included in the obje
 
 .. math::
 
-\sum_{svd}\left [ ro_{svd}^{mt}\times\sum_{e+0}^{e_d}Usvd.e.t\times\epsilon_{svd}-ro_{svd}^{m(t-1)}\times \\ \sum_{e=0}^{e_d}Usvd.e.(t-1)\times\epsilon_{svd} \right ]+\sum_{rsv}\left [ ro_{rvs}^{mt}\timeszrvs...t\times\epsilon_{rvs}-ro_{rvs}^{m(t-1)}\times \\ zrvs...(t-1)\times\epsilon_{rvs} \right ] + \sum_{rvs}\left [ ro_{rvs}^{mlt}\times\sum_lzrvs..lt\times\epsilon_{rvs}-ro_{rvs}^{ml(t-1)}\times \\ \sum_lzrvs..l(t-1)\times\epsilon_{rvs}) \right ]\left\{\begin{matrix}
+   \sum_{svd}\left [ ro_{svd}^{mt}\times\sum_{e+0}^{e_d}Usvd.e.t\times\epsilon_{svd}-ro_{svd}^{m(t-1)}\times \\ \sum_{e=0}^{e_d}Usvd.e.(t-1)\times\epsilon_{svd} \right ]+\sum_{rsv}\left [ ro_{rvs}^{mt}\timeszrvs...t\times\epsilon_{rvs}-ro_{rvs}^{m(t-1)}\times \\ zrvs...(t-1)\times\epsilon_{rvs} \right ] + \sum_{rvs}\left [ ro_{rvs}^{mlt}\times\sum_lzrvs..lt\times\epsilon_{rvs}-ro_{rvs}^{ml(t-1)}\times \\ \sum_lzrvs..l(t-1)\times\epsilon_{rvs}) \right ]\left\{\begin{matrix}
    free & \\ 
    \geq rhs_m^t, & \\ 
    = rhs_m^t & \\ 

@@ -22,11 +22,11 @@ Relations without load regions just sum up the activities (multiplied with the g
 
 .. math::
    \sum_{svd}\left [ ro_{svd}^{mt}\times \sum_{e+0}^{e_d}Usvd.e.t\times\epsilon_svd+\sum_{\tau+t-ip}rc_{svd}^{mt}\timesYUsvd..\tau\right ]+ \\ \sum_{rvs}\left [ ro_{rvs}^{mlt}\times\sum_lzrvs..lt\times\epsilon_{rvs}+ro_{rvs}^{mt}\times zrvs..t\times \epsilon_{rvs}+ \\ \sum_{\tau=t-ip}^trc_{rvs}^{mt} \times Yzrvs..\tau \right ] \left\{\begin{matrix}
-free & \\ 
-\geq rhs_m^t, & \\ 
-=rhs_m^t & \\ 
-\leq rhs_m^t & 
-\end{matrix}\right.
+      free & \\ 
+      \geq rhs_m^t, & \\ 
+      =rhs_m^t & \\ 
+      \leq rhs_m^t & 
+      \end{matrix}\right.
 
 where
 :math:`U svd.e.t`	  and :math:`Y U svd..t` are the activity and capacity variables of the end-use technologies,

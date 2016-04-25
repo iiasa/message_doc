@@ -43,7 +43,6 @@ This representation of end-use technologies has the advantage of reducing the si
 If another level is chosen as demand  level or the demand level is not named ”:math:`U`”, all demand constraints for energy carriers that are modelled with load regions are generated for each load region. The general form of the demand constraints is
 
 .. math::
-
    \sum_{svd}\epsilon_{svd}\times \sum_{e=0}^{e_d}k_e\times Usvd.e.t + \sum_{sv\delta} \beta_{sv\delta}^d \times \sum_{e=0}^{e_\delta }k_e \times Usv \delta ue.t \geq Ud.t ,
 
 where
@@ -69,13 +68,13 @@ where
 5.1.2 	Distribution Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:math:`Fs....lt`
+.. math::
+   Fs....lt
 
 This constraint, the final energy balance, matches the use of final energy needed in the
 end-use technologies and the deliveries of the distribution systems. It is generated for each load region, if energy form s is modelled with load regions.
 
 .. math::
-
    \sum_{svs}\epsilon _{svs}\times Fsvs..lt-\sum_{svd}\eta _{d,l}\times \sum_{e=0}^{e_d}Usvd.e.t-\\ \sum_{\sigma vd}\beta _{\sigma vd}^s \times \eta _{d,l}\times \sum_{e=0}^{e_d}U\sigma vd.e.t\geq 0
 
 where
@@ -99,12 +98,12 @@ where
 5.1.3 	Transmission or Transportation Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:math:`Ts....lt`
+.. math::
+   Ts....lt`
 
 This constraint gives the simplest form of an energy balance equation of MESSAGE. It matches the output of transmission to the requirements of distribution systems. The difference to other levels (:math:`F`, :math:`X`, :math:`A`) is not built-in,  but emerges from the simplicity of energy transportation (i.e., transportation technologies do usually not have by-products and only one input).  Also big industrial consumers that are directly connected to the transmission system would have to be included in this constraint. Like level :math:`F` it does usually exist for all load regions if they are defined for the fuel.
 
 .. math::
-
    \sum_{svs}\epsilon _{svs}\times Tsvs..lt-\sum_{svs}Fsvs..lt\geq 0 .
 
 where
@@ -121,12 +120,12 @@ all the other entries to the equation are the same as in section 6.1.2.
 5.1.4 	Central  Conversion Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:math:`Xs....lt`
+.. math::
+   Xs....lt
 
 In principle the secondary energy balance is built up in the same way as the two previous ones (sections 6.1.2 and 6.1.3). It matches the production of central conversion technologies to the requirements of the transmission  systems. Secondary energy imports and exports of secondary energy are usually assigned to level :math:`X`.
 
 .. math::
-
    rvs Ervs   × X rvs..lt  + rvσ s rvσ × X rvσ..lt  − svs T svs..lt + c,p I X scp.lt  −  c,p EX scp.lt  ≥ 0
  
 where

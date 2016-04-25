@@ -154,25 +154,26 @@ where
 This equation matches production and import of primary energy to the requirements of central conversion, transport and for export. In the general  case primary energy does not have load regions. Some technologies,  like, e.g., nuclear reactors need inventories of primary energy and also leave a last core that is available at the end of the lifetime. It may be necessary to model by-products of extraction technologies, for instance the availability of associated  gas at oil production sites.
 
 .. math:: 
-   \sum _{rvr}\epsilon _rvr \times Arvr..t - \sum _l \left [ \sum _{rvs} Xrvs..lt + \sum _{\rho vs} \beta _{\rho vs}^r \times Xpvs..lt\right ] + \sum _{c,p}IArcp..t -\\ \sum_{c,p}EArcp..t + \sum_{fvs} \left [ \frac{\Delta (t-{\pi _{fvs}})}{\Delta t} \times \rho (fvs,r) \times YXfvs..(t-\tau _fvs) - \\ \frac{\Delta (t+1)}{\Delta t}\times \iota (fvs,r) \times YXfvs..(t+1)) \right] \geq 0
+   \sum _{rvr}\epsilon _rvr \times Arvr..t - \sum _l \left [ \sum _{rvs} Xrvs..lt + \sum _{\rho vs} \beta _{\rho vs}^r \times Xpvs..lt\right ] + \sum _{c,p}IArcp..t -\\ \sum_{c,p}EArcp..t + \sum_{fvs} \left [ \frac{\Delta (t-{\pi _{fvs}})}{\Delta t} \times \rho (fvs,r) \times YXfvs..(t-\tau _{fvs}) - \\ \frac{\Delta (t+1)}{\Delta t}\times \iota (fvs,r) \times YXfvs..(t+1)) \right] \geq 0
 
 where
 :math:`Arvr...t`    is the activity of technology :math:`v` extracting resource :math:`r`,
-:math:`Ervr`	       is the efficiency of technology :math:`v` in extracting fuel :math:`r` (this is usually 1.),
-:math:`ρvs`	        is the efficiency of technology :math:`v` in producing secondary energy form :math:`s` from the by-input :math:`ρ`,
-:math:`I Arcp..t`	  and :math:`EArcp..t` are the import and export variables described in section 5.1.1 and 5.1.2, respectively,
-:math:`τf vs`       is the plant life of technology :math:`v` in periods (depending on the lengths of the periods covered),
-:math:`Y X f vs..t` is the annual new installation of technology :math:`v` in period :math:`t` (see section  2.1.2),
-:math:`ι(f vs, r)`	 is the amount of fuel :math:`r` that is needed when technology :math:`v` goes into operation (usually this is the first core of a reactor). It has to be available in the period before technology :math:`v` goes into operation, the normal unit is kWyr/kW,
-:math:`ρ(f vs, r)`	 is the amount of fuel :math:`r` that becomes available after technology :math:`v` goes out of operation (for a reactor this is the last core that goes to reprocessing). The unit is the same as for :math:`ι(f vs, r)`, and
-:math:`∆t`	         is the length of period :math:`t` in years.
+:math:`\epsilon _rvr`	       is the efficiency of technology :math:`v` in extracting fuel :math:`r` (this is usually 1.),
+:math:`\beta _{\rho vs}^r`	        is the efficiency of technology :math:`v` in producing secondary energy form :math:`s` from the by-input :math:`\rho`,
+:math:`IArcp..t`	  and :math:`EArcp..t` are the import and export variables described in section 4.1.1 and 4.1.2, respectively,
+:math:`\tau _{fvs}`       is the plant life of technology :math:`v` in periods (depending on the lengths of the periods covered),
+:math:`YXfvs..t` is the annual new installation of technology :math:`v` in period :math:`t` (see section  2.1.2),
+:math:`\iota (fvs,r)`	 is the amount of fuel :math:`r` that is needed when technology :math:`v` goes into operation (usually this is the first core of a reactor). It has to be available in the period before technology :math:`v` goes into operation, the normal unit is kWyr/kW,
+:math:`\rho (fvs,r)`	 is the amount of fuel :math:`r` that becomes available after technology :math:`v` goes out of operation (for a reactor this is the last core that goes to reprocessing). The unit is the same as for :math:`\iota (fvs,r)`, and
+:math:`\Delta t`	         is the length of period :math:`t` in years.
 
 5.1.6 	Resource Consumption
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:math:`Rr.....t`
+.. math::
+   Rr.....t
 
-The resources produced by the extraction technologies in a period can come from different cost categories (also called grades), which can, e.g., represent the different effort to reach certain resources. Short-term variations in price due to steeply increasing demand can be represented by an elasticity approach (see section 10.11).
+The resources produced by the extraction technologies in a period can come from different cost categories (also called grades), which can, e.g., represent the different effort to reach certain resources. Short-term variations in price due to steeply increasing demand can be represented by an elasticity approach (see section 9.11).
 
 .. math::
 

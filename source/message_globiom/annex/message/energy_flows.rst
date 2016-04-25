@@ -115,7 +115,7 @@ where
    * - :math:`T svs..lt`
      - is the activity of the transportation technology :math:`v` (see section  2.1.1), and
 
-all the other entries to the equation are the same as in section 6.1.2.
+all the other entries to the equation are the same as in section 5.1.2.
  
 5.1.4 	Central  Conversion Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -123,22 +123,33 @@ all the other entries to the equation are the same as in section 6.1.2.
 .. math::
    Xs....lt
 
-In principle the secondary energy balance is built up in the same way as the two previous ones (sections 6.1.2 and 6.1.3). It matches the production of central conversion technologies to the requirements of the transmission  systems. Secondary energy imports and exports of secondary energy are usually assigned to level :math:`X`.
+In principle the secondary energy balance is built up in the same way as the two previous ones (sections 5.1.2 and 5.1.3). It matches the production of central conversion technologies to the requirements of the transmission  systems. Secondary energy imports and exports of secondary energy are usually assigned to level :math:`X`.
 
 .. math::
-   rvs Ervs   × X rvs..lt  + rvσ s rvσ × X rvσ..lt  − svs T svs..lt + c,p I X scp.lt  −  c,p EX scp.lt  ≥ 0
- 
+   \sum_{rvs}\epsilon _{rvs}\times Xrvs..lt + \sum_{rv\sigma }\beta _{rv\sigma}^s \times Xrv\sigma ..lt - \sum_{svs}Tsvs..lt +\\ \sum _{c,p}IXscp.lt - \sum _{c,p}EXscp.lt \geq 0
+
 where
-:math:`X rvs..lt`   is the activity of central conversion technology :math:`v` in load region :math:`l` and period :math:`t` (see section 2.1.1); if the secondary energy form :math:`s` is not defined with load regions (i.e. :math:`l` = ”.”) and the activity of technology :math:`v` exists for each load region, this equation will contain the sum of the activity variables of technology :math:`v` over the load regions.
-:math:`Ervs`        is the efficiency of technology :math:`v` in converting energy carrier :math:`r` into secondary energy form :math:`s`,
-:math:`rvσ`	        is the efficiency of technology :math:`v` in converting energy carrier :math:`r` into the by-product :math:`s` of technology :math:`v`,
-:math:`T svs..lt`	  is explained in section 6.1.3, and
-:math:`I X scp.lt`  and :math:`EX scp.lt` are the import and export variables explained in sections 5.1.1 and 5.1.2, respectively.
+
+.. list-table::
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`X rvs..lt`
+     - is the activity of central conversion technology :math:`v` in load region :math:`l` and period :math:`t` (see section 2.1.1); if the secondary energy form :math:`s` is not defined with load regions (i.e. :math:`l` = ”.”) and the activity of technology :math:`v` exists for each load region, this equation will contain the sum of the activity variables of technology :math:`v` over the load regions.
+   * - :math:`\epsilon _{rvs}`
+     - is the efficiency of technology :math:`v` in converting energy carrier :math:`r` into secondary energy form :math:`s`,
+   * - :math:`\beta _{rv\sigma}^s`
+     - is the efficiency of technology :math:`v` in converting energy carrier :math:`r` into the by-product :math:`s` of technology :math:`v`,
+   * - :math:`Tsvs..lt`
+     - is explained in section 5.1.3, and
+   * - :math:`IXscp.lt`
+     - and :math:`EXscp.lt` are the import and export variables explained in sections 4.1.1 and 4.1.2, respectively.
 
 5.1.5 	Resource Extraction,  Export  and Import  Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:math:`Ar.....t`
+.. math::
+   Ar.....t
 
 This equation matches production and import of primary energy to the requirements of central conversion, transport and for export. In the general  case primary energy does not have load regions. Some technologies,  like, e.g., nuclear reactors need inventories of primary energy and also leave a last core that is available at the end of the lifetime. It may be necessary to model by-products of extraction technologies, for instance the availability of associated  gas at oil production sites.
 

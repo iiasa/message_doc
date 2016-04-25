@@ -85,13 +85,13 @@ where
 
    * - :math:`F svs..lt`
      - is the activity of the distribution technology in load region :math:`l` and period :math:`t` (see section 2.1.1),
-   * - :math:`Esvs`
+   * - :math:`\epsilon _{svs}`
      - is the efficiency of technology :math:`v` in distributing :math:`s`,
    * - :math:`U svd.e.t`
      - is the activity of end-use technology :math:`v` in period :math:`t` and elasticity class :math:`e`,
-   * - :math:`σvd`
+   * - :math:`\beta _{\sigma vd}^s`
      - is the use of fuel :math:`s` relative to fuel :math:`σ` (the main input) by technology :math:`v`, and
-   * - :math:`\eta _d,l`
+   * - :math:`\eta _{d,l}`
      - is the fraction of demand for :math:`d` occurring in load region :math:`l`.
 
 

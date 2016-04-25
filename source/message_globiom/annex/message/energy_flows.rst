@@ -157,15 +157,30 @@ This equation matches production and import of primary energy to the requirement
    \sum _{rvr}\epsilon _rvr \times Arvr..t - \sum _l \left [ \sum _{rvs} Xrvs..lt + \sum _{\rho vs} \beta _{\rho vs}^r \times Xpvs..lt\right ] + \sum _{c,p}IArcp..t -\\ \sum_{c,p}EArcp..t + \sum_{fvs} \left [ \frac{\Delta (t-{\pi _{fvs}})}{\Delta t} \times \rho (fvs,r) \times YXfvs..(t-\tau _{fvs}) - \\ \frac{\Delta (t+1)}{\Delta t}\times \iota (fvs,r) \times YXfvs..(t+1)) \right] \geq 0
 
 where
-:math:`Arvr...t`    is the activity of technology :math:`v` extracting resource :math:`r`,
-:math:`\epsilon _rvr`	       is the efficiency of technology :math:`v` in extracting fuel :math:`r` (this is usually 1.),
-:math:`\beta _{\rho vs}^r`	        is the efficiency of technology :math:`v` in producing secondary energy form :math:`s` from the by-input :math:`\rho`,
-:math:`IArcp..t`	  and :math:`EArcp..t` are the import and export variables described in section 4.1.1 and 4.1.2, respectively,
-:math:`\tau _{fvs}`       is the plant life of technology :math:`v` in periods (depending on the lengths of the periods covered),
-:math:`YXfvs..t` is the annual new installation of technology :math:`v` in period :math:`t` (see section  2.1.2),
-:math:`\iota (fvs,r)`	 is the amount of fuel :math:`r` that is needed when technology :math:`v` goes into operation (usually this is the first core of a reactor). It has to be available in the period before technology :math:`v` goes into operation, the normal unit is kWyr/kW,
-:math:`\rho (fvs,r)`	 is the amount of fuel :math:`r` that becomes available after technology :math:`v` goes out of operation (for a reactor this is the last core that goes to reprocessing). The unit is the same as for :math:`\iota (fvs,r)`, and
-:math:`\Delta t`	         is the length of period :math:`t` in years.
+
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`Arvr...t`
+     - is the activity of technology :math:`v` extracting resource :math:`r`,
+   * - :math:`\epsilon _rvr`
+     - is the efficiency of technology :math:`v` in extracting fuel :math:`r` (this is usually 1.),
+   * - :math:`\beta _{\rho vs}^r`
+     - is the efficiency of technology :math:`v` in producing secondary energy form :math:`s` from the by-input :math:`\rho`,
+   * - :math:`IArcp..t`
+     - and :math:`EArcp..t` are the import and export variables described in section 4.1.1 and 4.1.2, respectively,
+   * - :math:`\tau _{fvs}`
+     - is the plant life of technology :math:`v` in periods (depending on the lengths of the periods covered),
+   * - :math:`YXfvs..t`
+     - is the annual new installation of technology :math:`v` in period :math:`t` (see section  2.1.2),
+   * - :math:`\iota (fvs,r)`
+     - is the amount of fuel :math:`r` that is needed when technology :math:`v` goes into operation (usually this is the first core of a reactor). It has to be available in the period before technology :math:`v` goes into operation, the normal unit is kWyr/kW,
+   * - :math:`\rho (fvs,r)`
+     - is the amount of fuel :math:`r` that becomes available after technology :math:`v` goes out of operation (for a reactor this is the last core that goes to reprocessing). The unit is the same as for :math:`\iota (fvs,r)`, and
+   * - :math:`\Delta t`
+     - is the length of period :math:`t` in years.
+
 
 5.1.6 	Resource Consumption
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -176,10 +191,17 @@ where
 The resources produced by the extraction technologies in a period can come from different cost categories (also called grades), which can, e.g., represent the different effort to reach certain resources. Short-term variations in price due to steeply increasing demand can be represented by an elasticity approach (see section 9.11).
 
 .. math::
-
-g,p RRrgp..t  − rvr Arvr...t ≥ 0 ,
+   \sum_{g,p}RRrgp..t - \sum_{rvr}Arvr..t \geq 0,
 
 where
-:math:`RRrgp..t`    is the annual extraction of resource :math:`r`, cost category (grade) :math:`g` and elasticity class :math:`p` in period :math:`t`, and
-:math:`Arvr...t`    is the activity of extraction technology :math:`v` in period :math:`t` (as described in section 2.1.1).
+
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math::math:`RRrgp..t`
+     - is the annual extraction of resource :math:`r`, cost category (grade) :math:`g` and elasticity class :math:`p` in period :math:`t`, and
+   * - :math:`Arvr...t`
+     - is the activity of extraction technology :math:`v` in period :math:`t` (as described in section 2.1.1).
+
  

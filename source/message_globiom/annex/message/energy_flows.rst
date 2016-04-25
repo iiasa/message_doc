@@ -154,8 +154,7 @@ where
 This equation matches production and import of primary energy to the requirements of central conversion, transport and for export. In the general  case primary energy does not have load regions. Some technologies,  like, e.g., nuclear reactors need inventories of primary energy and also leave a last core that is available at the end of the lifetime. It may be necessary to model by-products of extraction technologies, for instance the availability of associated  gas at oil production sites.
 
 .. math:: 
-
-rvr Ervr   × Arvr...t − l	rvs X rvs..lt  + ρvs r ρvs l × X ρvs..lt	+ c,p I Arcp..t − c,p EArcp..t  + f vs \ ∆(t − τf vs) ∆t × ρ(f vs, r) × Y X f vs..(t − τf vs) − ∆(t + 1)	l ∆t 	× ι(f vs, r) × Y X f vs..(t + 1) ≥ 0 ,
+   \sum _{rvr}\epsilon _rvr \times Arvr..t - \sum _l \left [ \sum _{rvs} Xrvs..lt + \sum _{\rho vs} \beta _{\rho vs}^r \times Xpvs..lt\right ] + 
 
 where
 :math:`Arvr...t`    is the activity of technology :math:`v` extracting resource :math:`r`,

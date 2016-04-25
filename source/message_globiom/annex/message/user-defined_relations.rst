@@ -19,7 +19,7 @@ The formulation of the user-defined relations is given for relations, that are r
 Relations without load regions just sum up the activities (multiplied with the given coefficients) of all variables defined to be in this constraint. If a technology has load regions, the activity variables for all load regions of this technology are included. If the total capacity of a technology is included, all new capacities from previous periods still operating are included, if new capacities are included, the annual new installation of the current period is taken.
 
 .. math::
-   \sum_{svd}\left [ ro_{svd}^{mt}\times \sum_{e+0}^{e_d}Usvd.e.t\times\epsilon_svd+\sum_{\tau+t-ip}rc_{svd}^{mt}\timesYUsvd..\tau\right ]+ \\ \sum_{rvs}\left [ ro_{rvs}^{mlt}\times\sum_lzrvs..lt\times\epsilon_{rvs}+ro_{rvs}^{mt}\times zrvs..t\times \epsilon_{rvs}+ \\ \sum_{\tau=t-ip}^trc_{rvs}^{mt} \times Yzrvs..\tau \right ] \left\{\begin{matrix}
+   \sum_{svd}\left [ ro_{svd}^{mt}\times \sum_{e+0}^{e_d}Usvd.e.t\times\epsilon_svd+\sum_{\tau+t-ip}rc_{svd}^{mt}\times YUsvd..\tau\right ]+ \\ \sum_{rvs}\left [ ro_{rvs}^{mlt}\times\sum_lzrvs..lt\times\epsilon_{rvs}+ro_{rvs}^{mt}\times zrvs..t\times \epsilon_{rvs}+ \\ \sum_{\tau=t-ip}^trc_{rvs}^{mt} \times Yzrvs..\tau \right ] \left\{\begin{matrix}
       free & \\ 
       \geq rhs_m^t, & \\ 
       =rhs_m^t & \\ 

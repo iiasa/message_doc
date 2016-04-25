@@ -32,7 +32,8 @@ The identifier of the demand level (:math:`U`) which gives it a special meaning 
 5.1.1 	Demand Constraints
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-:math:`Ud.....t`
+.. math::
+   Ud.....t
 
 Out of the predefined  levels each one can be chosen as demand  level. However, level ”:math:`U`” has a special feature. This is related to the fact that useful energy is usually produced on-site, e.g., space heat is produced by a central heating system, and the load variations over the year are all covered by this one system. Thus, an allocation of production technologies to the different areas of the load curve, like the model would set it up according to the relation between investment and operating costs would ignore the fact that these systems are not located in the same place and are not connected to each other. MESSAGE represents the
 end-use technologies by one variable per period that produces the required useful energy in the load pattern needed and requires the inputs in the same pattern. For special technologies like, e.g., night storage heating systems, this pattern can be changed to represent the internal storage capability of the system.
@@ -104,7 +105,7 @@ This constraint gives the simplest form of an energy balance equation of MESSAGE
 
 .. math::
 
-\sum_{svs}\epsilon _{svs}\times Tsvs..lt-\sum_{svs}Fsvs..lt\geq 0 .
+   \sum_{svs}\epsilon _{svs}\times Tsvs..lt-\sum_{svs}Fsvs..lt\geq 0 .
 
 where
 
@@ -126,7 +127,7 @@ In principle the secondary energy balance is built up in the same way as the two
 
 .. math::
 
-rvs Ervs   × X rvs..lt  + rvσ s rvσ × X rvσ..lt  − svs T svs..lt + c,p I X scp.lt  −  c,p EX scp.lt  ≥ 0
+   rvs Ervs   × X rvs..lt  + rvσ s rvσ × X rvσ..lt  − svs T svs..lt + c,p I X scp.lt  −  c,p EX scp.lt  ≥ 0
  
 where
 :math:`X rvs..lt`   is the activity of central conversion technology :math:`v` in load region :math:`l` and period :math:`t` (see section 2.1.1); if the secondary energy form :math:`s` is not defined with load regions (i.e. :math:`l` = ”.”) and the activity of technology :math:`v` exists for each load region, this equation will contain the sum of the activity variables of technology :math:`v` over the load regions.

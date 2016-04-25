@@ -29,26 +29,32 @@ Relations without load regions just sum up the activities (multiplied with the g
       \end{matrix}\right.
 
 where
-:math:`U svd.e.t`	  and :math:`Y U svd..t` are the activity and capacity variables of the end-use technologies,
 
-:math:`zrvs..lt`,   :math:`zrvs...t` and :math:`Y zrvs..t` are the activity variables of technologies with and without load regions and the capacity variables of the technologies,
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
 
-:math:`Ervs`       	and :math:`Esvd` are the efficiencies of the technologies; they are included by the code,
+   * - :math:`Usvd.e.t`
+     - and :math:`Y U svd..t` are the activity and capacity variables of the end-use technologies,
+   * - :math:`zrvs..lt`,
+     - :math:`zrvs...t` and :math:`Yzrvs..t` are the activity variables of technologies with and without load regions and the capacity variables of the technologies,
+   * - :math:`\epsilon_{rvs}`
+     - and :math:`\epsilon_{svd}` are the efficiencies of the technologies; they are included by the code,
+   * - :math:`ro_{svd}^{mt}`
+     - is the relative factor per unit of output of technology :math:`v` (coefficient) for relational constraint :math:`m`,
+   * - :math:`rc_{svd}^{mt}`
+     - is the same per unit of new built capacity,
+   * - :math:`ro_{mlt}^{rvs}`
+     - is the relative factor per unit of output of technology v (coefficient) for relational constraint :math:`m`, load region :math:`l`,
+   * - :math:`rc_{mlt}^{rvs}`
+     - is the same per unit of new built capacity,
+   * - :math:`tl`
+     - is 1 for relations to construction and :math:`\Delta\tau` for relations to total capacity,
+   * - :math:`ip`
+     - is 1 for accounting during construction and the plant life on periods for accounting of total capacity, and
+   * - :math:`rhs_m^t`
+     - is the right hand side of the constraint.
 
-:math:`svd`        	is the relative factor per unit of output of technology :math:`v` (coefficient) for relational constraint :math:`m`,
-
-:math:`svd`        	is the same per unit of new built capacity,
-
-:math:`rvs`        	is the relative factor per unit of output of technology v (coefficient) for relational constraint :math:`m`, load region :math:`l`,
-
-:math:`rvs`        	is the same per unit of new built capacity,
-
-:math:`tl`          is 1 for relations to construction and :math:`∆τ` for relations to total capacity,
-
-:math:`ip`         	is 1 for accounting during construction and the plant life on periods for accounting of total capacity, and
-
-:math:`rhst`        is the right hand side of the constraint.
- 
 
 7.1.2 	Construction of Relations between Periods
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

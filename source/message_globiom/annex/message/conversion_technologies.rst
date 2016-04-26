@@ -85,26 +85,20 @@ where
    :widths: 40 110
    :header-rows: 0
 
+   * - :math:`C`
+     - is the identifier for capacity constraints,
    * - :math:`z`
-     - is the level identifier of the main output of the technology. :math:`z = U` identifies the end-use level. This level is handled differently to all other levels: It has to be the demand level and technologies with the main output on this level are defined without load regions.
+     - identifies the level on that the main energy output of the technology is defined,
    * - :math:`s`
-     - is the main energy input of the technology (supply). If the technology has no input :math:`s` is set to ”.” (e.g., solar technologies),
+     - is the identifier of the main energy input of the technology,
    * - :math:`v`
-     - additional identifier of the conversion technology (used to distinguish technologies with the same input and output),
+     - additional identifier of the conversion technology,
    * - :math:`d`
-     - is the main energy output of the technology (demand),
-   * - :math:`e`
-     - is the level of reduction of demand due to own-price elasticities of demands (does only occur on the demand level; otherwise or if this demand has no elasticities :math:`e = ”.”`),
+     - is the identifier of the main energy output of the technology,
+   * - :math:`l`
+     - identifies the load region, :math:`l \in \{1, 2, 3, ...\} or l = ”.”`, if the technology is not modelled with load regions, and
    * - :math:`t`
-     - identifies the period, :math:`t\in \{ a, b, c, ...\}`.
-
-:math:`C`	is the identifier for capacity constraints,
-:math:`z`	identifies the level on that the main energy output of the technology is defined,
-:math:`s`	is the identifier of the main energy input of the technology,
-:math:`v`	additional identifier of the conversion technology,
-:math:`d`	is the identifier of the main energy output of the technology,
-:math:`l`	identifies the load region, :math:`l ∈ {1, 2, 3, ...} or l = ”.”`, if the technology is not modelled with load regions, and
-:math:`t`	is the period in that the capacity goes into operation.
+     - is the period in that the capacity goes into operation.
 
 For all conversion technologies modelled with capacity variables the capacity constraints will be generated automatically. If the activity variables exist for each load region separately there will be one capacity constraint per load region (see also section 9.4). If the technology is an end-use technology the sum over the elasticity classes will be included in the capacity constraint.
 

@@ -116,7 +116,8 @@ Many types of energy conversion technologies do not have fix relations between t
 
 In the following this constraint is only described for technologies without load regions; the other types are constructed in analogy (see also section 9.7).
 
-:math:`relsvd σv/ δ σv/ δ  × Eσv/ δ  × zσv δ...t − min(t,κsvd ) τ =t−τsvd ∆(τ − 1) × πsvd  × fi × Y zsvd..τ ≤ hct × πsvd` ,
+.. math::
+   \epsilon_{svd} \times zsvd...t - \sum_{\tau =t-\tau_{svd}}^{min(t,\kappa_{svd}} \Delta(\tau-1)\times \pi_{svd}\times f_i \times Yzsvd..\tau \leq hc_{svd}^t \times \pi_{svd} ,
  
 The following notation is used in the above equations:
  

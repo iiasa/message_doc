@@ -13,69 +13,97 @@ Energy conversion technologies are modelled using two types of variables, that r
 
 where
 
-:math:`z`	 is the level identifier of the main output of the technology.
-:math:`z = U`  identifies the end-use level. This level is handled differently to all other levels: It has to be the demand level and technologies with the main output on this level are defined without load regions.
-:math:`s`	 is the main energy input of the technology (supply). If the technology has no input :math:`s` is set to ”.” (e.g., solar technologies),
-:math:`v`	 additional identifier of the conversion technology (used to distinguish technologies with the same input and output),
-:math:`d`	 is the main energy output of the technology (demand),
-:math:`e`	 is the level of reduction of demand due to own-price elasticities of demands (does only occur on the demand level; otherwise or if this demand has no elasticities :math:`e = ”.”`),
-:math:`t`	 identifies the period, :math:`t\in & a, b, c, ...%`.
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`z`
+     - is the level identifier of the main output of the technology. :math:`z = U` identifies the end-use level. This level is handled differently to all other levels: It has to be the demand level and technologies with the main output on this level are defined without load regions.
+   * - :math:`s`
+     - is the main energy input of the technology (supply). If the technology has no input :math:`s` is set to ”.” (e.g., solar technologies),
+   * - :math:`v`
+     - additional identifier of the conversion technology (used to distinguish technologies with the same input and output),
+   * - :math:`d`
+     - is the main energy output of the technology (demand),
+   * - :math:`e`
+     - is the level of reduction of demand due to own-price elasticities of demands (does only occur on the demand level; otherwise or if this demand has no elasticities :math:`e = ”.”`),
+   * - :math:`t`
+     - identifies the period, :math:`t\in & a, b, c, ...%`.
 
 The activity variable of an energy conversion technology is an energy flow variable. It represents the annual consumption of this technology of the main input per period. If a technology has no input, the variable represents the annual production of the main output.
  
-If the level of the main output is not U and at least one of the energy carriers consumed or supplied is defined with load regions the technology is defined with load regions. In this case the activity variables are generated separately for each load region, which is indicated by the additional identifier l in position 7. However, this can be changed by fixing the production of the technology over the load regions to a predefined pattern (see section 9.4): one variable is generated for all load regions, the distribution to the load regions is given by the definition of the user (e.g., production pattern of solar power-plants).
+If the level of the main output is *not* U and at least one of the energy carriers consumed or supplied is defined with load regions the technology is defined with load regions. In this case the activity variables are generated separately for each load region, which is indicated by the additional identifier l in position 7. However, this can be changed by fixing the production of the technology over the load regions to a predefined pattern (see section 9.4 **not inlcuded**): one variable is generated for all load regions, the distribution to the load regions is given by the definition of the user (e.g., production pattern of solar power-plants).
 
-If the model is formulated with demand elasticities  (see section 9.10), the activity variables of technologies with a demand  as main output that is defined with elasticity are generated for each elasticity class (identifier :math:`e` in position 6).
+If the model is formulated with demand elasticities  (see section 9.10 **not included**), the activity variables of technologies with a demand  as main output that is defined with elasticity are generated for each elasticity class (identifier :math:`e` in position 6).
 
 2.1.2 	Capacities of Energy Conversion Technologies
 ~~~~~~~~~~~~~~~~~~~~~~
-:math:`Y zsvd..t`, 
+.. math:: 
+   Yzsvd..t, 
 
 where
 
-:math:`Y`	is the identifier for capacity variables.
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
 
-:math:`z`	identifies the level on that the main energy output of the technology is defined,
-
-:math:`s`	is the identifier of the main energy input of the technology,
-
-:math:`v`	additional identifier of the conversion technology,
-
-:math:`d`	is the identifier of the main energy output of the technology, and
-
-:math:`t`	is the period in that the capacity goes into operation.
+   * - :math:`Y`
+     - is the identifier for capacity variables.
+   * - :math:`z`
+     - identifies the level on that the main energy output of the technology is defined,
+   * - :math:`s`
+     - is the identifier of the main energy input of the technology,
+   * - :math:`v`
+     - additional identifier of the conversion technology,
+   * - :math:`d`
+     - is the identifier of the main energy output of the technology, and
+   * - :math:`t`
+     - is the period in that the capacity goes into operation.
 
 The capacity variables are power variables. Technologies can be modelled without capacity variables. In this case no capacity constraints and no dynamic constraints on construction can be included in the model. Capacity variables of energy conversion technologies can be defined  as integer variables, if the solution algorithm has a mixed integer option.
 
-If a capacity variable is continuous it represents the annual new installations of the technology in period :math:`t`, if it is integer it represents either the annual number of installations of a certain size or the number of installations of :math:`1/∆t` times the unit size (depending  on the definition; :math:`∆t` is the length of period :math:`t` in years).
+If a capacity variable is continuous it represents the annual new installations of the technology in period :math:`t`, if it is integer it represents either the annual number of installations of a certain size or the number of installations of :math:`1/\Delta t` times the unit size (depending  on the definition; :math:`\Delta t` is the length of period :math:`t` in years).
 
 The capacity is defined in relation to the main output of the technology.
 
 2.2 	Constraints
 ~~~~~~~~~~~~~~~~~~~~~~
 The rows used to model energy conversion technologies limit
+
 – the utilization of a technology in relation to the capacity actually installed (capacity constraint) and
 – the activity or construction of a technology in a period in relation to the same variable in the previous period (dynamic constraints).
  
 2.2.1 	Capacity Constraints
 ~~~~~~~~~~~~~~~~~~~~~~
 
-:math:`C zsvd.lt`, 
+.. math::
+   C zsvd.lt, 
 
 where
 
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`z`
+     - is the level identifier of the main output of the technology. :math:`z = U` identifies the end-use level. This level is handled differently to all other levels: It has to be the demand level and technologies with the main output on this level are defined without load regions.
+   * - :math:`s`
+     - is the main energy input of the technology (supply). If the technology has no input :math:`s` is set to ”.” (e.g., solar technologies),
+   * - :math:`v`
+     - additional identifier of the conversion technology (used to distinguish technologies with the same input and output),
+   * - :math:`d`
+     - is the main energy output of the technology (demand),
+   * - :math:`e`
+     - is the level of reduction of demand due to own-price elasticities of demands (does only occur on the demand level; otherwise or if this demand has no elasticities :math:`e = ”.”`),
+   * - :math:`t`
+     - identifies the period, :math:`t\in \{ a, b, c, ...\}`.
+
 :math:`C`	is the identifier for capacity constraints,
-
 :math:`z`	identifies the level on that the main energy output of the technology is defined,
-
 :math:`s`	is the identifier of the main energy input of the technology,
-
 :math:`v`	additional identifier of the conversion technology,
-
 :math:`d`	is the identifier of the main energy output of the technology,
-
 :math:`l`	identifies the load region, :math:`l ∈ {1, 2, 3, ...} or l = ”.”`, if the technology is not modelled with load regions, and
-
 :math:`t`	is the period in that the capacity goes into operation.
 
 For all conversion technologies modelled with capacity variables the capacity constraints will be generated automatically. If the activity variables exist for each load region separately there will be one capacity constraint per load region (see also section 9.4). If the technology is an end-use technology the sum over the elasticity classes will be included in the capacity constraint.

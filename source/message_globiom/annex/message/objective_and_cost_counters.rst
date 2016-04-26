@@ -19,9 +19,9 @@ The different types of costs (i.e. entries for the objective function) can be ac
      - investment costs; if the investments of a technology are distributed over the previous periods, also the entries to this accounting rows are distributed (if the capital costs are levellized, the total payments in a period can be taken from :math:`CINV`; :math:`CCAP` shows the share of investments in the according period, then),
    * - :math:`CRES`
      - domestic fuel costs,
-   * - :math:`CAR` 1
+   * - :math:`CAR1`
      - costs related to the user defined relations of type 1 (see section 7), 
-   * - :math:`CAR` 2
+   * - :math:`CAR2`
      - costs related to the user defined relations of type 2 (see section 7),
    * - :math:`CRED`
      - costs for reducing demands due to demand elasticities, only related to technologies supplying the demands directly,
@@ -44,7 +44,7 @@ In its usual form the objective function contains the sum of all discounted cost
 The objective function has the following general form:
 
 .. math::
-   \sum_t\left [ \beta_m^t \Delta t\left \{ \sum_{svd}\sum_lzsvd..lt\times\epsilon_{svd}\times\left [ ccur(svd,t)+\sum_i\sum_mro_{svd}^{mlt}\times cari(ml,t)\right ]+ \\ \sum_{svd}\epsilon_{svd}\times\sum_{e=0}^{e_d}Usvd.e.t\times\epsilon_{svd}\times\left [ \kappa _e\times(ccur(svd,t)+\sum_mro_{svd}^{mt}\times car2(m,t)) + \\ cred(d,e)+\sum_mro_{svd}^{mt}\times car1(m,t))) \right ] +\sum_{svd}\sum_{\tau =t-\tau_{svd}}^t\Delta\tau\times Yzsvd..\tau\times cfix(svd,\tau)+ \\ \sum_r \left [\sum_g\sum_l\sum_pRzrgp.lt\times cres(rgpl,t)+ \\ \sum_c\sum_l\sum_pIzrcp.lt\times cimp(rcpl,t) -\sum_c|sum_l|sum_p Ezrcp.lt\times cexp(rcpl,t) \right ] \right \} + \\\beta_b^t\times\left \{ \sum_{svd}\sum_{\tau=t}^{t+t_d}\Delta(t-1)\times Yzsvd..\tau\times\left [ ccap(svd,\tau)\times fri_{svd}^{t_d-\tau}+ \\ \sum_i\sum_mrc_{svd}^{mt} \times cari(m,t)\times fra_{svd,m}^{t_d-\tau} \right ] \right \} \right ]
+   \sum_t\left [ \beta_m^t \Delta t\left \{ \sum_{svd}\sum_lzsvd..lt\times\epsilon_{svd}\times\left [ ccur(svd,t)+\sum_i\sum_mro_{svd}^{mlt}\times cari(ml,t)\right ]+ \\ \sum_{svd}\epsilon_{svd}\times\sum_{e=0}^{e_d}Usvd.e.t\times\epsilon_{svd}\times\left [ \kappa _e\times(ccur(svd,t)+\sum_mro_{svd}^{mt}\times car2(m,t)) + \\ cred(d,e)+\sum_mro_{svd}^{mt}\times car1(m,t) \right ] +\sum_{svd}\sum_{\tau =t-\tau_{svd}}^t\Delta\tau\times Yzsvd..\tau\times cfix(svd,\tau)+ \\ \sum_r \left [\sum_g\sum_l\sum_pRzrgp.lt\times cres(rgpl,t)+ \\ \sum_c\sum_l\sum_pIzrcp.lt\times cimp(rcpl,t) -\sum_c\sum_l\sum_p Ezrcp.lt\times cexp(rcpl,t) \right ] \right \} + \\\beta_b^t\times\left \{ \sum_{svd}\sum_{\tau=t}^{t+t_d}\Delta(t-1)\times Yzsvd..\tau\times\left [ ccap(svd,\tau)\times fri_{svd}^{t_d-\tau}+ \\ \sum_i\sum_mrc_{svd}^{mt} \times cari(m,t)\times fra_{svd,m}^{t_d-\tau} \right ] \right \} \right ]
 
 where
 

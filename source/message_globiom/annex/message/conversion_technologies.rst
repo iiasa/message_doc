@@ -108,7 +108,8 @@ Additionally  the activity variables of different technologies can be linked to 
 
 For technologies without load regions (i.e. technologies, where no input or output is modelled with load regions) the production is related to the total installed capacity by the plant factor. For these technologies the plant factor has to be given as the fraction they actually operate per year. All end-use technologies (technologies  with main output level ”U ”) are modelled in this way.
 
-:math:`Esvd   × zsvd...t − min(t,κsvd ) τ =t−τsvd ∆(τ − 1) × πsvd  × fi × Y zsvd..τ ≤ hct × πsvd`
+.. math::
+   \epsilon_{svd} \times zsvd...t - \sum_{\tau =t-\tau_{svd}}^{min(t,\kappa_{svd}} \Delta(\tau-1)\times \pi_{svd}\times f_i \times Yzsvd..\tau \leq hc_{svd}^t \times \pi_{svd} ,
  
 **Technologies with Varying Inputs and Outputs**
 
@@ -117,63 +118,52 @@ Many types of energy conversion technologies do not have fix relations between t
 In the following this constraint is only described for technologies without load regions; the other types are constructed in analogy (see also section 9.7).
 
 .. math::
-   \epsilon_{svd} \times zsvd...t - \sum_{\tau =t-\tau_{svd}}^{min(t,\kappa_{svd}} \Delta(\tau-1)\times \pi_{svd}\times f_i \times Yzsvd..\tau \leq hc_{svd}^t \times \pi_{svd} ,
+   \sum_{\sigma {v}'\delta }rel_{\sigma {v}'\delta} ^{svd}\times\epsilon_{\sigma {v}'\delta }\times z\sigma {v}'\delta ...t-
  
 The following notation is used in the above equations:
  
 :math:`zsvd..lt`	 is the activity of conversion technology :math:`v` in period :math:`t` and, if defined so, load region :math:`l` (see section 2.1.1),
-
 :math:`Y zsvd..t` is the capacity variable of conversion technology :math:`v` (see section 2.1.2).
-
 :math:`Esvd`	 is the efficiency of technology :math:`v` in converting the main energy input, :math:`s`, into the main energy output, :math:`d`,
-
 :math:`κsvd`  is the last period in that technology :math:`v` can be constructed,
-
 :math:`πsvd`	 is the "plant factor" of technology :math:`v`, having different meaning depending on the type of capacity equation applied,
-
 :math:`∆τ` 	 is the length of period :math:`τ` in years,
-
 :math:`τsvd` 	 is the plant life of technology :math:`v` in periods,
-
 :math:`t svd` represents the installations built before the time horizon under consideration, that are still in operation in the first year of period :math:`t`,
- 
-:math:`fi` 	is 1. if the capacity variable is continuous, and represents the minimum installed capacity per year (unit size) if the variable is integer,
-
+ :math:`fi` 	is 1. if the capacity variable is continuous, and represents the minimum installed capacity per year (unit size) if the variable is integer,
 :math:`lm` 	is the load region with maximum capacity use if the production pattern over the year is fixed,
-
 :math:`π(lm, svd)`  is the share of output in the load region with maximum production,
-
 :math:`σv/ δ`	is the relative capacity of main output of technology (or operation mode) svd to the capacity of main output of the alternative technology (or operation
-
 :math:`mode)σv δ`,
-
 :math:`λl` 	is the length of load region :math:`l` as fraction of the year, and
-
 :math:`λlm` 	is the length of load region :math:`lm`, the load region with maximum capacity requirements, as fraction of the year.
 
 
 2.2.2 	Upper Dynamic Constraints on Construction Variables
 ~~~~~~~~~~~~~~~~~~~~~~
 
-:math:`M Y zsvd.t`
+.. math::
+   MYzsvd.t
 
 The dynamic capacity constraints relate the amount of annual new installations of a technology in a period to the annual construction during the previous period.
 
-:math:`Y zsvd..t − γyo`
- 
-:math:`× Y zsvd..(t − 1) ≤ gyo`,
+.. math::
+   
  
 where
 
-:math:`o svd,t o svd,t`  is the maximum growth rate per period for the construction of technology :math:`v`, is the initial size (increment) that can be given for the introduction of new technologies,
- 
-:math:`Y zsvd..t`	 is the annual new installation of technology :math:`v` in period :math:`t`.
+:math:`o svd,t o svd,t`  is the maximum growth rate per period for the construction of technology :math:`v`, 
+is the initial size (increment) that can be given for the introduction of new technologies,
+ :math:`Y zsvd..t`	 is the annual new installation of technology :math:`v` in period :math:`t`.
 
 2.2.3 	Lower Dynamic Constraints on Construction Variables
 ~~~~~~~~~~~~~~~~~~~~~~
-:math:`LY zsvd.t`
- 
-:math:`Y zsvd..t − γysvd,t   × Y zsvd..(t − 1) ≥ − gysvd,t`,
+
+.. math:: 
+   LYzsvd.t
+
+.. math::
+   Y zsvd..t − γysvd,t   × Y zsvd..(t − 1) ≥ − gysvd,t,
 
 where
 

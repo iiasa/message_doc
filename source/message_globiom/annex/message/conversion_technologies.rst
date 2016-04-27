@@ -169,9 +169,17 @@ The dynamic capacity constraints relate the amount of annual new installations o
  
 where
 
-:math:`o svd,t o svd,t`  is the maximum growth rate per period for the construction of technology :math:`v`, 
-is the initial size (increment) that can be given for the introduction of new technologies,
- :math:`Y zsvd..t`	 is the annual new installation of technology :math:`v` in period :math:`t`.
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`\gamma y_{svd,t}^o`
+     - is the maximum growth rate per period for the construction of technology :math:`v`,
+   * - :math:`gy_{svd,t}^o`
+     - is the initial size (increment) that can be given for the introduction of new technologies,
+   * - :math:`Yzsvd..t`
+     - is the annual new installation of technology :math:`v` in period :math:`t`.
+
 
 2.2.3 	Lower Dynamic Constraints on Construction Variables
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -180,36 +188,61 @@ is the initial size (increment) that can be given for the introduction of new te
    LYzsvd.t
 
 .. math::
-   Y zsvd..t − γysvd,t   × Y zsvd..(t − 1) ≥ − gysvd,t,
+   Yzsvd..t − \gamma y_{svd,t} \times Yzsvd..(t−1) \geq −gy_{svd,t},
 
 where
 
-:math:`γysvd,t` 	is the minimum growth rate per period for the construction of technology :math:`v, gysvd,t`	is the ”last”  size (decrement) allowing technologies to go out of the market, and :math:`Y zsvd..t`	is the annual new installation of technology:math:`v` in period :math:`t`.
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`\gamma y_{svd,t}`
+     - is the minimum growth rate per period for the construction of technology :math:`v`,
+   * - :math`gy_{svd,t}`
+     - is the ”last” size (decrement) allowing technologies to go out of the market, and
+   * - :math:`Yzsvd..t`
+     - is the annual new installation of technology :math:`v` in period :math:`t`.
 
 
 2.2.4 	Upper Dynamic Constraints on Activity Variables
 ~~~~~~~~~~~~~~~~~~~~~~
-:math:`M zsvd..t`
+.. math::
+   M zsvd..t
 
 The dynamic production constraints relate the production of a technology in one period to the production in the previous period. If the technology is defined with load regions, the sum over the load regions is included in the constraint.
 
-:math:`Esvd   × \ zsvd..lt  − γao l  × zsvd..l(t − 1) l ≤ gao`, 
+.. math::
+   \sum_l\epsilon_{svd}\times \left [ zsvd..lt - \gamma a_{svd,t}^o \times zsvd..l (t-1) \right ] \leq ga_{svd,t}^o, 
 
 where
 
-:math:`o svd,t  o svd,t`
- 
-are the maximum growth rate and increment as described  in section 2.2.2 (the increment is to be given in units of main output), and
-:math:`zsvd..lt`	is the activity of technology :math:`v` in load region :math:l`.
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`\gamma a_{svd,t}^o`
+     - and :math:`ga_{svd,t}^o`are the maximum growth rate and increment as described  in section 2.2.2 (the increment is to be given in units of main output), and
+   * - :math:`zsvd..lt`
+     - is the activity of technology :math:`v` in load region :math:l`.
 
 If demand elasticities are modelled, the required sums are included for end-use technologies.
 
 
 2.2.5 	Lower Dynamic Constraints on Activity Variables
 ~~~~~~~~~~~~~~~~~~~~~~
-:math:`Lzsvd..t Esvd   × [ zsvd..lt  − γasvd,t  × zsvd..l(t − 1) ]  ≥ − gasvd,t, l`
+.. math::
+   Lzsvd..t
+   
+.. math::
+   \sum_l\epsilon_{svd}\times \left [zsvd..lt - \gamma a_{svd,t}\times zsvd..l(t-1) \right ] \geq - ga_{svd,t},
 
 where
 
-:math:`γasvd,t` 	and :math:`gasvd,t` are the maximum growth rate and increment as described in section 2.2.3, and :math:`zsvd..lt`	is the activity of technology :math:`v` in load region :math:`l`.
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
 
+   * - :math:`\gamma a_{svd,t}`
+     - and :math:`ga_{svd,t}` are the maximum growth rate and increment as described in section 2.2.3, and
+   * - :math:`zsvd..lt`
+     - is the activity of technology :math:`v` in load region :math:`l`.

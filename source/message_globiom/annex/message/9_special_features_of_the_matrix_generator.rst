@@ -14,7 +14,7 @@ The whole time horizon of the calculations is divided into periods of optional l
 where
 
 .. list-table:: 
-   :widths: 40 110
+   :widths: 35 65
    :header-rows: 0
 
    * - :math:`C_t^r`
@@ -29,7 +29,7 @@ where
    \end{matrix}\right.
 
 .. list-table:: 
-   :widths: 40 110
+   :widths: 35 65
    :header-rows: 0
 
    * - :math:`dr_k`
@@ -114,7 +114,7 @@ The possible contribution of an installation that exists in the base year is kep
 where
 
 .. list-table:: 
-   :widths: 40 110
+   :widths: 35 65
    :header-rows: 0
 
    * - :math:`y_t`
@@ -141,7 +141,7 @@ If a capacity of a technology is built in one of the last periods its life time 
 where
 
 .. list-table:: 
-   :widths: 40 110
+   :widths: 35 65
    :header-rows: 0
 
    * - :math:`\nu`

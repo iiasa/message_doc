@@ -8,22 +8,17 @@ Imports and exports are modelled by variables that represent the quantity import
 4.1.1 	Import  Variables
 ~~~~~~~~~~~~~~~~~~~~~
 
-:math:`I zscp.lt`, 
+.. math::
+   Izscp.lt,
 
 where
 
 :math:`I`	identifies import variables,
-
 :math:`z`	is the level on that the imported energy form is defined (usually primary energy and secondary energy),
-
 :math:`s`	identifies the imported energy carrier,
-
 :math:`c`	is the identifier of the country or region the imports come from,
-
 :math:`p`	is the class of supply elasticity, which is defined for the energy carrier and country, or ”.”, if no elasticity is defined for this energy carrier and country,
-
 :math:`l`	is the load region identifier if :math:`s` is modelled with load regions, otherwise ”.”, and
-
 :math:`t`	identifies the period.
 
 The import variables are energy flow variables and represent the annual import of the identified energy carrier from the country or region given. If supply elasticities are defined for the import of this energy carrier and country one variable per elasticity class (identifier :math:`p` in position 5) is generated.

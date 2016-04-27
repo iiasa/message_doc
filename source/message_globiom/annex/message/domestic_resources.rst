@@ -6,20 +6,17 @@ Extraction of domestic resources is modelled by variables that represent the qua
 
 3.1.1 	Resource Extraction  Variables
 ~~~~~~~~~~~~~~~~~
-:math:`Rzrgp..t`, 
+.. math::
+   Rzrgp..t,
 
 where
 
+
 :math:`R` 	identifies resource extraction variables,
-
 :math:`z`	is the level on that the resource is defined (usually :math:`= R)`,
-
 :math:`r`	is the identifier of the resource being extracted,
-
-:math:`g`	is the grade (also called cost category) of resource :math:`r, g ∈ {a, b, c, ...}`.
-
+:math:`g`	is the grade (also called cost category) of resource :math:`r, g \in \{a, b, c, ...\}`.
 :math:`p`	is the class of supply elasticity, which is defined for the resource and grade, or ”.”, if no elasticity is defined for this resource and grade, and
-
 :math:`t`	identifies the period.
 
 The resource variables are energy flow variables and represent the annual rate of extraction

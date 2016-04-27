@@ -118,25 +118,42 @@ Many types of energy conversion technologies do not have fix relations between t
 In the following this constraint is only described for technologies without load regions; the other types are constructed in analogy (see also section 9.7).
 
 .. math::
-   \sum_{\sigma {v}'\delta }rel_{\sigma {v}'\delta} ^{svd}\times\epsilon_{\sigma {v}'\delta }\times z\sigma {v}'\delta ...t-
+   \sum_{\sigma {v}'\delta }rel_{\sigma {v}'\delta} ^{svd}\times\epsilon_{\sigma {v}'\delta }\times z\sigma {v}'\delta ...t- \\ \sum_{\tau=t-\tau_{svd}}^{min(t,\kappa_{svd})}\Delta(\tau-1)\times \pi_{svd}\timesf_i\times Yzsvd..\tau \leq hc_{svd}^t\times \pi_{svd},
  
 The following notation is used in the above equations:
- 
-:math:`zsvd..lt`	 is the activity of conversion technology :math:`v` in period :math:`t` and, if defined so, load region :math:`l` (see section 2.1.1),
-:math:`Y zsvd..t` is the capacity variable of conversion technology :math:`v` (see section 2.1.2).
-:math:`Esvd`	 is the efficiency of technology :math:`v` in converting the main energy input, :math:`s`, into the main energy output, :math:`d`,
-:math:`κsvd`  is the last period in that technology :math:`v` can be constructed,
-:math:`πsvd`	 is the "plant factor" of technology :math:`v`, having different meaning depending on the type of capacity equation applied,
-:math:`∆τ` 	 is the length of period :math:`τ` in years,
-:math:`τsvd` 	 is the plant life of technology :math:`v` in periods,
-:math:`t svd` represents the installations built before the time horizon under consideration, that are still in operation in the first year of period :math:`t`,
- :math:`fi` 	is 1. if the capacity variable is continuous, and represents the minimum installed capacity per year (unit size) if the variable is integer,
-:math:`lm` 	is the load region with maximum capacity use if the production pattern over the year is fixed,
-:math:`π(lm, svd)`  is the share of output in the load region with maximum production,
-:math:`σv/ δ`	is the relative capacity of main output of technology (or operation mode) svd to the capacity of main output of the alternative technology (or operation
-:math:`mode)σv δ`,
-:math:`λl` 	is the length of load region :math:`l` as fraction of the year, and
-:math:`λlm` 	is the length of load region :math:`lm`, the load region with maximum capacity requirements, as fraction of the year.
+
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`zsvd..lt`
+     - is the activity of conversion technology :math:`v` in period :math:`t` and, if defined so, load region :math:`l` (see section 2.1.1),
+   * - :math:`Yzsvd..t`
+     - is the capacity variable of conversion technology :math:`v` (see section 2.1.2).
+   * - :math:`\epsilon_{svd}`
+     - is the efficiency of technology :math:`v` in converting the main energy input, :math:`s`, into the main energy output, :math:`d`,
+   * - :math:`\kappa_{svd}`
+     - is the last period in that technology :math:`v` can be constructed,
+   * - :math:`\pi_{svd}`
+     - is the "plant factor" of technology :math:`v`, having different meaning depending on the type of capacity equation applied,
+   * - :math:`\Delta \tau`
+     - is the length of period :math:`\tau` in years,
+   * - :math:`\tau_{svd}`
+     - is the plant life of technology :math:`v` in periods,
+   * - :math:`hc_{svd}^t`
+     - represents the installations built before the time horizon under consideration, that are still in operation in the first year of period :math:`t`,
+   * - :math:`f_i`
+     - is 1. if the capacity variable is continuous, and represents the minimum installed capacity per year (unit size) if the variable is integer,
+   * - :math:`l_m`
+     - is the load region with maximum capacity use if the production pattern over the year is fixed,
+   * - :math:`\pi(l_m, svd)`
+     - is the share of output in the load region with maximum production,
+   * - :math:`rel_{\sigma {v}'\delta`
+     - is the relative capacity of main output of technology (or operation mode) svd to the capacity of main output of the alternative technology (or operation mode) :math:`\sigma {v}'\delta`,
+   * - :math:`\lambda _l`
+     - is the length of load region :math:`l` as fraction of the year, and
+   * - :math:`\lambda_{l_m}`
+     - is the length of load region :math:`l_m`, the load region with maximum capacity requirements, as fraction of the year.
 
 
 2.2.2 	Upper Dynamic Constraints on Construction Variables
@@ -148,7 +165,7 @@ The following notation is used in the above equations:
 The dynamic capacity constraints relate the amount of annual new installations of a technology in a period to the annual construction during the previous period.
 
 .. math::
-   
+   Yzsvd..t - \gamma y_{svd,t}^o \times Yzsvd..(t-1) \leq gy_{svd,t}^o,
  
 where
 

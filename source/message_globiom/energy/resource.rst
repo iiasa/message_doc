@@ -39,7 +39,7 @@ Table 3.1 shows the assumed total quantities of fossil fuel resources in the MES
      - 20.1 – 67.1
      - 40.2 – 122
 
-Coal is the largest resource among fossil fuels with more than 100 ZJ; it accounts for more than 50% of total fossil reserve+resource estimates even at the higher end of the assumptions, which includes considerable amounts of unconventional hydrocarbons. Oil is the most vulnerable fossil fuel at less than 10 ZJ of conventional oil and possibly less than 10 ZJ of unconventional oil. Natural gas is more abundant in both the conventional and unconventional categories.
+Coal is the largest resource among fossil fuels; it accounts for more than 50% of total fossil reserve+resource estimates even at the higher end of the assumptions, which includes considerable amounts of unconventional hydrocarbons. Oil is the most vulnerable fossil fuel at less than 10 ZJ of conventional oil and possibly less than 10 ZJ of unconventional oil. Natural gas is more abundant in both the conventional and unconventional categories.
 
 Conventional oil and gas are distributed unevenly throughout the world, with only a few regions dominating the reserves. Nearly half of the reserves of conventional oil is found in Middle East and North Africa, and close to 40% of conventional gas is found in the Former Soviet Union. Coal shows much more geographical diversity: the Former Soviet Union, Pacific OECD, North America, and Centrally Planned Asia and China all possess more than 10 ZJ of reserves.
 

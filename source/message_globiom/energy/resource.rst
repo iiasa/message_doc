@@ -99,3 +99,8 @@ While potentials for renewable energy can differ quite substantially between dif
 
 .. image:: /_static/map_3.3.png
 **Figure 3.3.**  Renewable energy deployment potentials by region in 2050, as assumed in the MESSAGE model. 
+
+.. image:: /_static/Availability of BE.png
+**Figure 3.4.** Availability of bioenergy at different price levels in the IIASA IAM framework for the three SSPs. 
+* typically non-commercial biomass is not traded or sold, however in some cases there is a market – prices range from 0.1-1.5$/GJ (Pachauri et al., 2013) ($ equals 2005 USD). 
+

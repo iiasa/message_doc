@@ -1,5 +1,5 @@
-Climate
-========
+EMissions and climate
+======================
 
 Emissions (energy)
 ------------------

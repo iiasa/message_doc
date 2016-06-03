@@ -1,4 +1,4 @@
-EMissions and climate
+Emissions and climate
 ======================
 
 Emissions (energy)

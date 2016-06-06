@@ -132,3 +132,38 @@ When comparing the data used in MESSAGE-GLOBIOM with the original data source (b
    * - **Totals**
      - 555.6
      - 570.8
+
+A possible explanation could be, that the differences have occurred due to a distribution of emissions associated with HFC-23 across the various sectors.  But a closer look at the regions shows, that the differences between the two data sets do not show any resemblance of the regionally reported values for HFC-23.  Some slight variations could occur from different regional aggregations, but these should not be too substantial.  In some cases, regional variations are due to higher raw data values whereas if the redistribution of HFC-23 were to explain the difference, then raw data values would have to be lower than the current data used in MESSAGE-GLOBIOM across all regions.
+
+Further, HFC-23 emissions from HCFC-22 production amount to approximately 128MtCO2e according to the EPA (EPA, 2013).  EDGAR numbers show that 259 MtCO2e of HFC-23 are emitted in 2010, a stark difference to the EPA numbers.
+
+`EPA reports <http://www.epa.gov/methane/pdfs/fulldocumentofdeveloped.pdf>`_ explain that HFC-23 emissions result from semiconductor production and are a byproduct of HCFC-22 production – used in part for refrigeration and air-conditioning as well as a feedstock for the production of synthetic polymers.  A large surge is to be expected in HFC-23 emissions from feedstock production (EPA, 2013), which is currently not regulated, while dispersive uses will be phased out in accordance with the Montreal protocol.  Comparatively, EDGAR data shows that HFC-23 comes from the production of halocarbons and SF6 (98%), Other F-Gases (1.3%) and minimal amounts from semiconductor and electronic manufacturing.  
+
+Conclusions:
+
+1.	HFC aggregates from the raw 2012 EPA data should be used in MESSAGE-GLOBIOM rather than the currently used pre-aggregated data.
+2.	HFC-23 from HCFC-22 production should be modelled separately, which would also allow specific emission reduction technologies to be depicted as described in the report by the EPA (EPA, 2013).
+
+Similar to HFC-23, EPA data also breaks out HFCs from semiconductor manufacturing, a category which is currently neglected in MESSAGE-GLOBIOM, not being such a significant contributor towards total HFCs, but which could be easily integrated analogue to SF6 from semiconductor production.
+
+**Distribution of HFCs onto HFC compound Groups**
+
+For reporting purposes, but more importantly for use in calculating the climate impacts (MAGICC6), developments of the different HFC compounds are required.  Ideally, CF4, C2F6, C6F14, HFC23, HFC32, HFC43-10, HFC125, HFC134a, HFC143a, HFC227ea, HFC245fa and SF6 are to be reported directly into the MAGICC input file (GAS.SCEN).  MESSAGE-GLOBIOM models F-gas developments, with the exception of SF6 and CF4, in HFC-134aequivalent.  
+
+From the literature, only few sources provide some orientation for deriving such a split.  Below is a table (**Table 2**) which summarizes how many of the four available sources agree on which compound comes from the different sectors.  Although EDGAR seems to be an obvious first choice to derive this split, due to the level of regional details included in their historical data on the different HFC compounds, a split of sources is only available for HFC-134a and HFC-23.  Sources included below are therefore limited to Ashford et. al, 2004, Velders et. al, 2009, UNEP Ozone Secretariat, 2015, Harnisch et. al, 2009, whereby not each of these include details for all sectors/compounds and only in a few cases are actual distributions in the form of shares (%) detailed.
+
+Based on the above sources, **Table 3** shows available shares suggested by the various data sources.  An “X” marks where no further details are available and where assumptions need to be made.
+
+Finally, **Table 4** is an attempt to use the available information, with assumptions made where no data on the split is available, to allocate the total HFCs per sector onto the different compounds.  The resulting sums for the individual compounds have been compared to other data sets.
+
+**Table 2** Sources indicating which HFC compound results from which sector/activity
+
+.. image:: /_static/Sources_HFC.png
+
+**Table 3** Available shares (ranges) for HFC compound distribution/activity per sector
+
+.. image:: /_static/Shares_HFC.png
+
+**Table 4** Assumed shares and globally resulting HFC compound distribution *For comparability, totals do not include HFC-23
+
+.. image:: /_static/global_HFC.png

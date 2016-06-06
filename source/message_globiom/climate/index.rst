@@ -43,6 +43,7 @@ MESSAGE-GLOBIOM models the following *HFC-sources*, details of which can be foun
   * Mitigation: Replacement with HC (repl_hc bounded by technical applicability)
 
 MESSAGE-GLOBIOM further models *SF6* including the following sources:
+
 * Electrical Equipment
   * Driver: Electricity transmission and distribution
   * Mitigation: Recycling of gas carts (recycling_gas1)
@@ -52,6 +53,7 @@ MESSAGE-GLOBIOM further models *SF6* including the following sources:
   * Mitigation: Replacement of SF6 by SO2 (replacement_so2)
 
 MESSAGE-GLOBIOM also models *CF4*:
+
 * Aluminum
   * Driver: Transportation demand
   * Mitigation: Retrofit of soderberg process

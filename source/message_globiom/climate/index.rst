@@ -105,8 +105,8 @@ When comparing the data used in MESSAGE-GLOBIOM with the original data source (b
 **Table xx:** HFCs by source in [MtCO2e]
 
 .. list-table:: 
-   :widths: 20 26 46 16
-   :header-rows: 2
+   :widths: 26 26 26
+   :header-rows: 1
 
    * - [MtCO2e]
      - MESSAGE-GLOBIOM

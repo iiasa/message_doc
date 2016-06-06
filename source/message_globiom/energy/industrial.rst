@@ -18,5 +18,4 @@ The following table presents the quantitative translation of the the storyline e
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
 | Industry + Feedstocks | High electrification rate: 0.56%  (Regional range from .2% to 1.2%)  High feedstock reduciton rate: -0.33% (Regional range from -0.51 to 0.59%) | Medium electrification rate: 0.47% (Regional range from .07% to 1.08%)  Medium feedstock reduction rate: -0.27% (Regional range from -0.45% to 0.64%) | Low electrification rate: .12% (Regional range from -.03% to 0.71%)  Low feedstock reduction rate: -0.24% (Regional range from -0.38% to 0.51%) |
 
-     - Reserves [ZJ]
-     - Resources [ZJ]
+

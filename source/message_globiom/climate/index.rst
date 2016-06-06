@@ -88,7 +88,7 @@ As for refrigeration and air-conditioning of the residential and commercial sect
 
 For SSP1, Western Europe is the frontier region, whereas the USA, is the frontier for SSP3.  For SSP2, a mixture of the two is used.  The diagrams below (**Figure 1**) illustrate how regions converge towards the designated frontier region over time.
 
-.. image.. /_static/regional_HFC_intensity.png
+.. image:: /_static/regional_HFC_intensity.png
 **Figure xx**: Regional HFC Intensity Developments for Refrigeration and Air-Conditioning in the Residential and Commercial Sector across the SSPs 
 
 The SSP storylines and the therewith associated income developments lead to very different convergence time points.  In SSP1, income grows very rapidly in developing, therefore leading to a convergence of intensity levels for almost all regions by middle of the century, with the exception of Africa which converges by 2080. In SSP2, all regions converge latest by the end of the century which is very different to SSP3, where the convergence is much slower due to the low income level developments.  In SSP3, only few regions converge by the end of the century.

@@ -9,3 +9,14 @@ This stylized industrial thermal energy demand includes fuel switching as the ma
 .. image:: /_static/industry_end-use.png
 
 **Figure 3.7**: Schematic diagram of the industrial sector representation in MESSAGE.
+
+The following table presents the quantitative translation of the the storyline elements of SSP1, SSP2 and SSP3 in terms of electrification rate for industry and feedstocks. These indicators apply to 2010-2100; Intensity improvements are in FE/GDP annually.
+
+**Table xx**: Electrification rate within industry and feedstocks for SSP1, SSP2 and SSP3
+
+|                       | SSP1                                                                                                                                            | SSP2                                                                                                                                                  | SSP3                                                                                                                                            |
+|-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| Industry + Feedstocks | High electrification rate: 0.56%  (Regional range from .2% to 1.2%)  High feedstock reduciton rate: -0.33% (Regional range from -0.51 to 0.59%) | Medium electrification rate: 0.47% (Regional range from .07% to 1.08%)  Medium feedstock reduction rate: -0.27% (Regional range from -0.45% to 0.64%) | Low electrification rate: .12% (Regional range from -.03% to 0.71%)  Low feedstock reduction rate: -0.24% (Regional range from -0.38% to 0.51%) |
+
+     - Reserves [ZJ]
+     - Resources [ZJ]

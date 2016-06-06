@@ -82,11 +82,6 @@ The mitigation potentials remain unchanged across the different SSPs, as these a
 
 In the current version of MESSAGE-GLOBIOM, for the above mentioned time-frame, the regional absolute HFC values from the data-source and the historical development of the respective drivers are used to derive a coefficient representing the HFC intensity.
 
-
-Climate
-------------
-The response of the carbon-cycle and climate to anthropogenic climate drivers is modelled with the MAGICC model (Model for the Assessment of Greenhouse-gas Induced Climate Change). MAGICC is a reduced-complexity coupled global climate and carbon cycle model which calculates projections for atmospheric concentrations of GHGs and other atmospheric climate drivers like air pollutants, together with consistent projections of radiative forcing, global annual-mean surface air temperature, and ocean-heat uptake (Meinshausen et al., 2011a). MAGICC is an upwelling-diffusion, energy-balance model, which produces outputs for global- and hemispheric-mean temperature. Here, MAGICC is used in a deterministic setup (Meinshausen et al., 2011b), but also a probabilistic setup (Meinshausen et al., 2009) has been used earlier with the IIASA IAM framework (Rogelj et al., 2013a; Rogelj et al., 2013b; Rogelj et al., 2015). Climate feedbacks on the global carbon cycle are accounted for through the interactive coupling of the climate model and a range of gas-cycle models.
-
 The HFC intensity of the transport sector remains unchanged for all regions across SSP2 and SSP3 from 2020 onwards, with exception of Western Europe (WEU) and Eastern Europe (EEU), where the current legislation in line with the Montreal Protocol would see a phase-out of HFC use in mobile AC by 2020.  This exception also applies for SSP1.  For the remaining regions, the assumption is made in SSP1 that there is a saturation of AC use in the transport sector due to the increased awareness and legislative intervention, thus leading to a reduction of the intensity by 50% until 2100.  Further, in SSP1, there is a lower share of individual-conventional transport in comparison with other SSPs, which leads to overall lower mobile AC requirements. OECD countries start this transition in 2030, the Reforming Economies by 2040 and the remaining regions following as of 2050.  This implies that those countries starting at a later point in time profit from experience in other more advanced parts of the world therefore allowing them to improve at a higher rate.
 
 As for refrigeration and air-conditioning of the residential and commercial sector, it is assumed that regions will converge towards a certain intensity level based on their income development.  The point of convergence is defined by the intensity level attained by the designated frontier region in 2020.
@@ -167,3 +162,8 @@ Finally, **Table 4** is an attempt to use the available information, with assump
 **Table 4** Assumed shares and globally resulting HFC compound distribution *For comparability, totals do not include HFC-23
 
 .. image:: /_static/global_HFC.png
+
+
+Climate
+------------
+The response of the carbon-cycle and climate to anthropogenic climate drivers is modelled with the MAGICC model (Model for the Assessment of Greenhouse-gas Induced Climate Change). MAGICC is a reduced-complexity coupled global climate and carbon cycle model which calculates projections for atmospheric concentrations of GHGs and other atmospheric climate drivers like air pollutants, together with consistent projections of radiative forcing, global annual-mean surface air temperature, and ocean-heat uptake (Meinshausen et al., 2011a). MAGICC is an upwelling-diffusion, energy-balance model, which produces outputs for global- and hemispheric-mean temperature. Here, MAGICC is used in a deterministic setup (Meinshausen et al., 2011b), but also a probabilistic setup (Meinshausen et al., 2009) has been used earlier with the IIASA IAM framework (Rogelj et al., 2013a; Rogelj et al., 2013b; Rogelj et al., 2015). Climate feedbacks on the global carbon cycle are accounted for through the interactive coupling of the climate model and a range of gas-cycle models.

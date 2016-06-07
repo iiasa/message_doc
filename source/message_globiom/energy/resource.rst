@@ -79,7 +79,7 @@ Similar to conventional oil, much of the unconventional oil resides in the Middl
 Nuclear Resources
 -------------------
 
-Estimates of available uranium resources in the literature vary considerably, which could become relevant if advanced nuclear fuel cycles (e.g., the plutonium cycle including fast breeder reactors, the thorium cycle) are not available. In MESSAGE advanced nuclear cycles such as the plutonium cycle and nuclear fuel reprocessing are in principle represented, but their availability varies following the scenario narrative. :numref:`fig-uran` below shows the levels of uranium resources assumed available in recent MESSAGE scenarios, building upon the Global Energy Assessment scenarios. These span a considerable range of the estimates in the literature, but at the same time none of them fall at the extreme ends of the spectrum (see Rogner et al., 2012 :cite:`rogner_chapter_2012`), Section 7.5.2 for a more detailed discussion of uranium resources). Nuclear resources and fuel cycle (if available) are modeled at the global level, which is compatible with the notion of the nuclear fuel cycle being under international control. 
+Estimates of available uranium resources in the literature vary considerably, which could become relevant if advanced nuclear fuel cycles (e.g., the plutonium cycle including fast breeder reactors, the thorium cycle) are not available. In MESSAGE advanced nuclear cycles such as the plutonium cycle and nuclear fuel reprocessing are in principle represented, but their availability varies following the scenario narrative. :numref:`fig-uran` below shows the levels of uranium resources assumed available in recent MESSAGE scenarios, building upon the Global Energy Assessment scenarios. These span a considerable range of the estimates in the literature, but at the same time none of them fall at the extreme ends of the spectrum (see Rogner et al., 2012 :cite:`rogner_chapter_2012`, Section 7.5.2 for a more detailed discussion of uranium resources). Nuclear resources and fuel cycle (if available) are modeled at the global level, which is compatible with the notion of the nuclear fuel cycle being under international control. 
 
 .. _fig-uran:
 .. figure:: /_static/nuclear_resources.png
@@ -90,11 +90,10 @@ Estimates of available uranium resources in the literature vary considerably, wh
 
 Renewable Resources
 ------------------------------
-Table 3.2 shows the assumed total potentials of renewable energy deployment (by resource type) in the MESSAGE model by 2050. Figure 3.3 overlays these estimates on a map of the 11 MESSAGE regions. In addition, the assumptions are compared with technical potential estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`).  In this context, it is important to note that typical MESSAGE scenarios do not consider the full technical potential of renewable energy resources, but rather only a subset of those potentials, owing to additional constraints (e.g., sustainability criteria, technology diffusion and systems integration issues, and other economic considerations) that may not be fully captured within the model. These constraints may lead to a significant reduction of the technical potential.
+:numref:`tab-depl` shows the assumed total potentials of renewable energy deployment (by resource type) in the MESSAGE model by 2050. Figure 3.3 overlays these estimates on a map of the 11 MESSAGE regions. In addition, the assumptions are compared with technical potential estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`).  In this context, it is important to note that typical MESSAGE scenarios do not consider the full technical potential of renewable energy resources, but rather only a subset of those potentials, owing to additional constraints (e.g., sustainability criteria, technology diffusion and systems integration issues, and other economic considerations) that may not be fully captured within the model. These constraints may lead to a significant reduction of the technical potential.
 
-**Table 3.2.** Assumed global renewable energy deployment potentials in the MESSAGE model by 2050. Estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`) also added for comparison.
-
-.. list-table:: 
+.. _tab-depl:
+.. list-table:: Assumed global renewable energy deployment potentials in the MESSAGE model by 2050. Estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`) also added for comparison.
    :widths: 13 36 46
    :header-rows: 2
 

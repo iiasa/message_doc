@@ -13,9 +13,7 @@ MESSAGE has global coverage and divides the world into 11 regions (see :numref:`
 The country definitions of the 11 MESSAGE regions are described in the table below (:numref:`tab-reg`).
 
 .. _tab-reg:
-.. table:: 
-
-   Listing of 11 MESSAGE regions including their country definitions.
+.. table:: Listing of 11 MESSAGE regions including their country definitions.
    
     +------------------------+-----------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     | 11 MESSAGE regions     | Definition                        | List of countries                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |

@@ -38,11 +38,10 @@ Fossil Fuel Reserves and Resources
      - 20.1 – 67.1
      - 40.2 – 122
 
-The following table presents the fossil resource availability in ZJ (2010-2100) for coal, oil and gas, for SSP1, SSP2 and SSP3, respectively.
+The following table (:numref:`tab-ffavail`) presents the fossil resource availability in ZJ (2010-2100) for coal, oil and gas, for SSP1, SSP2 and SSP3, respectively.
 
-**Table xx**: Fossil resource availability for SSP1, SSP2, and SSP3.
-
-.. list-table:: 
+.. _tab-ffavail:
+.. list-table:: Fossil resource availability for SSP1, SSP2, and SSP3.
    :widths: 20 20 20 20
    :header-rows: 1
 
@@ -69,9 +68,11 @@ Conventional oil and gas are distributed unevenly throughout the world, with onl
 
 Similar to conventional oil, much of the unconventional oil resides in the Middle East and North Africa. However, with North America and Latin America showing wide ranges in the unconventional oil estimate, the share of Middle East and North Africa could be high as 42% or as low as 24%. Meanwhile, unconventional gas is distributed quite well throughout the world; North America possesses the most with roughly 25% of the world reserve.
 
-.. image:: /_static/GlobalResourceSupplyCurves.png
+.. _fig-supply:
+.. figure:: /_static/GlobalResourceSupplyCurves.png
    :width: 750px
-**Figure 3.1.** Cumulative global resource supply curves for coal (top), oil (middle), and gas (bottom) in the IIASA IAM framework. Green shaded resources are technically and economically extractable in all SSPs, purple shaded resources are additionally available in SSP1 and SSP2 and blue shaded resources are additionally available in SSP2. Coloured vertical lines represent the cumulative use of each resource between 2010 and 2100 in the SSP baselines (see top panel for colour coding), and are thus the result of the combined effect of our assumptions on fossil resource availability and conversion technologies in the SSP baselines. ‘Reserves’ are generally defined as being those quantities for which geological and engineering information indicate with reasonable certainty that they can be recovered in the future from known reservoirs under existing economic and operating conditions. ‘Resources’ are detected quantities that cannot be profitably recovered with current technology, but might be recoverable in the future, as well as those quantities that are geologically possible, but yet to be found. The remainder are ‘Undiscovered resources’ and, by definition, one can only speculate on their existence. Definitions are based on Rogner et al. (2012) :cite:`rogner_chapter_2012`.
+   
+   Cumulative global resource supply curves for coal (top), oil (middle), and gas (bottom) in the IIASA IAM framework. Green shaded resources are technically and economically extractable in all SSPs, purple shaded resources are additionally available in SSP1 and SSP2 and blue shaded resources are additionally available in SSP2. Coloured vertical lines represent the cumulative use of each resource between 2010 and 2100 in the SSP baselines (see top panel for colour coding), and are thus the result of the combined effect of our assumptions on fossil resource availability and conversion technologies in the SSP baselines. ‘Reserves’ are generally defined as being those quantities for which geological and engineering information indicate with reasonable certainty that they can be recovered in the future from known reservoirs under existing economic and operating conditions. ‘Resources’ are detected quantities that cannot be profitably recovered with current technology, but might be recoverable in the future, as well as those quantities that are geologically possible, but yet to be found. The remainder are ‘Undiscovered resources’ and, by definition, one can only speculate on their existence. Definitions are based on Rogner et al. (2012) :cite:`rogner_chapter_2012`.
 
 Nuclear Resources
 -------------------

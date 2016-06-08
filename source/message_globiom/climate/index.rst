@@ -98,7 +98,7 @@ Exceptions have been made for:
 * AC from Transport Sector 
 * Refrigeration & AC from Residential and Commercial Sector
 
-The mitigation potentials remain unchanged across the different SSPs, as these are bound by the technical feasibility (Rao S., Riahi K., 2006).  A further improvement could foresee adaptations of these bounds across the SSP to better reflect the storylines as well as to update the MACs to reflect numbers from the latest EPA report (EPA, 2013).
+The mitigation potentials remain unchanged across the different SSPs, as these are bound by the technical feasibility (Rao S., Riahi K., 2006 :cite:`rao_role_2006`).  A further improvement could foresee adaptations of these bounds across the SSP to better reflect the storylines as well as to update the MACs to reflect numbers from the latest EPA report (EPA, 2013).
 
 In the current version of MESSAGE-GLOBIOM, for the above mentioned time-frame, the regional absolute HFC values from the data-source and the historical development of the respective drivers are used to derive a coefficient representing the HFC intensity.
 

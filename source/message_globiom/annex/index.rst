@@ -7,7 +7,7 @@ This Annex provides a desription of the mathematical formulation of MESSAGE-GLOB
 .. toctree::
    :maxdepth: 1
 
-   1_introduction 
+   intro 
    2_conversion_technologies
    3_domestic_resources
    4_imports_and_exports

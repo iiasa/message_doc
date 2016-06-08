@@ -16,11 +16,11 @@ To reflect limitations of switching to alternative fuels, for example as a resul
 :numref:`tab-rescom` presents the quantitative translation of the the storyline elements of SSP1, SSP2 and SSP3 in terms of electrification rate for the residential and commercial sectors. These indicators apply to 2010-2100; Intensity improvements are in FE/GDP annually.
 
 .. _tab-rescom:
-:: table:: Electrification rate within the residential and commercial sectors for SSP1, SSP2 and SSP3
+.. table:: Electrification rate within the residential and commercial sectors for SSP1, SSP2 and SSP3
 
-   +--------------------------+-----------------------------------+------------------------------------+-----------------------------------+
-   |                          | SSP1                              | SSP2                               | SSP3                              |
-   +--------------------------+-----------------------------------+------------------------------------+-----------------------------------+
-   | Residential & Commercial | High electrification rate:1.44%   | Medium electrification rate: 1.07% | Low electrification rate: 0.87%   |
-   |                          | (Regional range from 0.35% to 4%) | (Regional range from 0.23% to 3%)  | (Regional range from 0.37% to 2%) |
-   +--------------------------+-----------------------------------+------------------------------------+-----------------------------------+
+   +------------------------------+-----------------------------------+------------------------------------+-----------------------------------+
+   |                              | **SSP1**                          | **SSP2**                           | **SSP3**                          |
+   +------------------------------+-----------------------------------+------------------------------------+-----------------------------------+
+   | **Residential & Commercial** | High electrification rate:1.44%   | Medium electrification rate: 1.07% | Low electrification rate: 0.87%   |
+   |                              | (Regional range from 0.35% to 4%) | (Regional range from 0.23% to 3%)  | (Regional range from 0.37% to 2%) |
+   +------------------------------+-----------------------------------+------------------------------------+-----------------------------------+

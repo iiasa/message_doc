@@ -23,41 +23,60 @@ F-gases
 MESSAGE-GLOBIOM models the following *HFC-sources*, details of which can be found in the EPA report (EPA, 2013).  For each of the different sources, the main driver to which the source is linked within the model has been listed along with any mitigation option available. Mitigation options are based on information provided by the EPA report (**EPA, ????**).
 
 * Solvents
+
   * Driver: Population
+  
 * Fire Extinguishers 
+
   * Driver: Population 
+  
 * Aerosols from Medical Use (MDI)
+
   * Driver: Population 
+  
 * Aerosols from Non-Medical Use (Non-MDI)
+
   * Driver: Population 
+  
 * Refrigeration & Air-Conditioning from Residential and Commercial Sector
+
   * Driver: Residential & commercial specific demand (mainly electricity)
   * Mitigation: Refrigerant recovery (refrigerant_recovery bounded by technical applicability)
   * Mitigation: Leak repair (leak_repair bounded by technical applicability)
   * Mitigation: Ammonia secondary loop (ammonia_secloop bounded by technical applicability)
+  
 * Air-Conditioning from Transport Sector 
+
   * Driver: Transport demand  
   * Mitigation: Transcritical vapor cycle CO2 systems (mvac_co2 bounded by technical applicability)
+  
 * Foams
+
   * Driver: Residential & commercial thermal demand
   * Mitigation: Replacement with HC (repl_hc bounded by technical applicability)
 
 MESSAGE-GLOBIOM further models *SF6* including the following sources:
 
 * Electrical Equipment
+
   * Driver: Electricity transmission and distribution
   * Mitigation: Recycling of gas carts (recycling_gas1)
   * Mitigation: Leak repairs (leak_repairsf6)
+  
 * Magnesium
+
   * Driver: Transportation demand
   * Mitigation: Replacement of SF6 by SO2 (replacement_so2)
 
 MESSAGE-GLOBIOM also models *CF4*:
 
 * Aluminum
+
   * Driver: Transportation demand
   * Mitigation: Retrofit of soderberg process
+  
 * Semi-Conductor Production
+
   * Driver: **fixed output based on …**
 
 **Sources used to derive historical numbers and methods applied to develop future trajectories**

@@ -83,4 +83,4 @@ In :numref:`fig-ther`, black ranges show historical cost ranges for 2005. Green,
 
    Cost indicators for non-thermoelectric power-plant investment. 
    
-In :numref:`fig-nonth, black ranges show historical cost ranges for 2005. Green, blue, and red ranges show cost ranges in 2100 for SSP1, SSP2, and SSP3, respectively. Global values are represented by solid ranges. Values in the global South are represented by dashed ranges. The diamonds show the costs in the “North America” region. PV – Photovoltaic
+In :numref:`fig-nonth`, black ranges show historical cost ranges for 2005. Green, blue, and red ranges show cost ranges in 2100 for SSP1, SSP2, and SSP3, respectively. Global values are represented by solid ranges. Values in the global South are represented by dashed ranges. The diamonds show the costs in the “North America” region. PV – Photovoltaic

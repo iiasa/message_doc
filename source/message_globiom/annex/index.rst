@@ -7,6 +7,6 @@ This Annex provides a desription of the mathematical formulation of MESSAGE-GLOB
 .. toctree::
    :maxdepth: 1
 
-   message/index 
    macro
+   message/index
    

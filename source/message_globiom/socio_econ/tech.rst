@@ -1,6 +1,5 @@
 Technological change
 ======================
-
 Technological change in MESSAGE is generally treated exogenously, although pioneering work on the endogenization of technological change in energy-engineering type models has been 
 done with MESSAGE (Messner, 1997 :cite:`messner_endogenized_1997`). The current cost and performance parameters, including conversion efficiencies and emission coefficients is 
 generally derived from the relevant engineering literature. For the future alternative cost and performance projections are usually developed to cover a relatively wide range of 
@@ -30,7 +29,7 @@ The figure below illustrates the maximum technology growth starting at a level o
 
 
 For a period length of one year, the following equation describes the dynamic constraints:
-=======
+
 For more detailed assumptions, see Annex. **[cross-link to correct section]**
 
 **TO BE PASSED TO ANNEX:**

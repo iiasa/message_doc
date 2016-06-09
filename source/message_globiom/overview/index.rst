@@ -21,7 +21,7 @@ In general, cumulative global GHG emissions from all sectors are constrained at 
 .. figure:: /_static/iiasaiam.png
    :width: 900px
 
-   Overview of the IIASA IAM framework. Coloured boxes represent respective specialized disciplinary models which are integrated for generating internally consistent scenarios. 
+   Overview of the IIASA IAM framework. Coloured boxes represent respective specialized disciplinary models which are integrated for generating internally consistent scenarios (Riahi et al., 2016 :cite:`riahi_shared_2016`). 
 
 .. toctree::
    :maxdepth: 1

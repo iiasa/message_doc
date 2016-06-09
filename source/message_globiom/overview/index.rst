@@ -26,6 +26,5 @@ In general, cumulative global GHG emissions from all sectors are constrained at 
 .. toctree::
    :maxdepth: 1
 
-   model_concept
    spatial
    temporal

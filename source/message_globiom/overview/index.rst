@@ -28,4 +28,3 @@ In general, cumulative global GHG emissions from all sectors are constrained at 
    model_concept
    spatial
    temporal
-   policy/index

@@ -39,10 +39,11 @@ significant reduction of the technical potential.
 
 Regional resource potentials for solar and wind are classified according to resource quality (annual capacity factor) based on Pietzcker et al. (2014, :cite:`pietzcker_solar_2014`) and 
 Eurek et al. (in review, :cite:`eurek_wind_2016`). Regional resource potentials as implemented into MESSAGE-GLOBIOM are provided by region and capacity factor for solar PV, concentrating solar 
-power (CSP), and onshore/offshore wind in Johnson et al. (in review, :cite:`johnson_vre_2016`). The physical potential of these sources is assumed to be the same across all SSPs. Tables ::numref:`tab-pv`,
-:numref:`tab-csp`, :numref:`tab-onshorewind`, :numref:`tab-offshorewind` show the resource potential for solar PV, CSP, on- and offshore wind respectivey. For wind, 
-Tables :numref:`tab-capfactonshore` and :numref:`tab-capfactoffshore` list the capacity factors corresponding to the wind classes used in the resource tables.
-It is important to note that part of the resource that is useable at economically competitive costs is assumed to differ widely (see Section :ref:`electricity`).
+power (CSP), and onshore/offshore wind in Johnson et al. (in review, :cite:`johnson_vre_2016`). The physical potential of these sources is assumed to be the same across all SSPs.  
+:numref:`tab-pv`, :numref:`tab-csp`, :numref:`tab-onshorewind`, :numref:`tab-offshorewind` show the resource potential for solar PV, CSP, on- and offshore wind respectivey. For wind, 
+:numref:`tab-capfactonshore` and :numref:`tab-capfactoffshore` list the capacity factors corresponding to the wind classes used in the resource tables. It is important to note that part of 
+the resource that is useable at economically competitive costs is assumed to differ widely (see Section :ref:`electricity`).
+
 
 .. _tab-pv:
 .. table:: Resource potential (EJ) by region and capacity factor for solar photovoltaic (PV) technology (Johnson et al. in review, :cite:`johnson_vre_2016`).

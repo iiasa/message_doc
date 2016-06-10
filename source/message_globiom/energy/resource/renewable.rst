@@ -101,6 +101,8 @@ the part of the resource that is useable at economically competitive costs is as
    |          |        |        |         |          |          |          |          |         |
    +----------+--------+--------+---------+----------+----------+----------+----------+---------+
 
+
+
 .. _tab-csp:
 .. table:: Resource potential (EJ) by region and capacity factor for concentrating solar power (CSP) technologies with solar multiples (SM) of 1 and 3
 
@@ -166,6 +168,8 @@ the part of the resource that is useable at economically competitive costs is as
    |          |          |          |          |          |          |          |          |          |
    +----------+----------+----------+----------+----------+----------+----------+----------+----------+
 
+
+
 .. _tab-onshorewind:
 .. table:: Resource potential (EJ) by region and wind class for onshore wind
 
@@ -226,7 +230,9 @@ the part of the resource that is useable at economically competitive costs is as
    |   World |   292.1 |   266.8 |   77.5 |   30.9 |   14.3 |   7.5  |
    |         |         |         |        |        |        |        |
    +---------+---------+---------+--------+--------+--------+--------+
-   
+
+
+
 .. _tab-capfactonshore:
 .. table:: Capacity factor by region and wind class for onshore wind
 
@@ -288,6 +294,8 @@ the part of the resource that is useable at economically competitive costs is as
    |         |         |         |        |        |        |        |
    +---------+---------+---------+--------+--------+--------+--------+
 
+
+
 .. _tab-offshorewind:
 .. table:: Resource potential (EJ) by region and wind class for offshore wind
 
@@ -348,6 +356,8 @@ the part of the resource that is useable at economically competitive costs is as
    |   World |   40.4 |   61.5 |   79.4 |   60.5 |   30.3 |   14.8 |
    |         |        |        |        |        |        |        |
    +---------+--------+--------+--------+--------+--------+--------+
+
+
 
 .. _tab-capfactoffshore:
 .. table:: Capacity factor by region and wind class for offshore wind

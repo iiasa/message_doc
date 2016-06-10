@@ -119,25 +119,3 @@ the part of the resource that is useable at economically competitive costs is as
 |          |        |        |         |          |          |          |          |         |
 +----------+--------+--------+---------+----------+----------+----------+----------+---------+
 
-\begin{table}[]
-\centering
-\caption{My caption}
-\label{my-label}
-\begin{tabular}{|l|l|l|l|l|l|l|l|l|}
-\hline
-..     & \multicolumn{8}{c|}{\textbf{Capacity Factor (fraction of year)}}                                                              \\ \hline
-..     & \textbf{0.28} & \textbf{0.21} & \textbf{0.20} & \textbf{0.19} & \textbf{0.18} & \textbf{0.17} & \textbf{0.15} & \textbf{0.14} \\ \hline
-AFR    & 0.0           & 1.1           & 46.5          & 176.6         & 233.4         & 218.2         & 169.9         & 61.9          \\ \hline
-CPA    & 0.0           & 0.0           & 0.0           & 10.3          & 194.3         & 315.5         & 159.4         & 41.9          \\ \hline
-EEU    & 0.0           & 0.0           & 0.0           & 0.0           & 0.0           & 0.0           & 0.1           & 1.0           \\ \hline
-FSU    & 0.0           & 0.0           & 0.0           & 0.2           & 2.8           & 23.6          & 94.9          & 116.6         \\ \hline
-LAM    & 0.1           & 4.9           & 49.4          & 165.6         & 157.5         & 167.4         & 81.4          & 48.5          \\ \hline
-MEA    & 0.2           & 3.1           & 100.8         & 533.6         & 621.8         & 310.1         & 75.3          & 14.5          \\ \hline
-NAM    & 0.0           & 0.3           & 24.3          & 140.4         & 131.0         & 116.3         & 155.7         & 106.4         \\ \hline
-PAO    & 0.0           & 0.0           & 0.1           & 2.2           & 53.1          & 226.4         & 311.2         & 158.9         \\ \hline
-PAS    & 0.0           & 0.0           & 0.0           & 0.2           & 0.8           & 17.0          & 31.2          & 12.8          \\ \hline
-SAS    & 0.0           & 0.0           & 6.1           & 42.7          & 67.2          & 82.3          & 23.7          & 4.1           \\ \hline
-WEU    & 0.0           & 0.1           & 0.2           & 3.0           & 12.8          & 39.4          & 58.3          & 33.3          \\ \hline
-Global & 0.3           & 9.6           & 227.4         & 1074.7        & 1474.6        & 1516.3        & 1160.9        & 600.0         \\ \hline
-\end{tabular}
-\end{table}

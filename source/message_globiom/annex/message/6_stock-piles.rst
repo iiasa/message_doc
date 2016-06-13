@@ -43,7 +43,7 @@ The stock-pile variables represent the amount of fuel :math:`f` that is transfer
 The general form of this constraint is:
 
 .. math::
-   Qfb....t-Qfb....(t-1)+\sum _v\left [ \sum _t \Delta t \times (zfvd..lt+\beta _{\phi vd}^f\times z\phi vd..lt- \\ \epsilon _{svf}\times zsvfu.lt-\beta _{sv\phi}^f\times zsv\phi ..lt)+\Delta t\times \iota (svd,f)\times Yzsvd..(t+1)-\\ \Delta(t-\tau _{svd}-1)\times \rho (svd,f) \times Yzsvd..(t-\tau_{svd})\right ]=0
+   Qfb....t-Qfb....(t-1)+\sum _v \sum _t \Delta t \times (zfvd..lt+\beta _{\phi vd}^f\times z\phi vd..lt- \\ \epsilon _{svf}\times zsvfu.lt-\beta _{sv\phi}^f\times zsv\phi ..lt)+\Delta t\times \iota (svd,f)\times Yzsvd..(t+1)-\\ \Delta(t-\tau _{svd}-1)\times \rho (svd,f) \times Yzsvd..(t-\tau_{svd})=0
 
 
 where

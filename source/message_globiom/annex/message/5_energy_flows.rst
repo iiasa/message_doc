@@ -90,7 +90,7 @@ where
    * - :math:`U svd.e.t`
      - is the activity of end-use technology :math:`v` in period :math:`t` and elasticity class :math:`e`,
    * - :math:`\beta _{\sigma vd}^s`
-     - is the use of fuel :math:`s` relative to fuel :math:`σ` (the main input) by technology :math:`v`, and
+     - is the use of fuel :math:`s` relative to fuel :math:`\sigma` (the main input) by technology :math:`v`, and
    * - :math:`\eta _{d,l}`
      - is the fraction of demand for :math:`d` occurring in load region :math:`l`.
 
@@ -154,7 +154,7 @@ where
 This equation matches production and import of primary energy to the requirements of central conversion, transport and for export. In the general  case primary energy does not have load regions. Some technologies,  like, e.g., nuclear reactors need inventories of primary energy and also leave a last core that is available at the end of the lifetime. It may be necessary to model by-products of extraction technologies, for instance the availability of associated  gas at oil production sites.
 
 .. math:: 
-   \sum _{rvr}\epsilon _rvr \times Arvr..t - \sum _l \left [ \sum _{rvs} Xrvs..lt + \sum _{\rho vs} \beta _{\rho vs}^r \times Xpvs..lt\right ] + \sum _{c,p}IArcp..t -\\ \sum_{c,p}EArcp..t + \sum_{fvs} \left [ \frac{\Delta (t-{\pi _{fvs}})}{\Delta t} \times \rho (fvs,r) \times YXfvs..(t-\tau _{fvs}) - \\ \frac{\Delta (t+1)}{\Delta t}\times \iota (fvs,r) \times YXfvs..(t+1)) \right] \geq 0
+   \sum _{rvr}\epsilon _rvr \times Arvr..t - \sum _l \left [ \sum _{rvs} Xrvs..lt + \sum _{\rho vs} \beta _{\rho vs}^r \times Xpvs..lt \right ] + \sum _{c,p}IArcp..t -\\ \sum_{c,p}EArcp..t + \\ \sum_{fvs} \left [ \frac{\Delta (t-{\pi _{fvs}})}{\Delta t} \times \rho (fvs,r) \times YXfvs..(t-\tau _{fvs}) - \frac{\Delta (t+1)}{\Delta t}\times \iota (fvs,r) \times YXfvs..(t+1)) \right ] \geq 0
 
 where
 

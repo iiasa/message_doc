@@ -103,7 +103,7 @@ The coefficients of the capacity variables of a technology in a relational const
 
 The possible contribution of an installation that exists in the base year is kept track of over time. There are two possibilities to give the necessary information to MESSAGE.
 
-1. Define the capacities that were built in the years :math:`iyr, ..., iyr -\tau + 1`, with :math:`iyr` = base year and :math:`τ` = plant life in years explicitly. These capacities are then distributed to historic periods of the length :math:`\nu`.
+1. Define the capacities that were built in the years :math:`iyr, ..., iyr -\tau + 1`, with :math:`iyr` = base year and :math:`\tau` = plant life in years explicitly. These capacities are then distributed to historic periods of the length :math:`\nu`.
 
 2. Define the total capacity, :math:`c_0`, that exists in :math:`iyr` and the rate at that it grew in the last :math:`\tau` years, :math:`\gamma`. This information is then converted to one similar to 1. by using the function:
 

@@ -160,7 +160,7 @@ where
    :header-rows: 0
 
    * - :math:`\gamma_{rt}^0`
-     - is the maximum growth of extraction of resource :math:`r` between period :math:`t−1` and :math:`t`,
+     - is the maximum growth of extraction of resource :math:`r` between period :math:`t-1` and :math:`t`,
    * - :math:`g_{rt}^0`
      - is the initial size (increment) of extraction of resource :math:`r` in period :math:`t`, and
    * - :math:`RRrgp..t`
@@ -185,7 +185,7 @@ where
    :header-rows: 0
 
    * - :math:`\gamma_{rt}`
-     - is the maximum decrease of extraction of resource :math:`r` between period :math:`t−1` and :math:`t`,
+     - is the maximum decrease of extraction of resource :math:`r` between period :math:`t-1` and :math:`t`,
    * - :math:`g_{rt}`
      - is the "last" size (decrement) of extraction of resource :math:`r` in period :math:`t`, and
    * - :math:`RRrgp..t`

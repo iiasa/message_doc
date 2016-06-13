@@ -226,7 +226,7 @@ which adds costs ci  per additional growth factor utilized.
    LYzsvd.t
 
 .. math::
-   Yzsvd..t − \gamma y_{svd,t} \times Yzsvd..(t−1) \geq −gy_{svd,t},
+   Yzsvd..t - \gamma y_{svd,t} \times Yzsvd..(t-1) \geq -gy_{svd,t},
 
 where
 

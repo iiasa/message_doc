@@ -157,7 +157,7 @@ where
    * - :math:`Izrcp..t`
      - is the annual import of :math:`r` from country :math:`c`, elasticity class :math:`p` in period :math:`t`,
    * - :math:`\gamma_{rt}^o`
-     - is the maximum increase of import of :math:`r` between period :math:`t−1` and :math:`t`, and
+     - is the maximum increase of import of :math:`r` between period :math:`t-1` and :math:`t`, and
    * - :math:`g_{rt}^o`
      - is the initial size (increment) of import of :math:`r` in period :math:`t`.
 
@@ -182,7 +182,7 @@ where
    * - :math:`Izrcp..t`
      - is the annual import of :math:`r` from country :math:`c`, elasticity class :math:`p` in period :math:`t`,
    * - :math:`\gamma_{rt}`
-     - is the maximum decrease of import of :math:`r` between period :math:`t−1` and :math:`t`, and
+     - is the maximum decrease of import of :math:`r` between period :math:`t-1` and :math:`t`, and
    * - :math:`g_{rt}`
      - is the "last" size (decrement) of import of :math:`r` in period :math:`t`.
 

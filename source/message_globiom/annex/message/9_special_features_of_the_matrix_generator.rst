@@ -67,7 +67,7 @@ where
 and
 
 .. math:: 
-   \alpha  =  \frac{2}{ct} ln(\frac{100}{\epsilon}−1).
+   \alpha  =  \frac{2}{ct} ln(\frac{100}{\epsilon}-1).
 
 This function is expanded to a normalized distribution function of the following type:
 
@@ -89,11 +89,11 @@ where
 and
 
 .. math::
-   a =  \frac{1−b}{100}.
+   a =  \frac{1-b}{100}.
  
 :math:`d` denotes the time at that the peak of expenditures occurs in percent of :math:`ct`.
 
-The distribution of these yearly shares of investments is done starting in the first period of operation with a one years share, the expenditures of the remaining :math:`ct − 1` years are distributed to the previous periods.
+The distribution of these yearly shares of investments is done starting in the first period of operation with a one years share, the expenditures of the remaining :math:`ct - 1` years are distributed to the previous periods.
 
 The coefficients of the capacity variables of a technology in a relational constraint can be distributed like the investments.
 
@@ -103,7 +103,7 @@ The coefficients of the capacity variables of a technology in a relational const
 
 The possible contribution of an installation that exists in the base year is kept track of over time. There are two possibilities to give the necessary information to MESSAGE.
 
-1. Define the capacities that were built in the years :math:`iyr, ..., iyr −\tau + 1`, with :math:`iyr` = base year and :math:`τ` = plant life in years explicitly. These capacities are then distributed to historic periods of the length :math:`\nu`.
+1. Define the capacities that were built in the years :math:`iyr, ..., iyr -\tau + 1`, with :math:`iyr` = base year and :math:`τ` = plant life in years explicitly. These capacities are then distributed to historic periods of the length :math:`\nu`.
 
 2. Define the total capacity, :math:`c_0`, that exists in :math:`iyr` and the rate at that it grew in the last :math:`\tau` years, :math:`\gamma`. This information is then converted to one similar to 1. by using the function:
 
@@ -118,7 +118,7 @@ where
    :header-rows: 0
 
    * - :math:`y_t`
-     - is the annual construction in period :math:`−t`, (0 = base year),
+     - is the annual construction in period :math:`-t`, (0 = base year),
    * - :math:`\gamma`
      - is the annual growth of new installations before the base year,
    * - :math:`c_0`

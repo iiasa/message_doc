@@ -46,7 +46,7 @@ the resource that is useable at economically competitive costs is assumed to dif
 
 
 .. _tab-pv:
-.. table:: Resource potential (EJ) by region and capacity factor for solar photovoltaic (PV) technology (Johnson et al. in review, :cite:`johnson_vre_2016`).
+.. table:: Resource potential (EJ) by region and capacity factor for solar photovoltaic (PV) technology (Johnson et al. in review, :cite:`johnson_vre_2016`). For a description of each of the regions represented in the table, see :ref:`spatial`.
 
    +----------+---------------------------------------------------------------------------------+
    |          |                                                                                 |

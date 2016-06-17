@@ -29,7 +29,7 @@ MESSAGE tracks investments by vintage, an important feature to represent the ine
 (e.g., introduction of stringent climate policy), it is however possible to prematurely retire existing capital stock such as power plants or other energy conversion 
 technologies and switch to more suitable alternatives.
 
-An important factor in this context that influences technology adoption in MESSAGE are technology diffusion constraints. Technology diffusion in MESSAGE is constrained 
+An important factor in this context that influences technology adoption in MESSAGE are technology diffusion constraints. Technology diffusion in MESSAGE is determined 
 by dynamic constraints that relate the construction of a technology added or the activity (level of production) of a technology in a period t to construction or the 
 activity in the previous period t-1 (Messner and Strubegger, 1995 :cite:`messner_users_1995`, cf. sections :ref:`upper_dynamic_constraint_capacity` and :ref:`upper_dynamic_constraint_activity`). 
 

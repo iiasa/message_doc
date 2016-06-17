@@ -38,10 +38,10 @@ self-correlated. In order to adjust wind capacity values for different levels of
 therefore are not able to allow, for example, resource diversification to increase capacity value at a given level of wind penetration.
 
 .. _fig-windcap:
-.. Figure:: /_static/wind_cv.png
+.. figure:: /_static/wind_cv.png
    :width: 600px
 
-  Parameterization of Wind Capacity Value.
+   Parameterization of Wind Capacity Value.
 
 The capacity value bins are independent of the wind supply curve bins that already existed in MESSAGE, which are based on quality of the wind resource. That supply curve is defined by 
 absolute wind built, not fraction of load; and the bins differ based on their annual average capacity factor, not capacity value. Solar PV is treated in a similar way as wind with the 

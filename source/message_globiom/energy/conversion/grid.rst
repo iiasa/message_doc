@@ -1,7 +1,7 @@
 .. _grid:
 
-Grid and infrastructure
-=========================
+Grid, Infrastructure and System Reliability
+==========================================
 Energy Transmission and Distribution Infrastructure
 ---------------------------------------------------
 Energy transport and distribution infrastructure is included in MESSAGE at a level relevant to represent the associated costs. Within regions the capital stock of transmission and 
@@ -22,7 +22,7 @@ transport process.
 
 .. _syst_integration:
 
-Systems Integration and Network Stability
+Systems Integration and Reliability
 ------------------------------------------
 The MESSAGE framework includes a single annual time period characterized by average annual load and 11 geographic regions that span the globe. Seasonal and diurnal load curves and spatial 
 issues such as transmission constraints or renewable resource heterogeneity are treated in a stylized way in the model. The reliability extension described below elevates the stylization 

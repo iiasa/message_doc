@@ -44,7 +44,7 @@ therefore are not able to allow, for example, resource diversification to increa
    Parameterization of Wind Capacity Value.
 
 The capacity value bins are independent of the wind supply curve bins that already existed in MESSAGE, which are based on quality of the wind resource. That supply curve is defined by 
-absolute wind built, not fraction of load; and the bins differ based on their annual average capacity factor, not capacity value. Solar PV is treated in a similar way as wind with the 
+absolute wind capacity built, not fraction of load; and the bins differ based on their annual average capacity factor, not capacity value. Solar PV is treated in a similar way as wind with the 
 parameters obviously being different ones. In contrast, concentrating solar power (CSP) is modeled very much like dispatchable power plants in MESSAGE, because it is assumed to come with 
 several hours of thermal storage, making it almost capable of running in baseload mode.
 

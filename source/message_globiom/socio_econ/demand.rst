@@ -33,7 +33,7 @@ cumulative distribution function (CDF) of each regressed variable. Given the reg
 based on projected GDP per capita, or average income. Several user-defined inputs allow the user to tailor the extrapolations to individual socio-economic scenarios. In the case of final 
 energy intensity (FEI), the extrapolation is produced for each region by defining the quantile at which FEI converges (e.g., the 20th percentile) and the income at which the convergence 
 occurs.  For example, while final energy intensity converges quickly to the lowest quantile (0.001) in SSP1, it converges more slowly to a larger quantile (0.5 to 0.7 depending on the 
-region) in SSP3. Convergence quantiles and incomes are provided for each SSP and region in the **Tables below**. The convergence quantile allows one to identify the magnitude 
+region) in SSP3. Convergence quantiles and incomes are provided for each SSP and region in :numref:`tab-quantssp1`, :numref:`tab-quantssp2`, :numref:`tab-quantssp3`. The convergence quantile allows one to identify the magnitude 
 of FEI while the convergence income establishes the rate at which the quantile is approached. For the sectoral shares, the user can specify the global quantile at which the extrapolation 
 should converge, the income at which the extrapolation diverges from the regional regression line and turns parallel to the specified convergence quantile (i.e., how long the sectoral 
 share follows the historical trajectory), and the income at which the extrapolation converges to the quantile. Given these input parameters, the user can extrapolate both FEI and sectoral shares.
@@ -45,7 +45,7 @@ energy in each region by using the average final-to-useful energy efficiencies r
 **Tables from SI of SSP2 paper to be added**
 
 .. _tab-quantssp1:
-.. table:: part1: Convergence quantile and income for each parameter and region for SSP1
+.. table:: Convergence quantile and income for each parameter and region for SSP1
 
    +-------------------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+
    |                   |          |          |          |          |          |          |          |          |          |          |          |
@@ -143,7 +143,7 @@ energy in each region by using the average final-to-useful energy efficiencies r
 
 
 .. _tab-quantssp2:
-.. table:: – part2: Convergence quantile and income for each parameter and region for SSP2
+.. table:: Convergence quantile and income for each parameter and region for SSP2
 
    +-------------------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+
    |                   |          |          |          |          |          |          |          |          |          |          |          |
@@ -240,7 +240,7 @@ energy in each region by using the average final-to-useful energy efficiencies r
    +-------------------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+
 
 .. _tab-quantssp3:
-.. table:: – part3: Convergence quantile and income for each parameter and region for SSP3
+.. table:: Convergence quantile and income for each parameter and region for SSP3
 
    +-------------------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+
    |                   |          |          |          |          |          |          |          |          |          |          |          |

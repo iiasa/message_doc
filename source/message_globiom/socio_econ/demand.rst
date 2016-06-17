@@ -42,10 +42,8 @@ The total final energy in each region is then calculated by multiplying the extr
 shares are multiplied by the total final energy to identify final energy demand for each of the seven energy service demands used in MESSAGE. Finally, final energy is converted to useful 
 energy in each region by using the average final-to-useful energy efficiencies reported by the IEA for each country.
 
-**Tables from SI of SSP2 paper to be added**
-
 .. _tab-quantssp1:
-.. table:: Convergence quantile and income for each parameter and region for SSP1
+.. table:: Convergence quantile and income for each parameter and region for SSP1 (for region descriptions, see: :ref:`spatial`)
 
    +-------------------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+
    |                   |          |          |          |          |          |          |          |          |          |          |          |
@@ -143,7 +141,7 @@ energy in each region by using the average final-to-useful energy efficiencies r
 
 
 .. _tab-quantssp2:
-.. table:: Convergence quantile and income for each parameter and region for SSP2
+.. table:: Convergence quantile and income for each parameter and region for SSP2 (for region descriptions, see: :ref:`spatial`)
 
    +-------------------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+
    |                   |          |          |          |          |          |          |          |          |          |          |          |
@@ -240,7 +238,7 @@ energy in each region by using the average final-to-useful energy efficiencies r
    +-------------------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+
 
 .. _tab-quantssp3:
-.. table:: Convergence quantile and income for each parameter and region for SSP3
+.. table:: Convergence quantile and income for each parameter and region for SSP3 (for region descriptions, see: :ref:`spatial`)
 
    +-------------------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+----------+
    |                   |          |          |          |          |          |          |          |          |          |          |          |

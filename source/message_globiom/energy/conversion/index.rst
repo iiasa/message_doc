@@ -17,7 +17,7 @@ Each energy conversion technology is characterized in MESSAGE by the following d
 * Technical application constraints, e.g., maximum possible shares of wind or solar power in an electricity network without storage capabilities.
 * Inventory upon startup and shutdown, e.g., initial nuclear core needed at the startup of a nuclear power plant.
 * Lag time between input and output of the technology.
-* Minimum unit size: e.g. for nuclear power plants it does not make sense to build plants with a capacity of a few kilowatt power (optional, not used in current model version).
+* Minimum unit size, e.g. for nuclear power plants it does not make sense to build plants with a capacity of a few kilowatt power (optional, not used in current model version).
 * Sociopolitical constraints, e.g. ban of nuclear power plants, or inconvenience costs of household cook stoves.
 * Inconvenience costs which are specified only for end-use technologies (e.g. cook stoves)
 

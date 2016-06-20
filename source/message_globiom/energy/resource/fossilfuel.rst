@@ -17,6 +17,12 @@ curves. In addition, the assumptions are compared with estimates from the Global
 fossil fuel reserves is built on both economic and technological assumptions. With an improvement in technology or a change in purchasing power, the amount that may be considered a 
 “reserve” vs. a “resource” (generically referred to here as resources) can actually vary quite widely.
 
+‘Reserves’ are generally defined as being those quantities for which geological and 
+engineering information indicate with reasonable certainty that they can be recovered in the future from known reservoirs under existing economic and operating conditions. 
+‘Resources’ are detected quantities that cannot be profitably recovered with current technology, but might be recoverable in the future, as well as those quantities that are geologically 
+possible, but yet to be found. The remainder are ‘Undiscovered resources’ and, by definition, one can only speculate on their existence. Definitions are based on Rogner et al. (2012) 
+:cite:`rogner_chapter_2012`. 
+
 .. _tab-globff:
 .. list-table:: Assumed global fossil fuel reserves and resources in the MESSAGE model. Estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`) also added for comparison.
    :widths: 20 26 26 26
@@ -82,11 +88,7 @@ Natural gas is more abundant in both the conventional and unconventional categor
 :numref:`fig-supply` presents the cumulative global resource supply curves for coal, oil and gas in the IIASA IAM framework. Green shaded resources are technically and economically 
 extractable in all SSPs, purple shaded resources are additionally available in SSP1 and SSP2 and blue shaded resources are additionally available in SSP2. Coloured vertical lines 
 represent the cumulative use of each resource between 2010 and 2100 in the SSP baselines (see top panel for colour coding), and are thus the result of the combined effect of our 
-assumptions on fossil resource availability and conversion technologies in the SSP baselines. ‘Reserves’ are generally defined as being those quantities for which geological and 
-engineering information indicate with reasonable certainty that they can be recovered in the future from known reservoirs under existing economic and operating conditions. 
-‘Resources’ are detected quantities that cannot be profitably recovered with current technology, but might be recoverable in the future, as well as those quantities that are geologically 
-possible, but yet to be found. The remainder are ‘Undiscovered resources’ and, by definition, one can only speculate on their existence. Definitions are based on Rogner et al. (2012) 
-:cite:`rogner_chapter_2012`. 
+assumptions on fossil resource availability and conversion technologies in the SSP baselines. 
 
 .. _fig-supply:
 .. figure:: /_static/GlobalResourceSupplyCurves.png

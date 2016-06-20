@@ -10,7 +10,7 @@ conversion technologies is assumed to be slowest in SSP1, while comparatively fa
 coal and unconventional hydrocarbons (:numref:`tab-globff`, :numref:`fig-supply`). However, driven by tendency toward regional fragmentation we assume the focus in SSP3 to be on 
 developing coal technologies which in the longer term leads to a replacement of oil products by synthetic fuels based on coal-to-liquids technologies. In contrast, for SSP2 we 
 assume a continuation of recent trends, focusing more on developing extraction technologies for unconventional hydrocarbon resources, thereby leading to higher potential cumulative oil 
-extraction than in the other SSPs (:numref:`fig-supply, middle panel).
+extraction than in the other SSPs (:numref:`fig-supply`, middle panel).
 
 :numref:`tab-globff` shows the assumed total quantities of fossil fuel resources in the MESSAGE model for the base year 2005. :numref:`fig-supply` gives these resource estimates as supply 
 curves. In addition, the assumptions are compared with estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`) as of the year 2009. Estimating 

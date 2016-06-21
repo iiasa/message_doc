@@ -57,7 +57,7 @@ where
    * - :math:`\tau_{svd}`
      - is the plant life of technology :math:`v` in periods,
    * - :math:`\iota(svd,f)`
-     - is the ”first  inventory”  of technology :math:`v` of :math:`f` (relative to capacity of main output),
+     - is the ”first  inventory” of technology :math:`v` of :math:`f` (relative to capacity of main output),
    * - :math:`\rho(svd,f)`
      - is the ”last core” of :math:`f` in technology :math:`v`, see also section :ref:`resourceextraction`,
    * - :math:`\Delta t`

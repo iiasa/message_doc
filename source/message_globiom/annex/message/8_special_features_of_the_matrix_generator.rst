@@ -37,6 +37,7 @@ where
    * - :math:`dr_k`
      - is the discount rate in period :math:`k`.
 
+.. _distributionsofinv:
 
 8.2 	Distributions of Investments
 -----------------------------------

@@ -59,7 +59,7 @@ where
    * - :math:`\iota(svd,f)`
      - is the ”first  inventory”  of technology :math:`v` of :math:`f` (relative to capacity of main output),
    * - :math:`\rho(svd,f)`
-     - is the ”last core” of :math:`f` in technology :math:`v`, see also section  5.1.5,
+     - is the ”last core” of :math:`f` in technology :math:`v`, see also section :ref:`resourceextraction`,
    * - :math:`\Delta t`
      - is the length of period :math:`t` in years,
    * - :math:`zfvd..lt`

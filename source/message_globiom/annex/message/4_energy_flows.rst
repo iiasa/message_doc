@@ -73,7 +73,7 @@ where
    Fs....lt
 
 This constraint, the final energy balance, matches the use of final energy needed in the
-end-use technologies and the deliveries of the distribution systems. It is generated for each load region, if energy form s is modelled with load regions.
+end-use technologies and the deliveries of the distribution systems. It is generated for each load region, if energy form :math:`s` is modelled with load regions.
 
 .. math::
    \sum_{svs}\epsilon _{svs}\times Fsvs..lt-\sum_{svd}\eta _{d,l}\times \sum_{e=0}^{e_d}Usvd.e.t-\\ \sum_{\sigma vd}\beta _{\sigma vd}^s \times \eta _{d,l}\times \sum_{e=0}^{e_d}U\sigma vd.e.t\geq 0

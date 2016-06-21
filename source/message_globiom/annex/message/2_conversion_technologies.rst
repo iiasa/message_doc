@@ -264,7 +264,7 @@ where
    :header-rows: 0
 
    * - :math:`\gamma a_{svd,t}^o`
-     - and :math:`ga_{svd,t}^o`are the maximum growth rate and increment, respectively, as described in section 2.2.2 (the increment is to be given in units of main output), and
+     - and :math:`ga_{svd,t}^o` are the maximum growth rate and increment, respectively, as described in section 2.2.2 (the increment is to be given in units of main output), and
    * - :math:`zsvd..lt`
      - is the activity of technology :math:`v` in load region :math:`l`.
 

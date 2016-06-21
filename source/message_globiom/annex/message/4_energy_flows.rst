@@ -64,6 +64,7 @@ where
    * - :math:`ke`
      - is the factor giving the relation of total demand for :math:`d` to the demand reduced to level :math:`e` due to the demand elasticity. :math:`(k_e  \times U svd.e.t = U svd.0.t, k_0  = 1, k_e` is increasing monotonously.)
 
+.. _distbal:
 
 4.1.2 	Distribution Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -84,7 +85,7 @@ where
    :header-rows: 0
 
    * - :math:`F svs..lt`
-     - is the activity of the distribution technology in load region :math:`l` and period :math:`t` (see section 2.1.1),
+     - is the activity of the distribution technology in load region :math:`l` and period :math:`t` (see section :ref:`activitiesECT`),
    * - :math:`\epsilon _{svs}`
      - is the efficiency of technology :math:`v` in distributing :math:`s`,
    * - :math:`U svd.e.t`
@@ -94,6 +95,7 @@ where
    * - :math:`\eta _{d,l}`
      - is the fraction of demand for :math:`d` occurring in load region :math:`l`.
 
+.. _transmibal:
 
 4.1.3 	Transmission or Transportation Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -113,9 +115,9 @@ where
    :header-rows: 0
 
    * - :math:`T svs..lt`
-     - is the activity of the transportation technology :math:`v` (see section  2.1.1), and
+     - is the activity of the transportation technology :math:`v` (see section  :ref:`activitiesECT`), and
 
-all the other entries to the equation are the same as in section 5.1.2.
+all the other entries to the equation are the same as in section :ref:`distbal`.
  
 4.1.4 	Central  Conversion Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -123,7 +125,7 @@ all the other entries to the equation are the same as in section 5.1.2.
 .. math::
    Xs....lt
 
-In principle the secondary energy balance is built up in the same way as the two previous ones (sections 5.1.2 and 5.1.3). It matches the production of central conversion technologies to the requirements of the transmission  systems. Secondary energy imports and exports of secondary energy are usually assigned to level :math:`X`.
+In principle the secondary energy balance is built up in the same way as the two previous ones (sections :ref:`distbal` and :ref:`transmibal`). It matches the production of central conversion technologies to the requirements of the transmission  systems. Secondary energy imports and exports of secondary energy are usually assigned to level :math:`X`.
 
 .. math::
    \sum_{rvs}\epsilon _{rvs}\times Xrvs..lt + \sum_{rv\sigma }\beta _{rv\sigma}^s \times Xrv\sigma ..lt - \sum_{svs}Tsvs..lt +\\ \sum _{c,p}IXscp.lt - \sum _{c,p}EXscp.lt \geq 0
@@ -135,15 +137,15 @@ where
    :header-rows: 0
 
    * - :math:`X rvs..lt`
-     - is the activity of central conversion technology :math:`v` in load region :math:`l` and period :math:`t` (see section 2.1.1); if the secondary energy form :math:`s` is not defined with load regions (i.e. :math:`l` = ”.”) and the activity of technology :math:`v` exists for each load region, this equation will contain the sum of the activity variables of technology :math:`v` over the load regions.
+     - is the activity of central conversion technology :math:`v` in load region :math:`l` and period :math:`t` (see section :ref:`activitiesECT`); if the secondary energy form :math:`s` is not defined with load regions (i.e. :math:`l` = ”.”) and the activity of technology :math:`v` exists for each load region, this equation will contain the sum of the activity variables of technology :math:`v` over the load regions.
    * - :math:`\epsilon _{rvs}`
      - is the efficiency of technology :math:`v` in converting energy carrier :math:`r` into secondary energy form :math:`s`,
    * - :math:`\beta _{rv\sigma}^s`
      - is the efficiency of technology :math:`v` in converting energy carrier :math:`r` into the by-product :math:`s` of technology :math:`v`,
    * - :math:`Tsvs..lt`
-     - is explained in section 5.1.3, and
+     - is explained in section :ref:`transmibal`, and
    * - :math:`IXscp.lt`
-     - and :math:`EXscp.lt` are the import and export variables explained in sections 4.1.1 and 4.1.2, respectively.
+     - and :math:`EXscp.lt` are import and export variables.
 
 4.1.5 	Resource Extraction,  Export  and Import  Balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -169,11 +171,11 @@ where
    * - :math:`\beta _{\rho vs}^r`
      - is the efficiency of technology :math:`v` in producing secondary energy form :math:`s` from the by-input :math:`\rho`,
    * - :math:`IArcp..t`
-     - and :math:`EArcp..t` are the import and export variables described in section 4.1.1 and 4.1.2, respectively,
+     - and :math:`EArcp..t` are the import and export variables,
    * - :math:`\tau _{fvs}`
      - is the plant life of technology :math:`v` in periods (depending on the lengths of the periods covered),
    * - :math:`YXfvs..t`
-     - is the annual new installation of technology :math:`v` in period :math:`t` (see section  2.1.2),
+     - is the annual new installation of technology :math:`v` in period :math:`t` (see section :ref:`capacititesECT`),
    * - :math:`\iota (fvs,r)`
      - is the amount of fuel :math:`r` that is needed when technology :math:`v` goes into operation (usually this is the first core of a reactor). It has to be available in the period before technology :math:`v` goes into operation, the normal unit is kWyr/kW,
    * - :math:`\rho (fvs,r)`
@@ -202,6 +204,6 @@ where
    * - :math:`RRrgp..t`
      - is the annual extraction of resource :math:`r`, cost category (grade) :math:`g` and elasticity class :math:`p` in period :math:`t`, and
    * - :math:`Arvr...t`
-     - is the activity of extraction technology :math:`v` in period :math:`t` (as described in section 2.1.1).
+     - is the activity of extraction technology :math:`v` in period :math:`t` (as described in section :ref:`activitiesECT`).
 
  

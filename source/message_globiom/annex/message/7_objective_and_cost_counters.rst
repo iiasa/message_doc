@@ -1,3 +1,5 @@
+.. _objectivecostcounters:
+
 7 Objective and Cost Counters
 =============================
 

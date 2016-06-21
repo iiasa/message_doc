@@ -63,6 +63,6 @@ where
    * - :math:`\Delta t`
      - is the length of period :math:`t` in years,
    * - :math:`zfvd..lt`
-     - is the annual input of technology :math:`v` of fuel :math:`f` in load region :math:`l` and period :math:`t` (l is ”.” if v does not have load regions), and
+     - is the annual input of technology :math:`v` of fuel :math:`f` in load region :math:`l` and period :math:`t` (:math:`l` is ”.” if :math:`v` does not have load regions), and
    * - :math:`Yzfvd..t`
      - is the annual new installation of technology :math:`v` in period :math:`t`.

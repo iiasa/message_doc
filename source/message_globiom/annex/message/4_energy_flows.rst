@@ -27,7 +27,7 @@ The following description of the energy flow constraints in MESSAGE is given for
    * - :math:`R`
      - Energy resources.
 
-The identifier of the demand level (:math:`U`) which gives it a special meaning (see section 2.1.1) and imports and exports are given for primary energy. Clearly any other combination of technologies is also possible.
+The identifier of the demand level (:math:`U`) which gives it a special meaning (see section :ref:`activitiesECT`) and imports and exports are given for primary energy. Clearly any other combination of technologies is also possible.
 
 4.1.1 	Demand Constraints
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -54,11 +54,11 @@ where
    * - :math:`U d.t`
      - is the annual demand for :math:`d` in period :math:`t`,
    * - :math:`U svd.e.t`
-     - is the activity of end-use technology :math:`v` in period :math:`t`, elasticity class :math:`e` and period :math:`t` (see section  2.1.1),
+     - is the activity of end-use technology :math:`v` in period :math:`t`, elasticity class :math:`e` and period :math:`t` (see section  :ref:`activitiesECT`),
    * - :math:`\epsilon _{svd}`
      - is the efficiency of end-use technology :math:`v` in converting :math:`s` to :math:`d`,
    * - :math:`\beta _{sv\delta}^d`
-     - is the efficiency of end-use technology :math:`v` in producing by-product :math:`d` from :math:`s` (:math:`\delta ` is the main output of the technology),
+     - is the efficiency of end-use technology :math:`v` in producing by-product :math:`d` from :math:`s` (:math:`\delta` is the main output of the technology),
    * - :math:`e_d`
      - is the number of steps of demand reduction modelled for own-price elasticities of demand :math:`d`, and
    * - :math:`ke`

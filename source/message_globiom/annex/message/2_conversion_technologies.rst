@@ -79,8 +79,8 @@ The capacity is defined in relation to the main output of the technology.
 -------------------
 The rows used to model energy conversion technologies limit
 
-   – the utilization of a technology in relation to the capacity actually installed (capacity constraint) and
-   – the activity or construction of a technology in a period in relation to the same variable in the previous period (dynamic constraints).
+* the utilization of a technology in relation to the capacity actually installed (capacity constraint) and
+* the activity or construction of a technology in a period in relation to the same variable in the previous period (dynamic constraints).
 
 .. _capacityconstr:
 

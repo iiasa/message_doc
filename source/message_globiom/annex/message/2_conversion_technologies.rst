@@ -169,7 +169,7 @@ The following notation is used in the above equations:
 
 .. _upper_dynamic_constraint_capacity:
 
-2.2.2 	Upper Dynamic Constraints on Construction Variables
+2.2.2 	Dynamic Constraints on Activity and Construction Variables
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. math::

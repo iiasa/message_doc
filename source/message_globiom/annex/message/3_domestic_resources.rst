@@ -172,7 +172,7 @@ where
 ~~~~~~~~~~~~~~~~~
 
 .. math::
-LRRr...t
+   LRRr...t
 
 The annual extraction level of a resource in a period can also be related to the previous one by a decrease parameter  and a decrement resulting in lower dynamic extraction constraints. For the first period the extraction is related to the activity in the baseyear.
 

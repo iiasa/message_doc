@@ -149,7 +149,7 @@ The following notation is used in the above equations:
    :header-rows: 0
 
    * - :math:`zsvd....rrlllttt`
-     - is the activity of conversion technology :math:`zsvd` in region :mat:`rr`, period :math:`ttt` and, if defined so, load region :math:`lll` (see section :ref:`activitiesECT`),
+     - is the activity of conversion technology :math:`zsvd` in region :math:`rr`, period :math:`ttt` and, if defined so, load region :math:`lll` (see section :ref:`activitiesECT`),
    * - :math:`Yzsvd...rrlllttt`
      - is the capacity variable of conversion technology :math:`zsvd` (see section :ref:`capacititesECT`).
    * - :math:`\epsilon_{zsvd}`
@@ -167,7 +167,7 @@ The following notation is used in the above equations:
    * - :math:`f_i`
      - is 1. if the capacity variable is continuous, and represents the minimum installed capacity per year (unit size) if the variable is integer,
    * - :math:`f_p`
-     - is is the adjustment factor if the end of the plant life does not coincide with the end of a period (:mat:`rest of plant life in period / period length`,
+     - is is the adjustment factor if the end of the plant life does not coincide with the end of a period (:math:`rest of plant life in period / period length`,
    * - :math:`\pi(l_m, svd)`
      - is the share of output in the load region with maximum production,
    * - :math:`rel_{\sigma {v}'\delta}^{svd}`
@@ -202,7 +202,7 @@ where
    * - :math:`D`
      - is :math:`M, L` for upper and lower capacity and :math:`m, l` for upper and lower activity constraints respectively,
    * - :math:`\sim`
-     - is :mat:`\leq, \geq` for upper and lower constraints respectively,
+     - is :math:`\leq, \geq` for upper and lower constraints respectively,
    * - :math:`\gamma _{yzsvd,t}, \gamma _{zsvd,t}`
      - is the maximum growth rate per period for the construction/operation of technology :math:`zsvd`,
    * - :math:`gy_{zsvd,t}`

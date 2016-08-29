@@ -1,9 +1,11 @@
 4 Energy flows
 ==============
 
-4.1 	Constraints
+4.1 	Balance Equations
 ----------------
-
+.. math::
+   Ud.....t
+   
 Energy flows are modelled solely by linking the activity  variables of the different conversion technologies and the resource extraction, import and export variables in balance constraints. These constraints ensure that only the amounts of energy available are consumed. There are no further variables required to model energy flows.
 
 Energy demands are also modelled  as part of a balance constraint: it is the right hand side and defines the amount to be supplied by the technologies in this constraint.

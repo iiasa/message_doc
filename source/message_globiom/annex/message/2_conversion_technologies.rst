@@ -84,12 +84,12 @@ The capacity is defined in relation to the main output of the technology.
 
 2.2 	Constraints
 -------------------
-The rows used to model energy conversion technologies limit
+These are equations used to calculate relations beween timesteps or between different variables in the model. Partially they are generated automatically, partially they are entirely defined by the user.
 
 * the utilization of a technology in relation to the capacity actually installed (capacity constraint),
 * the activity or construction of a technology in a period in relation to the same variable in the previous period (dynamic constraints),
-* limit on minimum or maximum installed capacity of a technology,
-* limit on minimum or maximum annual production on a technology modeled with load region, and
+* limit on minimum or maximum total installed capacity of a technology,
+* limit on minimum or maximum annual production of a technology modeled with load region, and
 * user defined constraints on groups of technologies (activities or capacities).
 
 .. _capacityconstr:
@@ -212,35 +212,31 @@ where
 
 As described in Keppo and Strubegger (2010 :cite:`keppo_short_2010`) MESSAGE includes so called flexible or soft dynamic constraints to allow for faster diffusion 
 in case of economically attractive technologies. To operationalize the concept of soft dynamic constraints, a set of :math:`n` dummy variables with index :math:`i`, 
-:math:`Bzsvd..ti`, multiplied by a corresponding growth factor :math:`(1+\delta y_{svd,ti})` are added to the upper dynamic constraint described above. 
+:math:`Bzsvd..ti`, multiplied by a corresponding growth factor :math:`(1+\delta y_{zsvd,ti})` are added to the upper dynamic constraint described above. 
 
-**notation below needs updating to be consistent with the one from the MESSAGE equations** 
+.. math::
+   a_t = (1+r)^T \times a_t-1 + \sum_i=1^n (1+r_i)^T \times b_t-1^i + S
 
-.. image:: /_static/technology_diffusion_eq_3.png
-   :width: 340px
-   
 The maximum value for these dummy variables :math:`b^i` is limited to the activity of the underlying technology :math:`a`, i.e.
 
-.. image:: /_static/technology_diffusion_eq_4.png 
-   :width: 60px
-   :align: left
+.. math::
+   a_t #leq b_t^i
 
 , for all :math:`i`.
 
 Therefore, this new formulation increases the highest allowed growth factor from
 
-.. image:: /_static/technology_diffusion_eq_4a.png
-   :width: 75px
-   :align: left
+.. math::
+   (1+r)^T
    
 to 
 
-.. image:: /_static/technology_diffusion_eq_4b.png
-   :width: 180px
+.. math::
+   (1+r)^T + #sum_i (1_r_i)^T
 
 In addition, the objective function value for period :math:`t` is modified by the extra term
 
- .. image:: /_static/technology_diffusion_eq_5.png
-   :width: 140px
+ .. math::
+   #cdots + #sum(_i=1^n c_i #times b_t^i
 
 which adds costs :math:`c_i` per additional growth factor utilized. 

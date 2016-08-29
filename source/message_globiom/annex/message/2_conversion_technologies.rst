@@ -240,3 +240,55 @@ In addition, the objective function value for period :math:`t` is modified by th
    \cdots + \sum(_i=1^n c_i \times b_t^i
 
 which adds costs :math:`c_i` per additional growth factor utilized. 
+
+.. _dynamic_constraints:
+
+2.2.3 	Contraints on total installed capacity
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. math::
+   Izsvd...rrlllttt
+
+These constaints allow to set upper or lower limit to the total installed capacity of a technology at a given point in time.
+
+.. math::
+   \sum_\tau=t-T^t yzsvd...rr...\tau \sim M_t
+
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`T`
+     - is the plant life of the technology,
+   * - :math:`sim`
+     - is :math:`\leq, \geq` for upper and lower constraints respectively,
+   * - :math:`Mi_t`
+     - is the maximum or minimum total installed capacity in time step t
+
+2.2.4 	User defined Constraints
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. math::
+   nname...rrlllttt
+
+.. list-table:: 
+   :widths: 40 110
+   :header-rows: 0
+
+   * - :math:`n`
+     - may be 'n'or 'p' for two groups of user defines constraints,
+   * - :math:`name`
+     - is a user defined 4-character short name of the constraint.
+
+Each technology may have entries related to their activity, new installed capacity, or total installed capacity into any of the defined constraints. In multi-region models the constraint it is first searched in the sub-region, then in the main-region. With this it is possible to create relations between technologies of different sub-regions.
+The main uses for such constraints are to put regional or global constraints on emissions or to relate the production from renewables to the total production.
+
+.. math::
+   wind\_electricity + solar\_electricity + biomass\_electricity \geq \alpa total\_electricity
+   
+where :math:`total\_electricity` can usualy be taken from the input to the electricity transmission technology.
+
+2.3 	Bounds
+~~~~~~~~~~~~~~~~~~~~~~
+
+Upper, lower, or fixed bounds may be put on activity or new installed capacity. This is usually very helpful at the beginning of the planning horizon to fit results to reality. In later time steps they may be used to avoid unrealistic behaviour like, e.g., too many new installations of a specific technology per year).

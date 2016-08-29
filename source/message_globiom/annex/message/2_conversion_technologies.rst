@@ -220,7 +220,7 @@ in case of economically attractive technologies. To operationalize the concept o
 The maximum value for these dummy variables :math:`b^i` is limited to the activity of the underlying technology :math:`a`, i.e.
 
 .. math::
-   a_t #leq b_t^i
+   a_t \leq b_t^i
 
 , for all :math:`i`.
 
@@ -232,11 +232,11 @@ Therefore, this new formulation increases the highest allowed growth factor from
 to 
 
 .. math::
-   (1+r)^T + #sum_i (1_r_i)^T
+   (1+r)^T + \sum_i (1_r_i)^T
 
 In addition, the objective function value for period :math:`t` is modified by the extra term
 
  .. math::
-   #cdots + #sum(_i=1^n c_i #times b_t^i
+   \cdots + \sum(_i=1^n c_i \times b_t^i
 
 which adds costs :math:`c_i` per additional growth factor utilized. 

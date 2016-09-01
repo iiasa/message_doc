@@ -6,8 +6,8 @@
 2.1 	Variables
 ----
 Energy conversion technologies, both on the supply and demand side of the energy system, are modelled using two types of variables, that represent
-– the amount of energy converted per year in a period (activity  variables) and
-– the capacity installed annually in a period (capacity variables).
+* the amount of energy converted per year in a period (activity  variables) and
+* the annually installed capacity in a period (capacity variables).
 
 .. _activitiesECT:
 
@@ -15,30 +15,20 @@ Energy conversion technologies, both on the supply and demand side of the energy
 ~~~~~~~~~~~~~~~~~~~~~~
 .. math::
    zsvd....rrllltt
-   Ezsvd....rrllltt
 
 where
 
-.. list-table:: 
-   :widths: 40 110
-   :header-rows: 0
+.. raw:: latex
 
-   * - :math:`E`
-     - is the level of reduction of demand due to own-price elasticities of demands (does only occur on the demand level),
-   * - :math:`z`
-     - is the level identifier of the main output of the technology. The demand level is handled differently to all other levels: Technologies with the main output on this level are defined without load regions. If defined, the input is split into the different load regions.
-   * - :math:`s`
-     - is the main energy input of the technology (supply). If the technology has no input :math:`s` is set to ”.” (e.g., solar technologies),
-   * - :math:`v`
-     - additional identifier of the conversion technology (used to distinguish technologies with the same main input and output),
-   * - :math:`d`
-     - is the main energy output of the technology,
-   * - :math:`rr`
-     - identifies the sub-region, :math:`rr` as defined in file "regid" or :math:`rr` = :math:`”..”`, if the model has no sub-regions or if the technology is in the main region, and
-   * - :math:`lll`
-     - identifies the load region, :math:`lll` is :math:`sdp` (season, day, part of day) or :math:`lll` = :math:`”...”`, if the technology is not modelled with load regions, and
-   * - :math:`ttt`
-     - identifies the period, :math:`ttt` = :math:`year - int(baseyear/100) * 100`.
+   \begin{tabularx}{|l|p{15|}
+   \textit{z} & is the level identifier of the main output of the technology. The demand level is handled differently to all other levels: Technologies with the main output on this level are defined without load regions. If defined, the input is split into the different load regions, \\
+   \textit{s} & is the main energy input of the technology (supply). If the technology has no input \textit{s} is set to "." (e.g., solar technologies), \\
+   \textit{v} & additional identifier of the conversion technology (used to distinguish technologies with the same main input and output), \\
+   \textit{d} & is the main energy output of the technology, \\
+   \textit{rr} & identifies the sub-region, \textit{rr} as defined in file "regid" or \textit{rr} = \textit{".."}, if the model has no sub-regions or if the technology is in the main region, and \\
+   \textit{lll} & identifies the load region, \textit{lll} is \textit{sdp} (season, day, part of day) or \textit{lll} = \textit{"..."}, if the technology is not modelled with load regions, and \\
+   \textit{ttt} & identifies the period, \textit{ttt} = \textit{year - int(year_0/100) * 100}. \\
+   \end{tabularx}
 
 The activity variable of an energy conversion technology is an energy flow variable. It represents the annual consumption of this technology of the main input per period. If a technology has no input, the variable represents the annual production of the main output divided by the efficiency.
  

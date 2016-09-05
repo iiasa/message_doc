@@ -54,7 +54,7 @@ The objective function has the following general form:
    \sum_r \left [\sum_g \sum_l \sum_p Rzrgp...rrlllttt \times cres(rgpl,t)] \right \} + \\
    \beta_b^t \times \left \{ \sum_{zsvd} \sum_{\tau=t}^{t+t_d} \Delta(t-1) \times yzsvd...rr...\tau \times 
    \left [ ccap(svd,\tau) \times fri_{zsvd}^{t_d-\tau} + \\
-   \sum_i \sum_m rc_{zsvd}^{mt} \times cari(m,t) \times fra_{zsvd,m}^{t_d-\tau} \right ] \right ] \right \} \right ]
+   \sum_i \sum_m rc_{zsvd}^{mt} \times cari(m,t) \times fra_{zsvd,m}^{t_d-\tau} \right ] \right \} \right ]
 
 where
 

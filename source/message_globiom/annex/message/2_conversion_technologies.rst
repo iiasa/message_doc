@@ -269,11 +269,11 @@ These constaints allow to set upper and/or lower limits on the total installed c
    :header-rows: 0
 
    * - :math:`n`
-     - may be 'n' or 'p' for two groups of user defined constraints,
+     - may be 'n', 'p', or 'c' for three groups of user defined constraints,
    * - :math:`name`
      - is a user defined 4-character short name of the constraint.
 
-Each technology may have entries related to their activity, new installed capacity, or total installed capacity into any of the defined constraints. In multi-region models the constraint it is first searched in the sub-region and, if not found, in the main-region. With this it is possible to create relations between technologies in different sub-regions.
+Each technology may have entries related to their activity, new installed capacity, or total installed capacity into any of the defined constraints. In multi-region models the constraint is first searched in the region where the entry is defined and then, if not found, in the main-region. With this it is possible to create relations between technologies in different sub-regions.
 The main uses for such constraints are to put regional or global constraints on emissions or to relate the production from specific energy carrirer to the total production, e.g.:
 
 .. math::

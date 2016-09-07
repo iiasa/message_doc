@@ -54,11 +54,11 @@ The objective function has the following general form:
 
 .. math::
 
-   & \sum_r \sum_t \left [ \beta_m^t \Delta t \sum_{zsvd} \sum_{lll} \bigl \{ zsvd....rrlllttt \times \epsilon_{zsvd} \times ccur(zsvd,t) + \right. \right. \\
+   & \sum_r \sum_t \left [ \beta_m^t \Delta t \sum_{zsvd} \sum_{lll} \biggl \{ zsvd....rrlllttt \times \epsilon_{zsvd} \times ccur(zsvd,t) + \right. \right. \\
    & \sum_i \sum_m rho_{zsvd}^{mlt} \times cari(ml,t) + \sum_{zsvd} \sum_{\tau=t-\tau_{zsvd}}^t \Delta\tau \times yzsvd..\tau \times cfix(zsvd,\tau) + \\
-   & \left . \sum_g \sum_l \sum_p rzrg....rrlllttt \times cres(zrg,t) \bigr \} + \\
-   & \beta_b^t \Delta(t-1) \sum_{zsvd} \sum_{\tau=t}^{t+t_d} \bigl \{ yzsvd...rr...\tau \times ccap(svd,\tau) \times fri_{zsvd}^{t_d-\tau} + \right. \\
-   & \left. \left. \sum_i \sum_m rc_{zsvd}^{mt} \times cari(m,t) \times fra_{zsvd,m}^{t_d-\tau} \bigr \} \right ] \longrightarrow min
+   & \left . \sum_g \sum_l \sum_p rzrg....rrlllttt \times cres(zrg,t) \biggr \} + \\
+   & \beta_b^t \Delta(t-1) \sum_{zsvd} \sum_{\tau=t}^{t+t_d} \biggl \{ yzsvd...rr...\tau \times ccap(svd,\tau) \times fri_{zsvd}^{t_d-\tau} + \right. \\
+   & \left. \left. \sum_i \sum_m rc_{zsvd}^{mt} \times cari(m,t) \times fra_{zsvd,m}^{t_d-\tau} \biggr \} \right ] \longrightarrow min
 
 .. math::
    \beta_b^t=\left [ \frac{1}{1+\frac{dr}{100}} \right ]^{t-t_0},

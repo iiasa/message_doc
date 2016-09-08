@@ -24,10 +24,7 @@ where
    * - :math:`c_t` 
      - objective function coefficient in period :math:`t`,
    * - :math:`f_i`
-     - :math:`\{
-           1 & for costs connected to investments \\
-           (1+\frac{dr_t}{100})^{\frac{\Delta t}{2}} & else
-       `, and
+     - :math:`\left\{1 & for costs connected to investments \right. \\ (1+\frac{dr_t}{100})^{\frac{\Delta t}{2}} & else`, and
    * - :math:`dr_t`
      - discount rate in period :math:`t`; generally the discount rate is constant over the complete time horizon.                 
 

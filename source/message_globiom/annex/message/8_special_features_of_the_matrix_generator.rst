@@ -28,7 +28,7 @@ where
    * - :math:`dr_t`
      - discount rate in period :math:`t`; generally the discount rate is constant over the complete time horizon.                 
 .. math::
-  f_i = \left\{\begin(array}{ll}
+  f_i = \left\{\begin{array}{ll}
   1  &\mbox{for costs connected to investments} \\
   (1+\frac{dr_t}{100})^{\frac{\Delta t}{2}}  &\mbox{else}
   \end{array}\right.

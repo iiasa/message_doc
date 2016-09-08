@@ -21,7 +21,7 @@ where
 
    * - :math:`C_t^r`
      - cost figure to be discounted,
-   * - :math:`c_t`
+   * - :math:`c_t` 
      - objective function coefficient in period :math:`t`,
    * - :math:`f_i`
      - :math:`\left\{\begin{matrix}

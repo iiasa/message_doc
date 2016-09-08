@@ -25,9 +25,9 @@ where
      - objective function coefficient in period :math:`t`,
    * - :math:`f_i`
      - :math:`\left\{\begin{matrix}
-           1 & for costs connected to investments\\
+           1 & for costs connected to investments \right. \\
            (1+\frac{dr_t}{100})^{\frac{\Delta t}{2}} & else
-       \end{matrix}\right.` and                                                  
+       \end{matrix}` and                                                  
   * - :math:`dr_t`
     - discount rate in period :math:`t`; generally the discount rate is constant over the complete time horizon.                 
 
@@ -60,7 +60,7 @@ The possible contribution of an installation that exists in the base year is kep
 
 .. math:: 
    y_0=c_0\frac{\gamma^{-\nu}-1}{\nu(\gamma^{-\tau}-1)},
-   y_t=y_0\gamma^{-t\times\nu}, t=1(1)\frac{\tau}{\nu},
+   y_t=y_0\gamma^{-t\times\nu}, t=1(1)\frac{\tau}{\nu}
 
 where
 

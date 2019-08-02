@@ -50,5 +50,6 @@ equilibrium model. However, through its linkage to MACRO general equilibrium eff
    conversion/index
    enduse/index
    tech
+   fuel_blending
    demand
 

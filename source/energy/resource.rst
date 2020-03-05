@@ -2,9 +2,9 @@ Energy resource endowments
 ==========================
 Fossil Fuel Reserves and Resources
 ---------------------------------------------
-:numref:`tab-globff` shows the assumed total quantities of fossil fuel resources in the MESSAGE model for the base year 2005. :numref:`fig-supply` gives these resource estimates as supply curves. 
-In addition, the assumptions are compared with estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`) as of the year 2009. Estimating fossil fuel reserves 
-is built on both economic and technological assumptions. With an improvement in technology or a change in purchasing power, the amount that may be considered a “reserve” vs. a “resource” 
+:numref:`tab-globff` shows the assumed total quantities of fossil fuel resources in the MESSAGE model for the base year 2005. :numref:`fig-supply` gives these resource estimates as supply curves.
+In addition, the assumptions are compared with estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`) as of the year 2009. Estimating fossil fuel reserves
+is built on both economic and technological assumptions. With an improvement in technology or a change in purchasing power, the amount that may be considered a “reserve” vs. a “resource”
 (generically referred to here as resources) can actually vary quite widely.
 
 .. _tab-globff:
@@ -15,9 +15,9 @@ is built on both economic and technological assumptions. With an improvement in 
    * - Source
      - MESSAGE (Rogner et al., 1997 :cite:`rogner_assessment_1997`)
      - Rogner et al., 2012 :cite:`rogner_chapter_2012`
-     - 
-   * - 
-     - Reserves+Resources [ZJ] 
+     -
+   * -
+     - Reserves+Resources [ZJ]
      - Reserves [ZJ]
      - Resources [ZJ]
    * - Coal
@@ -76,31 +76,31 @@ Similar to conventional oil, much of the unconventional oil resides in the Middl
 .. _fig-supply:
 .. figure:: /_static/GlobalResourceSupplyCurves.png
    :width: 750px
-   
-   Cumulative global resource supply curves for coal (top), oil (middle), and gas (bottom) in the IIASA IAM framework. 
+
+   Cumulative global resource supply curves for coal (top), oil (middle), and gas (bottom) in the IIASA IAM framework.
 
 Nuclear Resources
 -------------------
 
-Estimates of available uranium resources in the literature vary considerably, which could become relevant if advanced nuclear fuel cycles (e.g., the plutonium cycle including fast breeder 
-reactors, the thorium cycle) are not available. In MESSAGE-GLOBIOM advanced nuclear cycles such as the plutonium cycle and nuclear fuel reprocessing are in principle represented, but their 
-availability varies following the scenario narrative. :numref:`fig-uran` below shows the levels of uranium resources assumed available in MESSAGE-GLOBIOM scenarios, building upon the 
-Global Energy Assessment scenarios (see Riahi et al., 2012 :cite:`riahi_chapter_2012`). These span a considerable range of the estimates in the literature, but at the same time none of 
-them fall at the extreme ends of the spectrum (see Rogner et al., 2012 :cite:`rogner_chapter_2012`, Section 7.5.2 for a more detailed discussion of uranium resources). Nuclear resources 
-and fuel cycle are modeled at the global level. 
+Estimates of available uranium resources in the literature vary considerably, which could become relevant if advanced nuclear fuel cycles (e.g., the plutonium cycle including fast breeder
+reactors, the thorium cycle) are not available. In MESSAGE-GLOBIOM advanced nuclear cycles such as the plutonium cycle and nuclear fuel reprocessing are in principle represented, but their
+availability varies following the scenario narrative. :numref:`fig-uran` below shows the levels of uranium resources assumed available in MESSAGE-GLOBIOM scenarios, building upon the
+Global Energy Assessment scenarios (see Riahi et al., 2012 :cite:`riahi_chapter_2012`). These span a considerable range of the estimates in the literature, but at the same time none of
+them fall at the extreme ends of the spectrum (see Rogner et al., 2012 :cite:`rogner_chapter_2012`, Section 7.5.2 for a more detailed discussion of uranium resources). Nuclear resources
+and fuel cycle are modeled at the global level.
 
 .. _fig-uran:
 .. figure:: /_static/nuclear_resources.png
 
-   Global uranium resources in the MESSAGE-GLOBIOM interpretation of the SSPs compared to ranges in the literature (Schneider and Sailor, 2008 :cite:`schneider_long-term_2008`). 
+   Global uranium resources in the MESSAGE-GLOBIOM interpretation of the SSPs compared to ranges in the literature (Schneider and Sailor, 2008 :cite:`schneider_long-term_2008`).
 
 
 .. _renewable:
 
 Renewable Resources
 ------------------------------
-:numref:`tab-depl` shows the assumed total potentials of renewable energy deployment (by resource type) in the MESSAGE model. In addition, the assumptions are compared with technical 
-potential estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`). In this context, it is important to note that typical MESSAGE scenarios do not consider 
+:numref:`tab-depl` shows the assumed total potentials of renewable energy deployment (by resource type) in the MESSAGE model. In addition, the assumptions are compared with technical
+potential estimates from the Global Energy Assessment (Rogner et al., 2012 :cite:`rogner_chapter_2012`). In this context, it is important to note that typical MESSAGE scenarios do not consider
 the full technical potential of renewable energy resources, but rather only a subset of those potentials, owing to additional constraints (e.g., sustainability criteria, technology diffusion
 and systems integration issues, and other economic considerations) that may not be fully captured within the model. These constraints may lead to a significant reduction of the technical potential.
 
@@ -112,7 +112,7 @@ and systems integration issues, and other economic considerations) that may not 
    * - Source
      - MESSAGE-GLOBIOM
      - Rogner et al., 2012 :cite:`rogner_chapter_2012`
-   * - 
+   * -
      - Deployment Potential in 2050 [EJ/yr]
      - Technical Potential [EJ/yr]
    * - Bioenergy
@@ -134,17 +134,17 @@ and systems integration issues, and other economic considerations) that may not 
      - 23
      - 810 - 1400
 
-*Notes: MESSAGE-GLOBIOM renewable energy potentials are based on Pietzcker et al. (2014)* :cite:`pietzcker_solar_2014`, *Eurek et al. (in review)* :cite:`eurek_wind_2016`, *Christiansson (1995)* :cite:`christiansson_diffusion_1995`, *and Rogner et al (2012)* :cite:`rogner_chapter_2012`. *The potentials for non-combustible renewable energy sources are specified in terms of the electricity or heat that can be produced by specific technologies (i.e., from a secondary energy perspective). By contrast, the technical potentials from* :cite:`rogner_chapter_2012` *refer to the flows of energy that could become available as inputs for technology conversion. So for example, the technical potential for wind is given as the kinetic energy available for wind power generation, whereas the deployment potential would only be the electricity that could be generated by the wind turbines.*
+*Notes: MESSAGE-GLOBIOM renewable energy potentials are based on Pietzcker et al. (2014)* :cite:`pietzcker_solar_2014`, *Eurek et al. (in review)* :cite:`eurek_wind_2017`, *Christiansson (1995)* :cite:`christiansson_diffusion_1995`, *and Rogner et al (2012)* :cite:`rogner_chapter_2012`. *The potentials for non-combustible renewable energy sources are specified in terms of the electricity or heat that can be produced by specific technologies (i.e., from a secondary energy perspective). By contrast, the technical potentials from* :cite:`rogner_chapter_2012` *refer to the flows of energy that could become available as inputs for technology conversion. So for example, the technical potential for wind is given as the kinetic energy available for wind power generation, whereas the deployment potential would only be the electricity that could be generated by the wind turbines.*
 
-Regional resource potentials for solar and wind are classified according to resource quality (annual capacity factor) based on Pietzcker et al. (2014, :cite:`pietzcker_solar_2014`) and 
-Eurek et al. (in review, :cite:`eurek_wind_2016`). Regional resource potentials as implemented into MESSAGE-GLOBIOM are provided by region and capacity factor for solar PV, concentrating solar 
-power (CSP), and onshore/offshore wind in Johnson et al. (in review, :cite:`johnson_vre_2016`). The physical potential of these sources is assumed to be the same across all SSPs. However, 
+Regional resource potentials for solar and wind are classified according to resource quality (annual capacity factor) based on Pietzcker et al. (2014, :cite:`pietzcker_solar_2014`) and
+Eurek et al. (in review, :cite:`eurek_wind_2017`). Regional resource potentials as implemented into MESSAGE-GLOBIOM are provided by region and capacity factor for solar PV, concentrating solar 
+power (CSP), and onshore/offshore wind in Johnson et al. (in review, :cite:`johnson_vre_2016`). The physical potential of these sources is assumed to be the same across all SSPs. However,
 the part of the resource that is useable at economically competitive costs is assumed to differ widely (see Section :ref:`electricity`).
 
-Biomass energy is another potentially important renewable energy resource in the MESSAGE-GLOBIOM model, including both commercial and traditional use. Commercial refers to the use of 
-bioenergy in, for example, power plants or biofuel refineries, while traditional refers to the use of bioenergy for residential heating and cooking, primarily in rural households of 
-today’s developing countries. Bioenergy potentials differ across SSPs as a result of different levels of competition over land for food and fibre, but ultimately only vary to a limited 
-degree (:numref:`fig-beavail`). The drivers underlying this competition are different land-use developments in the SSPs, which are determined by agricultural productivity and global 
+Biomass energy is another potentially important renewable energy resource in the MESSAGE-GLOBIOM model, including both commercial and traditional use. Commercial refers to the use of
+bioenergy in, for example, power plants or biofuel refineries, while traditional refers to the use of bioenergy for residential heating and cooking, primarily in rural households of
+today’s developing countries. Bioenergy potentials differ across SSPs as a result of different levels of competition over land for food and fibre, but ultimately only vary to a limited
+degree (:numref:`fig-beavail`). The drivers underlying this competition are different land-use developments in the SSPs, which are determined by agricultural productivity and global
 demand for food consumption.
 
 .. _fig-beavail:
@@ -152,4 +152,3 @@ demand for food consumption.
    :width: 500px
 
    Availability of bioenergy at different price levels in the MESSAGE-GLOBIOM model for the three SSPs. * typically non-commercial biomass is not traded or sold, however in some cases there is a market – prices range from 0.1-1.5$/GJ (Pachauri et al., 2013 :cite:`pachauri_pathways_2013`) ($ equals 2005 USD).
-

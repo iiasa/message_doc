@@ -2,7 +2,7 @@
 
 Policies
 ========
-A number of different energy- and climate-related policies are, depending on the scenario setup and the research question addressed, explicitly represented in MESSAGE. This includes the following list of policies:
+A number of different energy- and climate-related policies are, depending on the scenario setup and the research question addressed, explicitly represented in |MESSAGEix|. This includes the following list of policies:
 
 * GHG emission pricing
 * GHG emission caps and trading emission allowances

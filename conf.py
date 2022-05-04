@@ -6,7 +6,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = "MESSAGEix-GLOBIOM"
+project = "message_doc"
 copyright = "2016–2020, IIASA Energy, Climate, and Environment (ECE) Program"
 author = "IIASA Energy, Climate, and Environment (ECE) Program"
 
@@ -61,16 +61,17 @@ todo_include_todos = True
 
 # -- Options for HTML output -------------------------------------------------
 
-# The theme to use for HTML and HTML Help pages.  See the documentation for
-# a list of builtin themes.
-html_theme = "sphinx_rtd_theme"
+html_favicon = "_static/png_source_files/favicon.svg"
 
-html_logo = "_static/logo_white.png"
+html_logo = "_static/combined-logo-white.png"
 
 html_static_path = ["_static"]
 
 html_style = "css/custom.css"
 
+# The theme to use for HTML and HTML Help pages.  See the documentation for
+# a list of builtin themes.
+html_theme = "sphinx_rtd_theme"
 
 # -- Options for LaTeX output ---------------------------------------------
 
